@@ -1,10 +1,28 @@
+:root {
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --accent-blue: #0C51A7;
+    --border-primary: #D9D9D9;
+    --accent-purple: #591B98;
+    --text-headline: #E1624F;
+    --accent-pink: #E5245E;
+    --accent-orange: #E95E10;
+    --background-default: #F5F4F0;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: var(--text-secondary);
 }
 
 body {
-    background-color: white;
+    background-color: var(--background-default);
     background-size: cover;
 }
 
@@ -18,14 +36,16 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    width: 1120px;
+    height: 3054px;
+    /* gap: 40px; */
+}
+
 img {
     width: 100%;
     height: 660px;
     border-radius: 28px;
-}
-
-main div img {
-    height: 660px;
     object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
     margin: 4px 0 24px;
     margin-bottom: 24px;
@@ -36,10 +56,11 @@ main div.card_travel img {
     margin: 0 0 20px;
 }
 
-#container {
-    width: 1120px;
-    height: 3054px;
-    /* gap: 40px; */
+footer {
+    position: relative;
+    height: 24px;
+    text-align: center;
+    font-size: 18px;
 }
 
 /*1 title_page */
@@ -51,19 +72,12 @@ main div.card_travel img {
 }
 
 .headline {
-    line-height: 22px;
+    line-height: normal;
     font-size: 16px;
     font-weight: bold;
-    color: #E1624F;
+    color: var(--text-headline);
     text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
     margin-bottom: 8px;
-}
-
-#title_h1 {
-    line-height: 49px;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 0px;
 }
 
 /*1 description_image */
@@ -86,12 +100,12 @@ main div.card_travel img {
 /*1 content_list */
 #content_list {
     height: 2020px;
-    background-color: plum;
+    background-color: gray;
 }
 
 .divider {
     height: 1px;
-    background-color: #d9d9d9;
+    background-color: var(--border-primary);
     margin: 40px 0;
 }
 
@@ -105,15 +119,26 @@ main div.card_travel img {
     margin: 64px 0;
 }
 
-#title {
+#title-con {
     height: 68px;
 }
 
-#title_h2 {
-    line-height: 44px;
-    font-size: 36px;
+.title {
+    color: var(--text-primary);
     font-weight: bold;
-    margin-top: 0px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 > ol > li {
+    height: 38px;
+    font-size: 28px;
 }
 
 #paragraph {
@@ -131,11 +156,4 @@ main div.card_travel img {
 
 .card_travel + .card_travel{
     margin-top: 48px;
-}
-
-footer {
-    position: relative;
-    height: 24px;
-    text-align: center;
-    font-size: 18px;
 }
