@@ -47,7 +47,7 @@ img {
     width: 100%;
     height: 660px;
     border-radius: 28px;
-    border: #1B1B1B solid 1px;
+    border: solid 1px;
     object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
     margin: 4px 0 24px;
 }
@@ -166,14 +166,14 @@ b {
     font-weight: bold;
 }
 
-.li-1::first-line {
+ul > li:nth-child(1)::first-line {
     color: var(--accent-blue);
 }
 
-.li-2::first-line {
+ul > li:nth-child(2)::first-line {
     color: var(--accent-pink);
 }
 
-.li-3::first-line {
-    color: var(--accent-orange );
+ul > li:nth-child(3)::first-line {
+    color: var(--accent-orange);
 }
