@@ -17,7 +17,7 @@
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: normal;
+    line-height: auto;
     color: var(--text-secondary);
 }
 
@@ -32,13 +32,14 @@ body {
     /*padding: 88px 80px 48px 80px;*/
     padding: 88px 80px 48px 80px;
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     box-sizing: border-box;
 }
 
 main {
     width: 1120px;
     height: 3054px;
+    /* background-color: rgb(47, 78, 255); */
     /* gap: 40px; */
 }
 
@@ -46,12 +47,12 @@ img {
     width: 100%;
     height: 660px;
     border-radius: 28px;
+    border: #1B1B1B solid 1px;
     object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
     margin: 4px 0 24px;
-    margin-bottom: 24px;
 }
 
-main div.card_travel img {
+div.card_travel img {
     height: 350px;
     margin: 0 0 20px;
 }
@@ -61,18 +62,17 @@ footer {
     height: 24px;
     text-align: center;
     font-size: 18px;
+    margin-top: 64px;
 }
 
 /*1 title_page */
 #title_page {
-    width: auto;
     height: 79px;
     margin-bottom: 40px;
-    background-color: slategrey;
+    /* background-color: slategrey; */
 }
 
 .headline {
-    line-height: normal;
     font-size: 16px;
     font-weight: bold;
     color: var(--text-headline);
@@ -84,13 +84,13 @@ footer {
 #description_image {
     height: 729px;
     margin-bottom: 40px;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .description {
     text-align: center;
-    height: 66px;
-    margin: 0;
+    height: auto;
+    font-style: italic;
 }
 
 #description_image .description {
@@ -100,7 +100,7 @@ footer {
 /*1 content_list */
 #content_list {
     height: 2020px;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 .divider {
@@ -156,4 +156,24 @@ h3 > ol > li {
 
 .card_travel + .card_travel{
     margin-top: 48px;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+b {
+    font-weight: bold;
+}
+
+.li-1::first-line {
+    color: var(--accent-blue);
+}
+
+.li-2::first-line {
+    color: var(--accent-pink);
+}
+
+.li-3::first-line {
+    color: var(--accent-orange );
 }
