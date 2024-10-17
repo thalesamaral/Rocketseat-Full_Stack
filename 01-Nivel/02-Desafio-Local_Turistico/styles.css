@@ -18,18 +18,19 @@
     font-weight: 400;
     font-style: normal;
     line-height: normal;
-    color: var(--text-secondary);
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--background-default);
     background-size: cover;
+    color: var(--text-secondary);
 }
 
 #page {
     width: 1280px;
     height: 3279px;
-    padding: 88px 80px 48px 80px;
+    padding: 88px 80px 48px;
     margin: auto;
     /* background-color: aqua; */
     box-sizing: border-box;
@@ -39,7 +40,6 @@ main, #container {
     width: 1120px;
     height: 3054px;
     /* background-color: rgb(47, 78, 255); */
-    /* gap: 40px; */
 }
 
 img {
@@ -66,7 +66,7 @@ footer {
 
 /*1 title_page */
 #title_page {
-    height: 79px;
+    /* height: 79px; */
     /* margin-bottom: 40px; */
     /* background-color: slategrey; */
 }
@@ -81,9 +81,9 @@ footer {
 
 /*1 description_image */
 #description_image {
-    height: 729px;
+    /* height: 729px; */
     margin: 40px 0;
-    padding: 4px 0px;
+    padding-block: 4px 0;
     /* background-color: gold; */
 }
 
@@ -91,10 +91,6 @@ footer {
     text-align: center;
     height: auto;
     font-style: italic;
-}
-
-#description_image .description {
-    height: 37px;
 }
 
 /*1 content_list */
@@ -145,10 +141,6 @@ h3 > ol > li {
     font-size: 28px;
 }
 
-#paragraph {
-    height: 88px;
-}
-
 /* 2 list */
 #list {
     height: 1728px;
@@ -156,6 +148,10 @@ h3 > ol > li {
 
 .card_travel {
     height: 522px;
+}
+
+.card_travel:last-of-type {
+    height: 558px;
 }
 
 .card_travel + .card_travel{
