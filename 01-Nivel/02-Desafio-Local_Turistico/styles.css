@@ -17,7 +17,7 @@
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: auto;
+    line-height: normal;
     color: var(--text-secondary);
 }
 
@@ -29,14 +29,13 @@ body {
 #page {
     width: 1280px;
     height: 3279px;
-    /*padding: 88px 80px 48px 80px;*/
     padding: 88px 80px 48px 80px;
     margin: auto;
     /* background-color: aqua; */
     box-sizing: border-box;
 }
 
-main {
+main, #container {
     width: 1120px;
     height: 3054px;
     /* background-color: rgb(47, 78, 255); */
@@ -47,14 +46,14 @@ img {
     width: 100%;
     height: 660px;
     border-radius: 28px;
-    border: solid 1px;
+    /* border: solid 1px; */
     object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
-    margin: 4px 0 24px;
+    margin-bottom: 24px;
 }
 
 div.card_travel img {
     height: 350px;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -68,7 +67,7 @@ footer {
 /*1 title_page */
 #title_page {
     height: 79px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     /* background-color: slategrey; */
 }
 
@@ -83,7 +82,8 @@ footer {
 /*1 description_image */
 #description_image {
     height: 729px;
-    margin-bottom: 40px;
+    margin: 40px 0;
+    padding: 4px 0px;
     /* background-color: gold; */
 }
 
@@ -123,6 +123,10 @@ footer {
     height: 68px;
 }
 
+#paragraph {
+    margin-top: 8px;
+}
+
 .title {
     color: var(--text-primary);
     font-weight: bold;
@@ -156,6 +160,10 @@ h3 > ol > li {
 
 .card_travel + .card_travel{
     margin-top: 48px;
+}
+
+.content_card > h3 {
+    margin-bottom: 4px;
 }
 
 ul, ol {
