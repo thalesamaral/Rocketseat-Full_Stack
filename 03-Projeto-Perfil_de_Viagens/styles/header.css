@@ -1,0 +1,53 @@
+header {
+	padding-block: 32px;
+	font: var(--text-md);
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#profile {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+
+#profile div {
+	max-width: 384px;
+}
+
+#profile h1 {
+	font: var(--text-lg);
+	color: var(--text-color-primary);
+	margin-bottom: 8px;
+}
+
+#info ul {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 280px;
+}
+
+#info li {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+/* #info ul li:nth-child(1) {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+#info ul li:nth-child(2) {
+	list-style:circle;
+}
+
+#info ul li:nth-child(3) {
+	list-style:circle;
+} */
