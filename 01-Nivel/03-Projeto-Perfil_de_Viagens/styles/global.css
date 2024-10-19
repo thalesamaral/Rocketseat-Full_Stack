@@ -15,13 +15,12 @@
 
     --font-family: "Poppins", sans-serif;
     --text-lg: bold 32px/125% var(--font-family);
-    --text: 16px/150% var(--font-family);
     --text-md: 14px/170% var(--font-family);
     --text-sm: 12px/170% var(--font-family);
 }
 
 body {
-    font: var(--text);
+    font: var(--text-md);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
