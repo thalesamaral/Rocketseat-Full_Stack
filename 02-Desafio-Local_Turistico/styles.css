@@ -29,16 +29,16 @@ body {
 
 #page {
     width: 1280px;
-    height: 3279px;
+    /* height: 3279px; */
     padding: 88px 80px 48px;
     margin: auto;
     /* background-color: aqua; */
     box-sizing: border-box;
 }
 
-main, #container {
+#container {
     width: 1120px;
-    height: 3054px;
+    /* height: 3054px; */
     /* background-color: rgb(47, 78, 255); */
 }
 
@@ -55,7 +55,7 @@ div.card_travel img {
     margin-bottom: 20px;
 }
 
-/*1 title_page */
+/****** 1 title_page */
 /* #title_page {
     height: 79px;
     margin-bottom: 40px;
@@ -70,7 +70,7 @@ div.card_travel img {
     margin-bottom: 8px;
 }
 
-/*1 description_image */
+/****** 1 description_image */
 #description_image {
     /* height: 729px; */
     margin: 40px 0;
@@ -78,7 +78,7 @@ div.card_travel img {
     /* background-color: gold; */
 }
 #description_image .description {
-    height: 37px;
+    height: auto;
 }
 
 .description {
@@ -87,7 +87,7 @@ div.card_travel img {
     font-style: italic;
 }
 
-/*1 content_list */
+/****** 1 content_list */
 /* #content_list {
     height: 2020px;
     background-color: gray;
@@ -103,13 +103,13 @@ div.card_travel img {
     margin: 0 0;
 }
 
-/* 2 title_list */
+/****** 2 title_list */
 #title_list {
     /* height: 164px; */
     margin: 64px 0;
 }
 
-/* #title-con {
+/****** #title-con {
     height: 68px;
 } */
 
@@ -135,7 +135,7 @@ h3 > ol > li {
     font-size: 28px;
 }
 
-/* 2 list */
+/****** 2 list */
 /*
 #list {
     height: 1728px;
