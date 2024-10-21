@@ -1,11 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     font-family: 'Alice', serif;
     color: #573A37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto 28px;
-    box-sizing: border-box;
+    
 }
 
 img {
@@ -53,7 +54,7 @@ h1, h2 {
 }
 
 ul {
-    padding-left: 24px;
+    list-style-position: inside;
 }
 
 footer {
