@@ -29,4 +29,13 @@
     --font-maven_pro: "Maven Pro", sans-serif;
     --text-md: 400 16px/140% var(--font-maven_pro);
     --text-sm: 400 14px/140% var(--font-maven_pro);
+
+    body {
+        background-color: #292c33;
+    }
+
+    img {
+        color: var(--red);
+        height: 200px;
+    }
 }
