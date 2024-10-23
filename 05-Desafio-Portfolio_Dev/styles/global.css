@@ -17,7 +17,6 @@
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;   
     
-    
     --font-asap: "Asap", sans-serif;
     --title-lg: 800 56px/120% var(--font-asap);
     --title-md: 800 24px/120% var(--font-asap);
@@ -31,11 +30,17 @@
     --text-sm: 400 14px/140% var(--font-maven_pro);
 
     body {
-        background-color: #292c33;
+        background-color: var(--gray-300);
+        font: var(--text-sm);
+        color: var(--gray-600);
     }
 
-    img {
+    ul {
+        list-style: none;
+    }
+
+    /* img {
         color: var(--red);
         height: 200px;
-    }
+    } */
 }
