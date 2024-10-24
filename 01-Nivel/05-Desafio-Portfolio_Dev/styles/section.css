@@ -2,8 +2,6 @@
     background-image: url(../assets/images/Background_Intro.png);
     padding: 120px 163px 57px 163px;
     gap: 94px;
-    /* justify-content: flex-end; */
-    /* align-self: stretch; */
 
     &>img {
         width: 32px;
@@ -62,17 +60,26 @@
     
     header {
         width: 1040px;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
 
     #grid_cards {
+        width: 1040px;
+        grid-template-columns: auto auto auto;
+        gap: 24px;
+
         .card {
-            border: solid 1px;
             width: 330px;
             height: 280px;
             padding: 12px;
             gap: 20px;
             flex-shrink: 0;
+            background-color: var(--gray-300);
+            border-radius: 12px;
+            
+            &:hover {
+                border: 1.5px solid var(--gray-400);                
+            }
             
             img {
                 border-radius: 8px;
@@ -84,7 +91,6 @@
             .title {
                 padding: 4px;
                 align-items: start;
-                /* align-self: stretch; */
             }
         }
     }
