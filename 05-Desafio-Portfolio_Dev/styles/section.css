@@ -10,8 +10,10 @@
 
     #info {
         justify-items: center;
+        width: 1040px;
+        gap: 80px;
+        
         header {
-            margin-bottom: 80px;
             width: 680px;
             gap: 56px;
 
@@ -92,6 +94,45 @@
                 padding: 4px;
                 align-items: start;
             }
+        }
+    }
+}
+
+#services {
+    background-color: var(--gray-100);
+    padding: 120px;
+    padding-top: 88px;
+    gap: 56px;
+
+    .grid {
+        grid-auto-flow: column;
+        .card_srv {
+            border-radius: 12px;
+            border: 2px solid var(--gray-200);
+            padding: 20px;
+            gap: 20px;
+            width: 280px;
+            align-items: start;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .title {
+                align-items: start;
+            }
+        }
+    }
+}
+
+.contacts {
+    background-image: url(../assets/images/Background_Contacts.png);
+    padding: 128px 120px 200px;
+
+    header {
+        span {
+            color: var(--purple)
         }
     }
 }
