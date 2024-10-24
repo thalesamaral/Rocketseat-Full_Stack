@@ -32,8 +32,13 @@
     body {
         background-color: var(--gray-300);
         font: var(--text-sm);
-        color: var(--gray-600);
+        color: var(--gray-600);    
     }
+
+    /* main {
+        width: 1366px;
+        margin-inline: auto;
+    } */
 
     ul {
         list-style: none;
