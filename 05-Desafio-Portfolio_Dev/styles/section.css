@@ -153,22 +153,18 @@
             &:hover {
                 color: var(--blue);
             }
+            /* Hide hover images by default */
+            & img.hover {
+                display: none;
+            }
 
-            position: relative;
-            float: left;
-            /* .imageInn { */
-                img:nth-child(1) {
-                    display: block;
-                }
-                
-                .hover {
-                    position: absolute;
-                    display: none;
-                }
-                
-            
-            &:hover .hover {
-                display: block;
+            /* Show hover images on li hover and hide default images */
+            &:hover img.default {
+                display: none;
+            }
+
+            &:hover img.hover {
+                display: inline;
             }
         }
     }
