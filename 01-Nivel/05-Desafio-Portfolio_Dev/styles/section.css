@@ -39,17 +39,17 @@
             display: flex;
             justify-content: space-between;
             width: 754px;
-        }
-
-        .tag {
-            background-color: var(--gray-300);
-            font: var(--text-md);
-            display: flex;
-            align-items: center;
-            border-radius: 16px;
-            gap: 8px;
-            padding-inline: 16px;
-            padding-block: 8px;
+            
+            .tag {
+                background-color: var(--gray-300);
+                font: var(--text-md);
+                display: flex;
+                align-items: center;
+                border-radius: 16px;
+                gap: 8px;
+                padding-inline: 16px;
+                padding-block: 8px;
+            }
         }
     }
 }
@@ -126,13 +126,50 @@
     }
 }
 
-.contacts {
+#contact {
     background-image: url(../assets/images/Background_Contacts.png);
     padding: 128px 120px 200px;
+    gap: 48px;
 
     header {
         span {
             color: var(--purple)
+        }
+    }
+
+    ul {
+        gap: 16px;
+        
+        .tag {
+            background-color: var(--gray-300);
+            font: var(--text-md);
+            width: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            gap: 12px;
+            justify-content: space-between;
+            align-items: center;
+
+            &:hover {
+                color: var(--blue);
+            }
+
+            position: relative;
+            float: left;
+            /* .imageInn { */
+                img:nth-child(1) {
+                    display: block;
+                }
+                
+                .hover {
+                    position: absolute;
+                    display: none;
+                }
+                
+            
+            &:hover .hover {
+                display: block;
+            }
         }
     }
 }
