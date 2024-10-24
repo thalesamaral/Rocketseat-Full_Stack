@@ -44,8 +44,10 @@
         list-style: none;
     }
 
-    /* img {
-        color: var(--red);
-        height: 200px;
-    } */
+    .title {
+        gap: 8px;
+        span {
+            color: var(--red);
+        }
+    }
 }
