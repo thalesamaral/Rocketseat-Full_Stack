@@ -18,6 +18,7 @@
             gap: 56px;
 
             #avatar {
+                position: relative;
                 img:nth-child(1) {
                     width: 96px;
                     height: 96px;
@@ -25,6 +26,21 @@
                     object-fit: cover;
                     border-radius: 50%;
                     border: solid 5px var(--red);
+                    /* z-index: 0; */
+                }
+
+                img:nth-child(2) {
+                    width: 32px;
+                    height: 32px;
+                    object-fit: cover;
+                    flex-shrink: 0;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    /* z-index: 1; */
+                    /* margin: 8px; */
+                    /* border-radius: 50%; */
+                    /* border: solid 5px var(--red); */
                 }
             }
 
