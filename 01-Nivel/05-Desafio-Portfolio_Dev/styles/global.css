@@ -54,3 +54,7 @@ ul {
         color: var(--red);
     }
 }
+
+a {
+    text-decoration: none;
+}
