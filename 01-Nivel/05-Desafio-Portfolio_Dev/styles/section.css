@@ -42,7 +42,6 @@
             
             .tag {
                 background-color: var(--gray-300);
-                font: var(--text-md);
                 display: flex;
                 align-items: center;
                 border-radius: 16px;
@@ -57,12 +56,9 @@
 #projects {
     padding: 72px 120px 144px 120px;
     gap: 56px;
-    /* justify-content: center; */
-    /* align-self: stretch; */
     
     header {
         width: 1040px;
-        /* border: 1px solid; */
     }
 
     #grid_cards {
@@ -71,12 +67,12 @@
         gap: 24px;
 
         .card {
+            background-color: var(--gray-300);
             width: 330px;
             height: 280px;
             padding: 12px;
             gap: 20px;
             flex-shrink: 0;
-            background-color: var(--gray-300);
             border-radius: 12px;
             
             &:hover {
@@ -84,9 +80,9 @@
             }
             
             img {
-                border-radius: 8px;
                 width: 306px;
                 height: 156px;
+                border-radius: 8px;
                 flex-shrink: 0;
             }
 
@@ -139,10 +135,15 @@
 
     ul {
         gap: 16px;
+
+        span {
+            margin-right: auto;
+        }
         
         .tag {
             background-color: var(--gray-300);
             font: var(--text-md);
+            color: var(--gray-500);
             width: 400px;
             padding: 20px;
             border-radius: 8px;
