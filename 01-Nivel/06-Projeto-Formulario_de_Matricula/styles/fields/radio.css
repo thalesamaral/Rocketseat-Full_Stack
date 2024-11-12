@@ -6,6 +6,10 @@ label + .radio-wrapper { /*label seguido de*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); /* 120/16 = 7.5 */
     gap: 1rem;
+
+    & .radio-inner {
+        cursor: pointer;
+    }
 }
 
 .radio-inner {

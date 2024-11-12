@@ -38,14 +38,13 @@
 
                         <div class="input-wrapper">
                             <label for="birth">Data de nascimento</label>
-                            <input type="date" id="birth" name="birth"
-                                lang="pt-br"
-                            >
+                            <div class="asd"></div>
+                            <input type="date" id="birth" name="birth" lang="pt-br">
                         </div>
 
                         <div class="select-wrapper">
                             <label for="gender">Sexo</label>
-                            <select name="gender" id="gender">
+                            <select name="gender" id="gender" class="pointer">
                                 <option value="female">Feminino</option>
                                 <option value="male">Masculino</option>
                                 <option value="na">Prefiro não responder</option>
@@ -64,8 +63,8 @@
                         <div class="droparea-wrapper">
                             <label for="birth-file">Certidão de Nascimento</label>
 
-                            <div class="dropzone">    
-                                <input type="file" id="birth-file" name="birth-file">
+                            <div class="dropzone">
+                                <input type="file" id="birth-file" name="birth-file" class="pointer">
                                 <!-- <img src="assets/icons/cloud-upload.svg" alt="cloud-upload"> -->
 
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -227,7 +226,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="terms-wrapper input-wrapper checkbox-wrapper">
+                    <div class="terms-wrapper input-wrapper checkbox-wrapper pointer">
                         <div class="checkbox-image"></div>
                         <input type="checkbox" name="terms" id="terms">
 
