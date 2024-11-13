@@ -5,9 +5,15 @@
 }
 
 :root {
-    --font-family: 'Poppins', sans-serif;
-    --text: 400 1rem/1.5 var(--font-family);
-    --text-sm: 400 0.875rem/1.4 var(--font-family);
+    --font-logo: 'Leckerli One', serif;
+    --text-logo: 400 2.5rem/auto var(--font-logo);
+    
+    --font-heading: 'Baloo 2', sans-serif;
+    --heading-md: bold 1.75rem/auto var(--font-heading);
+    --heading-sm: bold 1.125rem/auto var(--font-heading);
+    
+    --font-body: 'Open Sans', sans-serif;
+    --text-sm: 600 1rem/1.4 var(--font-body);
 
     /* Brand */
     --brand-light: #59B2FF;
