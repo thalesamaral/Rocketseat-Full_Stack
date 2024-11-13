@@ -50,3 +50,7 @@ img {
 .flex-2 {
     flex: 2;
 }
+
+.pointer {
+    cursor: pointer;
+}
