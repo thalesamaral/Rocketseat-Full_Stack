@@ -2,18 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: var(--body-xs);
 }
 
 :root {
     --font-logo: 'Leckerli One', serif;
-    --text-logo: 400 2.5rem/auto var(--font-logo);
+    --text-logo: 400 2.5rem/1 var(--font-logo);
     
     --font-heading: 'Baloo 2', sans-serif;
-    --heading-md: bold 1.75rem/auto var(--font-heading);
-    --heading-sm: bold 1.125rem/auto var(--font-heading);
+    --heading-md: 700 1.75rem/1 var(--font-heading);
+    --heading-sm: 700 1.125rem/1 var(--font-heading);
     
     --font-body: 'Open Sans', sans-serif;
-    --text-sm: 600 1rem/1.4 var(--font-body);
+    --body-md: 600 1rem/1 var(--font-body);
+    --body-sm: 600 0.875rem/1 var(--font-body);
+    --body-xs: 600 0.75rem/1 var(--font-body); 
 
     /* Brand */
     --brand-light: #59B2FF;
@@ -48,4 +51,10 @@
     /* Text */
     --text-body: #C8CDD0;
     --text-heading: #F9F9F9;
+}
+
+body {
+    background-color: var(--shape-background);
+    color: var(--text-body);
+    font: var(--body-sm);
 }
