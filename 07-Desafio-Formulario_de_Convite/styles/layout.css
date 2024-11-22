@@ -1,0 +1,53 @@
+#app {
+    border: 1px solid blue;
+    width: 1280px;
+    height: 768px;
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+
+aside {
+    border: 1px solid red;
+    background-image: url(../assets/Background.png);
+    background-size: cover;
+    border-radius: 12px;
+    margin: 20px;
+    width: 400px;
+    height: 728px;
+
+    header {
+        margin: 32px;
+        border: 1px solid red;
+
+        h1 {
+            font: var(--text-logo);
+            color: var(--pink);
+        }
+
+        h2 {
+            font: var(--text-heading);
+            margin-block: 4px;
+        }
+
+        img {
+            width: 45.851px;
+            height: 48px;
+            margin-bottom: 16px;
+        }
+
+        .frame {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+main {
+    border: 1px solid green;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
