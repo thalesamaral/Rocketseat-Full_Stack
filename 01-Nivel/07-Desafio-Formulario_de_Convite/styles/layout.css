@@ -1,23 +1,41 @@
 #app {
     border: 1px solid blue;
-    width: 1280px;
-    height: 768px;
+    /* width: 1280px; */
+    /* height: 768px; */
     display: grid;
-    grid-template-columns: 400px 800px;
+    /* grid-template-columns: 25rem 51.25rem; */
+    /* grid-template-columns: 31.25% 68.75%; */
+    grid-template-columns: 31.25% 64.0625%;
+    
+    height: 100vh;
+    overflow: hidden;
+    padding: 1.25rem;
+    gap: 1.25rem;
+    /* place-content: space-evenly; */
+    place-content: center;
+    align-content: start;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
 }
 
 aside {
     border: 1px solid red;
     background-image: url(../assets/Background.png);
     background-size: cover;
+    /* background-repeat: no-repeat; */
+
     border-radius: 12px;
-    margin: 20px;
-    width: 400px;
-    height: 728px;
+
+    margin-left: auto;
+    max-width: 25rem;
+    height: 45.5rem;
+    padding: 2rem;
 
     header {
-        margin: 32px;
         border: 1px solid red;
+        max-width: 21rem;
 
         h1 {
             font: var(--text-logo);
@@ -31,13 +49,13 @@ aside {
 
         img {
             width: 45.851px;
-            height: 48px;
-            margin-bottom: 16px;
+            height: 3rem;
+            margin-bottom: 1rem;
         }
 
         .frame {
-            width: 100px;
-            height: 100px;
+            width: 6.25rem;
+            height: 6.25rem;
         }
     }
 }
@@ -45,9 +63,20 @@ aside {
 main {
     border: 1px solid green;
     border-radius: 12px;
-    margin: 20px;
+    background-color: var(--shape-body);
+    overflow: auto;
+    max-width: 51.25rem;
+    /* display: flex; */
+    /* justify-content: start; */
+    padding: 5rem;
+    /* margin-inline: 1.5rem; */
+
+    #invite {
+        border: 1px solid green;
+        /* max-width: 35rem; */
+    }
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 28px;
 }

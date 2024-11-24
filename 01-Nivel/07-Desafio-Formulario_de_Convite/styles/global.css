@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: var(--body-xs);
 }
 
 :root {
@@ -57,4 +56,5 @@ body {
     background-color: var(--shape-background);
     color: var(--text-body);
     font: var(--body-sm);
+    overflow: hidden; /* sem scroll */
 }
