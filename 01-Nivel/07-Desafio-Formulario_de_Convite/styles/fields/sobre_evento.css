@@ -1,0 +1,33 @@
+#sobre_evento {
+    .form-content {
+        grid-template-areas:
+        "AAA AAA"
+        "BBB CCC"
+        "DDD EEE"
+        "FFF FFF";
+        
+        .A {
+            grid-area: AAA;
+        }
+
+        .B {
+            grid-area: BBB;
+        }
+
+        .C {
+            grid-area: CCC;
+        }
+
+        .D {
+            grid-area: DDD;
+        }
+
+        .E {
+            grid-area: EEE;
+        }
+
+        .F {
+            grid-area: FFF;
+        }
+    }
+}
