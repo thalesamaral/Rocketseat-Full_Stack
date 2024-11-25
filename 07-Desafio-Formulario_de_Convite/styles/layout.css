@@ -3,73 +3,75 @@
     max-width: 1280px;
     height: 100vh;
     /* height: 768px; */
-    margin-inline: auto;
-    overflow: hidden;
-    padding: 1.25rem;
-    gap: 1.25rem;
     
     display: grid;
     /* grid-template-columns: 25rem 51.25rem; */
     /* grid-template-columns: 31.25% 68.75%; */
     grid-template-columns: 31.25% 64.0625%;
-    
     place-content: center;
     align-content: start;
+
+    margin-inline: auto;
+    overflow: hidden;
+    padding: 1.25rem;
+    gap: 1.25rem;
 }
 
-aside {
-    border: 1px solid red;
-    background-image: url(../assets/Background.png);
-    background-size: 100% 100%;
-    /* background-size: cover; */
-    border-radius: 12px;
-    padding: 2rem;
-
-    /* margin-left: auto; */
-    max-height: 45.5rem;
-
-    header {
-        border: 1px solid red;
-        /* max-width: 21rem; */
-
-        h1 {
-            font: var(--text-logo);
-            color: var(--pink);
-        }
-
-        h2 {
-            font: var(--text-heading);
-            margin-block: 4px;
-        }
-
-        img {
-            width: 45.851px;
-            height: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .frame {
-            width: 6.25rem;
-            height: 6.25rem;
-        }
-    }
-}
-
-main {
+main#invite {
     border: 1px solid green;
     border-radius: 12px;
     background-color: var(--shape-body);
     overflow: auto;
     padding: 5rem;
     
-    /* margin-inline: 1.5rem; */
-
-    #invite {
+    #invite-content {
         border: 1px solid green;
         /* max-width: 35rem; */
+        margin-inline: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        h1 {
+            font-size: 1.75rem;
+        }
     }
 }
 
-h1 {
-    font-size: 28px;
+aside#brand {
+    border: 1px solid red;
+    background-image: url(../assets/Background.png);
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    border-radius: 12px;
+    padding: 2rem;
+
+    /* margin-left: auto; */
+    max-height: 45.5rem;
+
+    & #brand-content {
+        border: 1px solid red;
+        /* max-width: 21rem; */
+
+        & h1.logo {
+            font: var(--text-logo);
+            color: var(--pink);
+        }
+
+        & h2 {
+            font: var(--text-heading);
+            margin-block: 4px;
+        }
+
+        & img.logo {
+            width: 45.851px;
+            height: 48px;
+            margin-bottom: 1rem;
+        }
+
+        & .frame {
+            width: 6.25rem;
+            height: 6.25rem;
+        }
+    }
 }
