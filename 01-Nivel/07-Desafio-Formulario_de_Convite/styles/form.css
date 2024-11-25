@@ -1,0 +1,19 @@
+#sobre_evento {
+    .title_field {
+        display: flex;
+        align-items: center;
+        gap: .75rem;
+    }
+}
+
+fieldset {
+    display: grid;
+    gap: 1.5rem;
+    border: inherit;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
