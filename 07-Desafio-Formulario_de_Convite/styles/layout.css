@@ -23,7 +23,7 @@ main#invite {
     background-color: var(--shape-body);
     overflow: auto;
     padding: 5rem;
-    
+
     #invite-content {
         border: 1px solid green;
         /* max-width: 35rem; */
@@ -47,7 +47,9 @@ aside#brand {
     padding: 2rem;
 
     /* margin-left: auto; */
-    max-height: 45.5rem;
+    /* width: 400px; */
+    /* height: 728px; */
+    height: 45.5rem;
 
     & #brand-content {
         border: 1px solid red;
