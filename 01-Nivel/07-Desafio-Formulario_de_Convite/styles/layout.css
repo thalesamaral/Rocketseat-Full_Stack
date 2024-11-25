@@ -1,41 +1,36 @@
 #app {
     border: 1px solid blue;
-    /* width: 1280px; */
+    max-width: 1280px;
+    height: 100vh;
     /* height: 768px; */
+    margin-inline: auto;
+    overflow: hidden;
+    padding: 1.25rem;
+    gap: 1.25rem;
+    
     display: grid;
     /* grid-template-columns: 25rem 51.25rem; */
     /* grid-template-columns: 31.25% 68.75%; */
     grid-template-columns: 31.25% 64.0625%;
     
-    height: 100vh;
-    overflow: hidden;
-    padding: 1.25rem;
-    gap: 1.25rem;
-    /* place-content: space-evenly; */
     place-content: center;
     align-content: start;
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-start; */
 }
 
 aside {
     border: 1px solid red;
     background-image: url(../assets/Background.png);
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-
+    background-size: 100% 100%;
+    /* background-size: cover; */
     border-radius: 12px;
-
-    margin-left: auto;
-    max-width: 25rem;
-    height: 45.5rem;
     padding: 2rem;
+
+    /* margin-left: auto; */
+    max-height: 45.5rem;
 
     header {
         border: 1px solid red;
-        max-width: 21rem;
+        /* max-width: 21rem; */
 
         h1 {
             font: var(--text-logo);
@@ -65,10 +60,8 @@ main {
     border-radius: 12px;
     background-color: var(--shape-body);
     overflow: auto;
-    max-width: 51.25rem;
-    /* display: flex; */
-    /* justify-content: start; */
     padding: 5rem;
+    
     /* margin-inline: 1.5rem; */
 
     #invite {
