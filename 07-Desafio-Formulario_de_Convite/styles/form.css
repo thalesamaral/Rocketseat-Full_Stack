@@ -1,9 +1,20 @@
-#sobre_evento {
-    .title_field {
-        display: flex;
-        align-items: center;
-        gap: .75rem;
-    }
+@import url(fields/index.css);
+
+form {
+    display: grid;
+    gap: 3rem;
+}
+
+.title_field {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 fieldset {
