@@ -5,6 +5,10 @@ form {
     gap: 3rem;
 }
 
+/* fieldset + fieldset {
+    margin-top: 3rem;
+} */
+
 .title_field {
     display: flex;
     align-items: center;
@@ -23,7 +27,7 @@ fieldset {
     border: inherit;
 }
 
-.input-wrapper {
+.form-item {
     display: flex;
     flex-direction: column;
     gap: .75rem;

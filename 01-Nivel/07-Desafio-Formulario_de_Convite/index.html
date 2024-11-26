@@ -35,34 +35,52 @@
                         </div>
                         
                         <div class="form-content">
-                            <div class="input-wrapper A">
+                            <div class="form-item">
                                 <label for="title">Título</label>
-                                <input type="text" name="title" id="title">
+                                <input type="text" name="title" id="title"
+                                placeholder="Nome do evento"
+                                >
                             </div>
 
-                            <div class="input-wrapper B">
+                            <div class="form-item">
                                 <label for="begin">Início</label>
-                                <input type="date" name="begin" id="begin">
+                                <input type="date" name="begin" id="begin"
+                                placeholder="DD/MM/AAAA, --:--"
+                                >
                             </div>
 
-                            <div class="input-wrapper C">
+                            <div class="form-item">
                                 <label for="end">Fim</label>
-                                <input type="date" name="end" id="end">
+                                <input type="date" name="end" id="end"
+                                placeholder="DD/MM/AAAA, --:--"
+                                >
                             </div>
 
-                            <div class="input-wrapper D">
-                                <label for="type">Tipo</label>
-                                <input type="button" name="type" id="type">
+                            <div class="form-item">
+                                <div class="radio-wrapper">
+                                    <label for="tipo">Tipo</label>
+                                    <div class="radio-inner">
+                                        <label for="presencial">Presencial</label>
+                                        <input type="radio" name="presencial" id="presencial">
+                                        <!-- <img src="assets/icons/building.svg" alt=""> -->
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="input-wrapper E">
+                            <div class="form-item">
                                 <label for="local">Local</label>
-                                <input type="address" name="local" id="local">
+                                <input type="address" name="local" id="local"
+                                placeholder="Link ou endereço"
+                                >
                             </div>
 
-                            <div class="input-wrapper F">
+                            <div class="form-item">
                                 <label for="description">Descrição</label>
-                                <input type="text" name="description" id="description">
+                                <textarea type="text" name="description" id="description"
+                                cols="30"
+                                rows="5"
+                                placeholder="Escreva sobre os detalhes do evento"
+                                ></textarea>
                             </div>
                         </div>
                     </fieldset>
