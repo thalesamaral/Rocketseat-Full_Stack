@@ -6,28 +6,65 @@
         "DDD EEE"
         "FFF FFF";
         
-        .A {
+        :nth-child(1) {
             grid-area: AAA;
         }
 
-        .B {
+        :nth-child(2) {
             grid-area: BBB;
         }
 
-        .C {
+        :nth-child(3) {
             grid-area: CCC;
         }
 
-        .D {
+        :nth-child(4) {
             grid-area: DDD;
         }
 
-        .E {
+        :nth-child(5) {
             grid-area: EEE;
         }
 
-        .F {
+        :nth-child(6) {
             grid-area: FFF;
         }
+    }
+}
+
+input, textarea {
+    appearance: none;
+    width: 100%;
+    height: 3rem;
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    /* border: 2px solid transparent; */
+    /* font: var(--text); */
+    
+    border: 1px solid var(--input-stroke);
+    background-color: var(--input-base);
+    color: var(--text-body);
+    &::placeholder {
+        color: var(--input-placeholder);
+    }
+}
+
+textarea {
+    height: 100%;
+}
+
+label {
+    font: var(--body-sm);
+}
+
+legend {
+    font: var(--heading-sm);
+}
+
+input[type="date"] {
+    &::-webkit-calendar-picker-indicator {
+        /* opacity: 0; */
+        cursor: pointer;
+        /* color: var(--text-body); */
     }
 }

@@ -40,7 +40,7 @@ main#invite {
 
 aside#brand {
     border: 1px solid red;
-    background-image: url(../assets/Background.png);
+    background: url(../assets/Background.png) center/contain;
     /* background-size: 100% 100%; */
     background-size: cover;
     border-radius: 12px;
