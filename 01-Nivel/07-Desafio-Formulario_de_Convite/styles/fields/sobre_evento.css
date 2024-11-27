@@ -1,5 +1,13 @@
 #sobre_evento {
     .form-content {
+        /* display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 1rem;
+        align-self: stretch;
+        flex-wrap: wrap; */
+        
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "AAA AAA"
         "BBB CCC"
