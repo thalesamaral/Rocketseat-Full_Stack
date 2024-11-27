@@ -4,8 +4,6 @@ input, textarea {
     height: 3rem;
     padding-inline: 1rem;
     border-radius: .5rem;
-    /* border: 2px solid transparent; */
-    /* font: var(--text); */
     
     border: 1px solid var(--input-stroke);
     background-color: var(--input-base);
@@ -17,6 +15,7 @@ input, textarea {
 
 textarea {
     height: 100%;
+    padding: 1rem;
 }
 
 label {
