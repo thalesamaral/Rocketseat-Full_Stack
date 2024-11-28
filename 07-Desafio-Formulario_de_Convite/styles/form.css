@@ -1,29 +1,22 @@
 @import url(fields/index.css);
 
 form {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
 }
 
-/* fieldset + fieldset {
-    margin-top: 3rem;
-} */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: inherit;
+}
 
 .title_field {
     display: flex;
     align-items: center;
     gap: .75rem;
-}
-
-/* .form-content {
-    display: grid;
-    gap: 1rem;
-} */
-
-fieldset {
-    display: grid;
-    gap: 1.5rem;
-    border: inherit;
 }
 
 .form-item {
