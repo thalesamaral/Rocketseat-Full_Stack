@@ -15,10 +15,10 @@ form {
     gap: .75rem;
 }
 
-.form-content {
+/* .form-content {
     display: grid;
     gap: 1rem;
-}
+} */
 
 fieldset {
     display: grid;
