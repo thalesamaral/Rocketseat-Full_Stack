@@ -1,4 +1,4 @@
-.radio-wrapper {
+.radio-button {
     & .radio-inner, * {
         cursor: pointer;
     }
