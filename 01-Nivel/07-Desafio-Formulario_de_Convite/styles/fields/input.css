@@ -1,36 +1,39 @@
-input, textarea {
-    appearance: none;
-    /* width: 100%; */
-    height: 3rem;
-    padding-inline: 1rem;
-    border-radius: .5rem;
-    border: 1px solid var(--input-stroke);
-    background-color: var(--input-base);
-    color: var(--text-body);
+.input-item, .form-item {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
 
+    input, textarea, .radio-button {
+        /* appearance: none; */
+        height: 3rem;
+        padding-inline: 1rem;
+        border-radius: .5rem;
+        /* outline: 0; */
+
+        border: 1px solid var(--input-stroke);
+        background-color: var(--input-base);
+        color: var(--text-body);
+    }
+
+    textarea {
+        height: 100%;
+        padding: 1rem;
+    }
+}
+
+input, textarea {
     &::placeholder {
         font: var(--body-md);
         color: var(--input-placeholder);
     }
-}
-
-textarea {
-    height: 100%;
-    padding: 1rem;
-}
-
-legend {
-    font: var(--heading-sm);
-}
-
-label {
-    font: var(--body-sm);
-}
-
-input[type="date"] {
-    &::-webkit-calendar-picker-indicator {
-        /* opacity: 0; */
-        cursor: pointer;
-        /* color: var(--text-body); */
+    
+    &:focus {
+        border-color: var(--brand-light);
     }
 }
+
+/* input:focus,
+textarea:focus,
+input[type="date"]:focus-within {
+    border-color: var(--brand-light);
+} */
