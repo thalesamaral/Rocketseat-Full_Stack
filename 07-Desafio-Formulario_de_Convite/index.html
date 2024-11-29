@@ -35,24 +35,27 @@
                         </div>
                         
                         <div class="form-content">
-                            <div class="form-item">
+                            <div class="input-item">
                                 <label for="title">Título</label>
                                 <input type="text" name="title" id="title"
                                 placeholder="Nome do evento"
+                                required
                                 >
                             </div>
 
-                            <div class="form-item">
+                            <div class="input-item">
                                 <label for="begin">Início</label>
                                 <input type="date" name="begin" id="begin"
                                 placeholder="DD/MM/AAAA, --:--"
+                                required
                                 >
                             </div>
 
-                            <div class="form-item">
+                            <div class="input-item">
                                 <label for="end">Fim</label>
                                 <input type="date" name="end" id="end"
                                 placeholder="DD/MM/AAAA, --:--"
+                                required
                                 >
                             </div>
 
@@ -62,7 +65,9 @@
                                     <div class="radio-inner">
                                         <img src="assets/icons/building-blue.svg" alt="">
                                         <label for="presencial">Presencial</label>
-                                        <input type="radio" name="presencial" id="presencial">
+                                        <input type="radio" name="presencial" id="presencial"
+                                        required
+                                        >
                                     </div>
 
                                     <div class="radio-inner">
@@ -73,19 +78,21 @@
                                 </div>
                             </div>
 
-                            <div class="form-item">
+                            <div class="input-item">
                                 <label for="local">Local</label>
                                 <input type="address" name="local" id="local"
                                 placeholder="Link ou endereço"
+                                required
                                 >
                             </div>
 
-                            <div class="form-item">
+                            <div class="input-item">
                                 <label for="description">Descrição</label>
                                 <textarea type="text" name="description" id="description"
                                 cols="30"
                                 rows="5"
                                 placeholder="Escreva sobre os detalhes do evento"
+                                required
                                 ></textarea>
                             </div>
                         </div>

@@ -19,8 +19,10 @@ fieldset {
     gap: .75rem;
 }
 
-.form-item {
-    display: flex;
-    flex-direction: column;
-    gap: .75rem;
+legend {
+    font: var(--heading-sm);
+}
+
+label {
+    font: var(--body-sm);
 }

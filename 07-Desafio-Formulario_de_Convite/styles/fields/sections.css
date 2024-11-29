@@ -15,38 +15,5 @@ fieldset#sobre_evento {
         :nth-child(6) {
             grid-column: 1/3;
         }
-
-        .radio-button {
-            display: flex;
-            padding: .25rem;
-            gap: .25rem;
-            height: 3rem;
-            border-radius: .5rem;
-            
-            align-items: center;
-            align-self: stretch;
-            /* justify-content: space-between; */
-            /* width: 100%; */
-
-            border: 1px solid var(--input-stroke);
-            background-color: var(--input-base);
-            color: var(--text-body);
-            
-            .radio-inner {
-                display: flex;
-                height: 100%;
-                padding: .25rem;
-                gap: .5rem;
-                border-radius: .5rem;
-                justify-content: center;
-                align-items: center;
-                flex: 1 0 0;
-                background-color: var(--shape-button);
-            }
-
-            :hover {
-                background-color: var(--shape-hover);
-            }
-        }
     }
 }
