@@ -17,10 +17,16 @@ fieldset {
     display: flex;
     align-items: center;
     gap: .75rem;
+
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 
 legend {
     font: var(--heading-sm);
+    color: var(--text-heading);
 }
 
 label {
