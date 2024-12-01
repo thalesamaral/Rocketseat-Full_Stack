@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
     <div id="app">
         <aside id="brand">
@@ -63,17 +64,19 @@
                                 <label for="tipo">Tipo</label>
                                 <div class="radio-button">
                                     <div class="radio-inner">
-                                        <img src="assets/icons/building-blue.svg" alt="">
-                                        <label for="presencial">Presencial</label>
-                                        <input type="radio" name="presencial" id="presencial"
-                                        required
+                                        <img src="assets/icons/building.svg" alt="building">
+                                        <input type="radio" name="tipo_evento" id="presencial"
+                                        value="presencial"
                                         >
+                                        <label for="presencial">Presencial</label>
                                     </div>
 
                                     <div class="radio-inner">
-                                        <img src="assets/icons/video-blue.svg" alt="">
+                                        <img src="assets/icons/video.svg" alt="video">
+                                        <input type="radio" name="tipo_evento" id="online"
+                                        value="online"
+                                        >
                                         <label for="online">Online</label>
-                                        <input type="radio" name="online" id="online">
                                     </div>
                                 </div>
                             </div>

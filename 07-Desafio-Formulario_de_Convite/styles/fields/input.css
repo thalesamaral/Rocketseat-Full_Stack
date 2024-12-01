@@ -4,11 +4,11 @@
     gap: .75rem;
 
     input, textarea, .radio-button {
-        /* appearance: none; */
+        appearance: none;
         height: 3rem;
         padding-inline: 1rem;
         border-radius: .5rem;
-        /* outline: 0; */
+        outline: 0;
 
         border: 1px solid var(--input-stroke);
         background-color: var(--input-base);
@@ -32,8 +32,39 @@ input, textarea {
     }
 }
 
-/* input:focus,
-textarea:focus,
-input[type="date"]:focus-within {
-    border-color: var(--brand-light);
+input[type="date"] {
+    position: relative;
+    &::-webkit-calendar-picker-indicator {
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    &::before {
+        content: "";
+        position: absolute;
+        background: url(../../assets/icons/calendar.svg) center/contain;
+        right: 1rem;
+        width: 1rem;
+        height: 1rem;
+        
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
 } */
