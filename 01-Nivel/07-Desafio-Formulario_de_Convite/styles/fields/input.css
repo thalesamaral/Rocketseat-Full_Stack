@@ -13,6 +13,7 @@
         border: 1px solid var(--input-stroke);
         background-color: var(--input-base);
         color: var(--text-body);
+        font: var(--body-md);
     }
 
     textarea {
@@ -23,16 +24,24 @@
 
 input, textarea {
     &::placeholder {
-        font: var(--body-md);
         color: var(--input-placeholder);
     }
     
-    &:focus {
+    &:focus, &:focus-within {
         border-color: var(--brand-light);
     }
 }
 
-input[type="date"] {
+input[type=datetime-local] {
+    text-transform: uppercase;
+    color: var(--input-placeholder);
+
+    &:valid {
+        color: var(--text-body);
+    }
+}
+
+input[type=datetime-local] {
     position: relative;
     &::-webkit-calendar-picker-indicator {
         opacity: 0;
@@ -51,20 +60,3 @@ input[type="date"] {
         transform: translateY(-50%);
     }
 }
-
-/* input[type=date]::-webkit-datetime-edit-text {
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-month-field{
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-day-field {
-    -webkit-appearance: none;
-    display: none;
-}
-input[type=date]::-webkit-datetime-edit-year-field {
-    -webkit-appearance: none;
-    display: none;
-} */
