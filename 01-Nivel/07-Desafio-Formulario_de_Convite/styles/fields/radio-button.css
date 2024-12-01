@@ -1,11 +1,11 @@
-.form-item {
-    .radio-button {
+/* button-wrapperS */
+.input-item {
+    .button-wrapper {
         display: flex;
-        
         padding: .25rem;
         gap: .25rem;
         
-        .radio-inner {
+        .button-inner {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -14,7 +14,6 @@
             gap: .5rem;
             border-radius: .5rem;
             flex: 1 0 0;
-            background-color: var(--input-base);
             
             cursor: pointer;
 
@@ -29,10 +28,26 @@
                 height: 1rem;
             }
         }
+
+        .button-inner:nth-child(1) {
+            &:hover, &:focus-within, &:has(:checked) {
+                img {
+                    content: url(../../assets/icons/building-blue.svg);
+                }
+            }
+        }
+        
+        .button-inner:nth-child(2) {
+            &:hover, &:focus-within, &:has(:checked) {
+                img {
+                    content: url(../../assets/icons/video-blue.svg);
+                }
+            }
+        }
     }
 }
 
-.radio-inner {
+.button-inner {
     position: relative;
     & input,
     & input:focus,
@@ -40,21 +55,5 @@
         all: unset;
         position: absolute;
         inset: 0;
-    }
-}
-
-.radio-inner:nth-child(1) {
-    &:hover, &:focus-within, &:has(:checked) {
-        img {
-            content: url(../../assets/icons/building-blue.svg);
-        }
-    }
-}
-
-.radio-inner:nth-child(2) {
-    &:hover, &:focus-within, &:has(:checked) {
-        img {
-            content: url(../../assets/icons/video-blue.svg);
-        }
     }
 }

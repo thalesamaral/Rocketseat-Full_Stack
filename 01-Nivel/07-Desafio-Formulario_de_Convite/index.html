@@ -36,7 +36,7 @@
                         </div>
                         
                         <div class="form-content">
-                            <div class="input-item">
+                            <div class="form-item input-item">
                                 <label for="title">Título</label>
                                 <input type="text" name="title" id="title"
                                 placeholder="Nome do evento"
@@ -44,24 +44,24 @@
                                 >
                             </div>
 
-                            <div class="input-item">
+                            <div class="form-item input-item">
                                 <label for="begin">Início</label>
                                 <input type="datetime-local" name="begin" id="begin"
                                 required
                                 >
                             </div>
 
-                            <div class="input-item">
+                            <div class="form-item input-item">
                                 <label for="end">Fim</label>
                                 <input type="datetime-local" name="end" id="end"
                                 required
                                 >
                             </div>
 
-                            <div class="form-item">
+                            <div class="form-item input-item">
                                 <label for="tipo">Tipo</label>
-                                <div class="radio-button">
-                                    <div class="radio-inner">
+                                <div class="button-wrapper">
+                                    <div class="button-inner">
                                         <img src="assets/icons/building.svg" alt="building">
                                         <input type="radio" name="tipo_evento" id="presencial"
                                         value="presencial"
@@ -69,7 +69,7 @@
                                         <label for="presencial">Presencial</label>
                                     </div>
 
-                                    <div class="radio-inner">
+                                    <div class="button-inner">
                                         <img src="assets/icons/video.svg" alt="video">
                                         <input type="radio" name="tipo_evento" id="online"
                                         value="online"
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
 
-                            <div class="input-item">
+                            <div class="form-item input-item">
                                 <label for="local">Local</label>
                                 <input type="address" name="local" id="local"
                                 placeholder="Link ou endereço"
@@ -87,7 +87,7 @@
                                 >
                             </div>
 
-                            <div class="input-item">
+                            <div class="form-item input-item">
                                 <label for="description">Descrição</label>
                                 <textarea type="text" name="description" id="description"
                                 cols="30"
@@ -105,9 +105,53 @@
                             <legend>Personalização</legend>
                         </div>
                         <div class="form-content">
-                            <div class="theme-item form-item">
-                                <legend>Cor principal</legend>
-                                <input type="radio" name="color-selection" id="cor1">
+                            <div class="form-item-2 color-items">
+                                <label>Cor principal</label>
+                                <div class="color-wrapper">
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor1">
+                                    </div>
+                                    
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor2">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor3">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor4">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor5">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor6">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor7">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor8">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor9">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor10">
+                                    </div>
+
+                                    <div class="color-inner">
+                                        <input type="radio" name="color-selection" id="cor11">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
