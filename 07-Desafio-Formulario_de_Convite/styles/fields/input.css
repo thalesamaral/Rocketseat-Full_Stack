@@ -1,9 +1,5 @@
-.input-item, .form-item {
-    display: flex;
-    flex-direction: column;
-    gap: .75rem;
-
-    input, textarea, .radio-button {
+.input-item {
+    input, textarea, .button-wrapper {
         appearance: none;
         height: 3rem;
         padding-inline: 1rem;
@@ -20,17 +16,18 @@
         height: 100%;
         padding: 1rem;
     }
+    
+    input, textarea {
+        &::placeholder {
+            color: var(--input-placeholder);
+        }
+        
+        &:focus, &:focus-within {
+            border-color: var(--brand-light);
+        }
+    }
 }
 
-input, textarea {
-    &::placeholder {
-        color: var(--input-placeholder);
-    }
-    
-    &:focus, &:focus-within {
-        border-color: var(--brand-light);
-    }
-}
 
 input[type=datetime-local] {
     text-transform: uppercase;
