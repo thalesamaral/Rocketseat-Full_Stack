@@ -17,3 +17,11 @@ fieldset#sobre_evento {
         }
     }
 }
+
+fieldset#personalizacao {
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
