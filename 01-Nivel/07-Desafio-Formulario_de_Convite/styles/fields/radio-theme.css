@@ -39,8 +39,8 @@
 }
 
 .theme-inner {
-    position: relative;
     cursor: pointer;
+    position: relative;
     & input,
     & input:focus,
     & input:hover {
