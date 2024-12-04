@@ -1,5 +1,5 @@
 #app {
-    border: 1px solid blue;
+    outline: 1px solid blue;
     max-width: 1280px;
     height: 100vh;
     /* height: 768px; */
@@ -7,7 +7,8 @@
     display: grid;
     /* grid-template-columns: 25rem 51.25rem; */
     /* grid-template-columns: 31.25% 68.75%; */
-    grid-template-columns: 31.25% 64.0625%;
+    /* grid-template-columns: 31.25% 64.0625%; */ /* (820 . 100)/1280 */
+    grid-template-columns: 31.25% 67%;
     place-content: center;
     align-content: start;
 
@@ -18,15 +19,16 @@
 }
 
 main#invite {
-    border: 1px solid green;
+    outline: 1px solid green;
     border-radius: .75rem;
     background-color: var(--shape-body);
     /* overflow: auto; */
-    /* padding: 5rem 8.125rem; */
-    padding: 5rem 6.875rem;
+    padding: 5rem 8.125rem;
+    /* padding: 5rem 6.875rem; */
+    /* padding: 5rem 7rem; */
 
     #invite-content {
-        border: 1px solid green;
+        outline: 1px solid green;
         /* width: 35rem; */
         height: 100%;
         display: flex;
@@ -41,7 +43,7 @@ main#invite {
 }
 
 aside#brand {
-    border: 1px solid red;
+    outline: 1px solid red;
     background: url(../assets/Background.png) center/contain;
     /* background-size: 100% 100%; */
     background-size: cover;
@@ -54,7 +56,7 @@ aside#brand {
     height: 45.5rem;
 
     & #brand-content {
-        border: 1px solid red;
+        outline: 1px solid red;
         /* max-width: 21rem; */
 
         & h1.logo {
