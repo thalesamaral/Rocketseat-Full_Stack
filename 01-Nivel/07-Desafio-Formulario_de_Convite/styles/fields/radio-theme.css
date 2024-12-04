@@ -4,18 +4,7 @@
         grid-template-columns: repeat(4, 1fr);
         /* grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr)); */
         gap: .5rem;
-
-        /* max-width: fit-content; */
         
-
-        /* display: flex;
-        gap: .5rem;
-        flex-wrap: wrap;
-        flex-direction: row; */
-        /* align-items: flex-start; */
-        /* align-content: flex-start; */
-        /* align-self: stretch; */
-
         .theme-inner {
             display: flex;
             width: 8.375rem;
@@ -32,8 +21,11 @@
             border-radius: .5rem;
             font: var(--text-heading);
 
-            &:hover, &:focus-within, &:has(:checked) {
+            &:hover {
                 background-color: var(--shape-hover);
+            }
+
+            &:focus-within, &:has(:checked) {
                 outline: 2px solid var(--brand-light);
             }
 
@@ -43,5 +35,17 @@
                 /* align-self: stretch; */
             }
         }
+    }
+}
+
+.theme-inner {
+    position: relative;
+    cursor: pointer;
+    & input,
+    & input:focus,
+    & input:hover {
+        all: unset;
+        position: absolute;
+        inset: 0;
     }
 }
