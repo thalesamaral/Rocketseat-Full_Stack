@@ -25,6 +25,10 @@
         &:focus, &:focus-within {
             border-color: var(--brand-light);
         }
+
+        &:invalid {
+            border-color: var(--danger);
+        }
     }
 }
 
@@ -55,79 +59,4 @@ input[type=datetime-local] {
         top: 50%;
         transform: translateY(-50%);
     }
-}
-
-fieldset#personalizacao {
-.toggle-item {
-    .toggle-inner {
-        display: flex;
-        align-items: center;
-        gap: .75rem;
-        height: 2.5rem;
-
-        background: url(../../assets/toggle-dark.svg) no-repeat 0;
-        input {
-            cursor: pointer;
-            width: 4rem;
-            height: 2rem;
-            border-radius: 999px;
-            opacity: 0;
-        }
-
-        &:has(:checked) {
-            background: url(../../assets/toggle-light.svg) no-repeat 0;
-        }
-    }
-}
-
-/* wallpaper-item */
-.wallpaper-body {
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    margin-bottom: .25rem;
-
-    .wallpaper-button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        height: 2.5rem;
-        padding: .25rem .75rem;
-        gap: .5rem;
-        border-radius: .5rem;
-
-        background-color: var(--shape-button);
-        color: var(--text-body);
-        font: var(--body-md);
-
-        & > p {
-            color: var(--input-placeholder);
-        }
-
-        &:hover, &:has(input:focus) {
-            background-color: var(--shape-hover);
-            & p.button {
-                color: var(--text-heading);
-            }
-            & img.button {
-                content: url(../../assets/icons/upload-blue.svg);
-            }
-        }
-    }
-}
-
-.wallpaper-button {
-    position: relative;
-    input {
-        position: absolute;
-        inset: 0;
-        opacity: 0;
-        cursor: pointer;
-    }
-
-    input::file-selector-button {
-        cursor: pointer;
-    }
-}
 }
