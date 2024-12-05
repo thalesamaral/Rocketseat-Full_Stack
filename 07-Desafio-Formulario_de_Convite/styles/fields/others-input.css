@@ -16,6 +16,13 @@
 
         &:has(:checked) {
             background: url(../../assets/toggle-light.svg) no-repeat 0;
+            
+            span {
+                display: none;
+            }
+            &:after {
+                content: "Claro";
+            }
         }
     }
 }
@@ -41,13 +48,13 @@
         color: var(--text-body);
         font: var(--body-md);
 
-        & > p {
+        & > span {
             color: var(--input-placeholder);
         }
 
         &:hover, &:has(input:focus) {
             background-color: var(--shape-hover);
-            & p.button {
+            & span.button {
                 color: var(--text-heading);
             }
             & img.button {

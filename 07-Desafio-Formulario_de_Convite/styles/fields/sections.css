@@ -49,3 +49,26 @@ fieldset#contato {
         }
     }
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--input-stroke);
+    
+    .check-wrapper {
+        margin-bottom: 3rem;
+        gap: .25rem;
+        align-items: flex-start;
+        
+        .check-inner {
+            padding-block: .25rem;
+            gap: .75rem;
+            align-items: center;
+        }
+    }
+
+    .action {
+        align-items: center;
+    }
+}
