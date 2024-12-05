@@ -1,5 +1,5 @@
 #app {
-    outline: 1px solid blue;
+    border: 1px solid blue;
     max-width: 1280px;
     height: 100vh;
     /* height: 768px; */
@@ -19,7 +19,7 @@
 }
 
 main#invite {
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     border-radius: .75rem;
     background-color: var(--shape-body);
     /* overflow: auto; */
@@ -28,7 +28,7 @@ main#invite {
     /* padding: 5rem 7rem; */
 
     #invite-content {
-        outline: 1px solid green;
+        /* outline: 1px solid green; */
         /* width: 35rem; */
         height: 100%;
         display: flex;
@@ -43,9 +43,8 @@ main#invite {
 }
 
 aside#brand {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     background: url(../assets/Background.png) center/contain;
-    /* background-size: 100% 100%; */
     background-size: cover;
     border-radius: .75rem;
     padding: 2rem;
@@ -56,7 +55,7 @@ aside#brand {
     height: 45.5rem;
 
     & #brand-content {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
         /* max-width: 21rem; */
 
         & h1.logo {
