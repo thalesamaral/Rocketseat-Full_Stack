@@ -65,6 +65,7 @@
                                         <img src="assets/icons/building.svg" alt="building">
                                         <input type="radio" name="tipo_evento" id="presencial"
                                         value="presencial"
+                                        checked
                                         >
                                         <label for="presencial">Presencial</label>
                                     </div>
@@ -252,6 +253,39 @@
                                     <p>Nenhum arquivo selecionado</p>
                                 </div>
                                 
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset id="contato">
+                        <div class="title_field">
+                            <img src="assets/icons/contact.svg" alt="contato">
+                            <legend>Dados para contato</legend>
+                        </div>
+                        
+                        <div class="form-content">
+                            <div class="form-item input-item">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome"
+                                placeholder="Nome completo"
+                                required
+                                >
+                            </div>
+                            
+                            <div class="form-item input-item">
+                                <label for="email">Fim</label>
+                                <input type="email" name="email" id="email"
+                                placeholder="exemplo@email.com"
+                                required
+                                >
+                            </div>
+
+                            <div class="form-item input-item">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone"
+                                placeholder="(99) 99999-9999 "
+                                required
+                                >
                             </div>
                         </div>
                     </fieldset>
