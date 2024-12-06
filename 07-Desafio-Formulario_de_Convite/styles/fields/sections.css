@@ -85,9 +85,13 @@ footer {
                     background: url(../../assets/icons/check-on.svg) no-repeat center/contain;
                     border-color: var(--brand-light);
                 }
+
+                &:focus, &:focus-within {
+                    border-color: var(--brand-light);
+                }
             }
 
-            & p {
+            & label {
                 span {
                     color: var(--brand-light);
                 }
@@ -107,10 +111,16 @@ footer {
             gap: .75rem;
             cursor: pointer;
 
-            background-color: var(--brand-dark);
             font: var(--body-md);
             color: var(--text-heading);
             border-radius: .5rem;
+            background-color: var(--brand-dark);
+
+            &:hover,
+            &:focus-within,
+            &:has(:checked) {
+                background-color: var(--brand-md);
+            }
 
             & img {
                 width: 1.25rem;

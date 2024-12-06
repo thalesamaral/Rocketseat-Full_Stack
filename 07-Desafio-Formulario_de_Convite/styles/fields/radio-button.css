@@ -1,8 +1,13 @@
 .input-item {
     .button-wrapper {
         display: flex;
+        height: 3rem;
         padding: .25rem;
         gap: .25rem;
+
+        border: 1px solid var(--input-stroke);
+        border-radius: .5rem;
+        background-color: var(--input-base);
         
         .button-inner {
             display: flex;
@@ -16,7 +21,7 @@
             
             cursor: pointer;
 
-            &:hover, &:focus-within, &:has(:checked) {
+            &:hover, &:focus, &:has(:checked) {
                 background-color: var(--shape-hover);
                 label {
                     color: var(--text-heading);
