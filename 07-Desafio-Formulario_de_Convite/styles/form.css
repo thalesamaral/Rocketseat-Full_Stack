@@ -29,9 +29,10 @@ legend {
     color: var(--text-heading);
 }
 
-label {
+/* label {
     font: var(--body-sm);
-}
+    color: var(--text-body);
+} */
 
 .form-item {
     display: flex;

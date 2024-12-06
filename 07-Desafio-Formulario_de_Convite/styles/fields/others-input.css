@@ -5,6 +5,7 @@
         gap: .75rem;
         height: 2.5rem;
 
+        color: var(--text-heading);
         background: url(../../assets/toggle-dark.svg) no-repeat 0;
         input {
             cursor: pointer;
@@ -34,6 +35,11 @@
     gap: .75rem;
     margin-bottom: .25rem;
 
+    & > span {
+        font: var(--body-md);
+        color: var(--input-placeholder);
+    }
+
     .wallpaper-button {
         display: flex;
         align-items: center;
@@ -45,20 +51,16 @@
         border-radius: .5rem;
 
         background-color: var(--shape-button);
-        color: var(--text-body);
-        font: var(--body-md);
-
-        & > span {
-            color: var(--input-placeholder);
-        }
-
+        
         &:hover, &:has(input:focus) {
             background-color: var(--shape-hover);
-            & span.button {
-                color: var(--text-heading);
-            }
+            
             & img.button {
                 content: url(../../assets/icons/upload-blue.svg);
+            }
+
+            span.button {
+                color: var(--text-heading);
             }
         }
     }
