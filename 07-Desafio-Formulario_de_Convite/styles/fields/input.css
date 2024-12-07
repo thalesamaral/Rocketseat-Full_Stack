@@ -74,10 +74,10 @@ input[type=datetime-local] {
     }
 }
 
-/* input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 3rem #1C1F21 inset !important;
     -webkit-text-fill-color: #C8CDD0 !important;
-} */
+}
