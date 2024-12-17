@@ -16,6 +16,13 @@
         margin-top: 2rem;
     }
 
+    & a {
+        height: 3.5rem;
+        & > img {
+            width: 10rem;
+        }
+    }
+
     @media (width >= 80em) {
         .card {
             padding: 8.75rem 5rem;
@@ -27,6 +34,10 @@
             & > img {
                 width: 29.125rem;
             }
+        }
+
+        & a > img {
+            width: auto;
         }
     }
 }
