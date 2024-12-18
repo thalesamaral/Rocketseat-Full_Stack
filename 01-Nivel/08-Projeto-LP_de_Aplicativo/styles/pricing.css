@@ -34,7 +34,7 @@
     }
 
     & .separator {
-        height: 1px;
+        height: 2px;
         margin-block: 2rem;
         background: radial-gradient(var(--text-color-secondary), var(--surface-color) 70%);
     }
@@ -111,9 +111,18 @@
             font-size: var(--fs-base);
         }
 
-        & .card:nth-child(3) {
-            & .separator {
-                margin-block: 1.5rem;
+        & .cards > .card {
+            padding-block: 2rem;
+            height: 30rem;
+
+            & p {
+                height: 3.25rem;
+            }
+            
+            &:nth-child(3) {    
+                & .separator {
+                    margin-block: 1.5rem;
+                }
             }
         }
     }
