@@ -45,12 +45,8 @@ Além disso, você vai explorar os fundamentos de React e Node.js e desenvolver 
 # 👨‍💻 Autor
 
 ### Thales Amaral Lima
-
-<!-- <img src="assets/readme/profile-picture.jpg" alt="Perfil de Thales Amaral" width="120" /> -->
-
 Graduando em Ciência da Computação com foco em full stack, apaixonado por entregar soluções tecnológicas com a melhor experiência do usuário.
 Sinta-se à vontade para me seguir no GitHub e entrar em contato comigo no LinkedIn.
-
 
 # Contato
 
@@ -61,20 +57,8 @@ Sinta-se à vontade para me seguir no GitHub e entrar em contato comigo no Linke
 🛠 `Frontend` Developer. <br>
 📍 Brasília - Brasil
 
-<a href="https://www.linkedin.com/in/thalesamaral" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25">
-</a>&nbsp;
+<a href="https://www.linkedin.com/in/thalesamaral" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:thaleslima225@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="teste_user_thales#1234" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/thalesamaral" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;<br clear="left"/>
 
-<a href="mailto:thaleslima225@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25">
-</a>&nbsp;
 
-<a href="#">
-  <img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="teste_user_thales#1234" alt="Discord Badge" height="25">
-</a>&nbsp;
 
-<a href="https://www.github.com/thalesamaral" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25">
-</a>&nbsp;
-<br clear="left"/>
 
