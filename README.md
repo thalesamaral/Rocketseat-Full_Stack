@@ -1,5 +1,15 @@
 # ⭐ Formação Full Stack da Rocketseat
 
+## 🛠️ MBA Projects Showcase
+
+Este repositório evoluirá conforme eu progredir no MBA. Cada projeto terá sua própria pasta com um arquivo `README.md` contendo detalhes sobre o projeto, como as tecnologias usadas, como executar o projeto, recursos e design. Alguns projetos estarão em outro repositório, e os vincularei aqui:
+
+1. **Fundamentos do desenvolvimento web**
+- [01-Projeto-Pagina_de_Receita](01-Projeto-Pagina_de_Receita)
+- [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico/index.html)
+- [03-Projeto-Perfil_de_Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens)
+- [04-Projeto-Portal_de_Noticias](https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias/index.html)
+
 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita/index.html" target="_blank">01-Projeto-Pagina_de_Receita</a> <br>
 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html" target="_blank">02-Desafio-Local_Turistico</a> <br>
 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/index.html" target="_blank">03-Projeto-Perfil_de_Viagens</a> <br>
@@ -84,20 +94,12 @@ O currículo é projetado para cobrir um amplo espectro de tecnologias e estrat�
 - Gestão de tempo
 - Saúde mental
 
-## 🛠️ MBA Projects Showcase
-
-Este repositório evoluirá conforme eu progredir no MBA. Cada projeto terá sua própria pasta com um arquivo `README.md` contendo detalhes sobre o projeto, como as tecnologias usadas, como executar o projeto, recursos e design. Alguns projetos estarão em outro repositório, e os vincularei aqui:
-
-1. **Fundamentos do desenvolvimento web**
-- [Página de receitas](01-web-development-fundamentals/001-recipe-page)
-- [Travelgram](01-web-development-fundamentals/002-travelgram)
-
 ## 👨‍💻 Autor
 
-### Felipe Fadul
+### Thales Amaral
 
-<img src="assets/readme/profile-picture.jpg" alt="Perfil de Felipe Fadul" width="120" />
+<!-- <img src="assets/readme/profile-picture.jpg" alt="Perfil de Thales Amaral" width="120" /> -->
 
 Engenheiro de software full stack com foco em front-end, apaixonado por entregar soluções tecnológicas com a melhor experiência do usuário.
 
-Sinta-se à vontade para me seguir no [GitHub](https://github.com/felipefadul) e entrar em contato comigo no [LinkedIn](https://www.linkedin.com/in/felipefadul/).
+Sinta-se à vontade para me seguir no [GitHub](https://github.com/thalesamaral) e entrar em contato comigo no [LinkedIn](https://www.linkedin.com/in/thalesamaral/).
