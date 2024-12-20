@@ -1,4 +1,4 @@
-# Página de Receitas
+# Página de Receita
 
 - Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma receita, mostrando os fundamentos do desenvolvimento web.
 
@@ -29,7 +29,7 @@
 Graduando em Ciência da Computação com foco em full stack, apaixonado por entregar soluções tecnológicas com a melhor experiência do usuário.
 Sinta-se à vontade para me seguir no GitHub e entrar em contato comigo no LinkedIn.
 
-# Contato
+## Contato
 
 <img align="left" src="https://www.github.com/thalesamaral.png?size=150">
 
