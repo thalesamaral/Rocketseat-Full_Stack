@@ -6,24 +6,24 @@ Bem-vindo ao meu repositório que documenta minha jornada **Full Stack** na [Roc
 
 Este repositório evoluirá conforme eu progredir na formação. Cada projeto terá sua própria pasta com um arquivo `README.md` contendo detalhes sobre o projeto, como as tecnologias usadas, como executar o projeto, recursos e design. Alguns projetos estarão em outro repositório, e os vincularei aqui:
 
-### **🗂️ Pastas 🪄 Implementações**
+### **🗂️ Pastas 🖥️ Implementações**
 - 🗂️ [01-Projeto-Pagina_de_Receita](01-Projeto-Pagina_de_Receita)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita/index.html">Página de Receita</a>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita">Página de Receita</a>
 
 - 🗂️ [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html">Local Turístico</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico">Local Turístico</a>
 - 🗂️ [03-Projeto-Perfil_de_Viagens](03-Projeto-Perfil_de_Viagens)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/index.html">Perfil de Viagens</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens">Perfil de Viagens</a>
 - 🗂️ [04-Projeto-Portal_de_Noticias](04-Projeto-Portal_de_Noticias)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias/index.html">Portal de Notícias</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias">Portal de Notícias</a>
 - 🗂️ [05-Desafio-Portfolio_Dev](05-Desafio-Portfolio_Dev)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/05-Desafio-Portfolio_Dev/index.html">Portfólio Dev</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/05-Desafio-Portfolio_Dev">Portfólio Dev</a>
 - 🗂️ [06-Projeto-Formulario_de_Matricula](06-Projeto-Formulario_de_Matricula)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula/index.html">Formulário de Matrícula</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula">Formulário de Matrícula</a>
 - 🗂️ [07-Desafio-Formulario_de_Convite](07-Desafio-Formulario_de_Convite)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/07-Desafio-Formulario_de_Convite/index.html">Formulário de Convite</a> <br>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/07-Desafio-Formulario_de_Convite">Formulário de Convite</a>
 - 🗂️ [08-Projeto-LP_de_Aplicativo](08-Projeto-LP_de_Aplicativo)
-  - 🪄 <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/08-Projeto-LP_de_Aplicativo">Landing Page de Aplicativo (Zigen - Karaokê)</a>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/08-Projeto-LP_de_Aplicativo">Landing Page de Aplicativo (Zigen - Karaokê)</a>
 
 # 📝 Sobre a formação
 A formação da Rocketseat é um programa abrangente projetado para profissionais que buscam aprofundar suas habilidades em desenvolvimento web moderno, arquitetura de sistemas e construção de produtos. Com foco em **aprendizagem prática**, o programa prepara os alunos para resolver desafios do mundo real integrando tecnologia, liderança e estratégia de negócios.
@@ -57,8 +57,4 @@ Sinta-se à vontade para me seguir no GitHub e entrar em contato comigo no Linke
 🛠 `Frontend` Developer. <br>
 📍 Brasília - Brasil
 
-<a href="https://www.linkedin.com/in/thalesamaral" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:thaleslima225@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="teste_user_thales#1234" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/thalesamaral" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;<br clear="left"/>
-
-
-
-
+<a href="https://www.linkedin.com/in/thales-amaral-lima"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:thaleslima225@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="Thales Amaral#0416" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/thalesamaral"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;<br clear="left"/>
