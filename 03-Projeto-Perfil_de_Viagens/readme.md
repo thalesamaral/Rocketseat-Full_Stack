@@ -2,7 +2,7 @@
 
 - Este projeto faz parte do [Formação Full Stack](../) na [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma galeria de fotos de viagens, mostrando os fundamentos do desenvolvimento web e CSS Flexbox.
 
-![Prévia de uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram](assets/readme/perfil_de_viagens-preview.jpeg)
+![Prévia de uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram](assets/readme/Preview-Perfil_de_Viagens.jpeg)
 
 ## ✨ Recursos
 

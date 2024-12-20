@@ -1,8 +1,10 @@
-# Página de Receita
+# LP_de_Aplicativo
 
 - Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma receita, mostrando os fundamentos do desenvolvimento web.
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Pagina_de_Receita.jpeg)
+![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-LP_de_Aplicativo.jpeg)
+![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile.jpeg)
+![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile02.jpeg)
 
 ## ✨ Recursos
 

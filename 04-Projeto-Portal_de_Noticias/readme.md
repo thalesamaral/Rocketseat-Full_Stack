@@ -1,8 +1,8 @@
-# Página de Receita
+# Portal_de_Noticias
 
 - Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma receita, mostrando os fundamentos do desenvolvimento web.
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Pagina_de_Receita.jpeg)
+![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Portal_de_Noticias.jpeg)
 
 ## ✨ Recursos
 
