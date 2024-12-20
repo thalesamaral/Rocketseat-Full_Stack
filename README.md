@@ -10,10 +10,10 @@ Este repositório evoluirá conforme eu progredir na formação. Cada projeto te
 - 🗂️ [01-Projeto-Pagina_de_Receita](01-Projeto-Pagina_de_Receita/readme.md)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita">Página de Receita</a>
 
-- 🗂️ [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico)
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico">Local Turístico</a>
+- 🗂️ [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico/index.html)
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html">Local Turístico</a>
 - 🗂️ [03-Projeto-Perfil_de_Viagens](03-Projeto-Perfil_de_Viagens/)
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens">Perfil de Viagens</a>
+  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/">Perfil de Viagens</a>
 - 🗂️ [04-Projeto-Portal_de_Noticias](04-Projeto-Portal_de_Noticias)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias">Portal de Notícias</a>
 - 🗂️ [05-Desafio-Portfolio_Dev](05-Desafio-Portfolio_Dev)
