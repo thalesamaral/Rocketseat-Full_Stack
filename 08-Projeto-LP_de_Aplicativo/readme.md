@@ -21,10 +21,13 @@
 - [Figma](https://www.figma.com/community/file/1360315130061454535).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
-## Preview 👀
+## 👀 Preview
 
+### Desktop
 ![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-LP_de_Aplicativo.jpeg)
 <!-- ![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile.jpeg) -->
+
+### Mobile
 ![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile02.jpeg)
 
 # 👨‍💻 Autor

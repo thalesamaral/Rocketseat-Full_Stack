@@ -21,7 +21,7 @@
 - [Figma](https://www.figma.com/community/file/1360315130061454535).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
-## Preview 👀
+## 👀 Preview
 
 ![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Formulario_de_Convite.jpeg)
 

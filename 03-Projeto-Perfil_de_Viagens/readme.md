@@ -21,7 +21,7 @@
 - [Figma](https://www.figma.com/community/file/1360315496868719817).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
-## Preview 👀
+## 👀 Preview
 
 ![Prévia de uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram](assets/readme/Preview-Perfil_de_Viagens.jpeg)
 
