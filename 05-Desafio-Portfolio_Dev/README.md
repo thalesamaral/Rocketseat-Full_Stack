@@ -2,8 +2,6 @@
 
 - Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma receita, mostrando os fundamentos do desenvolvimento web.
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Portfolio_Dev.jpeg)
-
 ## ✨ Recursos
 
 - Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
@@ -22,6 +20,10 @@
 
 - [Figma](https://www.figma.com/community/file/1360315130061454535).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
+
+## Preview 👀
+
+![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Portfolio_Dev.jpeg)
 
 # 👨‍💻 Autor
 

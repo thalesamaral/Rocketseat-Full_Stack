@@ -1,12 +1,21 @@
 # Local Turístico
 
-- Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web simples que exibe uma receita, mostrando os fundamentos do desenvolvimento web.
+### Desafio prático
+- Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Local_Turistico.jpeg)
+- Este desafio faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/). É uma página web com informações sobre um determinado local turístico.
 
-## ✨ Recursos
+## ✨ Recursos:
 
-- Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
+- Fundamentos do desenvolvimento web.
+- Estrutura HTML;
+- Fontes;
+- Imagens;
+- Alterações das cores dos textos;
+- Estilizações com CSS;
+- Espaçamentos;
+- Listas desordenadas;
+- Alterações dos pesos dos textos;
 
 ## 💻 Tecnologias Utilizadas
 
@@ -22,6 +31,10 @@
 
 - [Figma](https://www.figma.com/community/file/1360315130061454535).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
+
+## Preview 👀
+
+![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Local_Turistico.jpeg)
 
 # 👨‍💻 Autor
 
