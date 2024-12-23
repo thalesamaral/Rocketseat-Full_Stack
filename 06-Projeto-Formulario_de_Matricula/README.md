@@ -1,7 +1,6 @@
-# Formulario_de_Matricula
+# Formulário de Matrícula
 
-Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/).
-- É uma página web simples que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
+Formulário desktop para uma escola de educação infantil. 
 
 ## ✨ Recursos
 
@@ -19,12 +18,12 @@ Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://w
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315130061454535).
+- [Figma](https://www.figma.com/community/file/1365016793556649696).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
 
 # 👨‍💻 Autor
 

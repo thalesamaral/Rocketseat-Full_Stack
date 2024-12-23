@@ -1,11 +1,19 @@
-# Portfolio_Dev
+# Portfolio Dev
 
-Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/).
-- É uma página web simples que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
+Site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
+
+### Desafio prático
+
+- Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
 ## ✨ Recursos
 
-- Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
+- Criação de layouts com CSS.
+- Posicionamento de elementos.
+- Variáveis CSS.
+- CSS Flexbox.
+- CSS Grid.
+- pseudo-class e pseudo-elements.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -19,12 +27,12 @@ Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://w
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315130061454535).
+- [Figma](https://www.figma.com/community/file/1387080701963671866).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Portfolio_Dev.jpeg)
+![Prévia do Site de portfólio para desenvolvedores](assets/readme/Preview-Portfolio_Dev.jpeg)
 
 # 👨‍💻 Autor
 

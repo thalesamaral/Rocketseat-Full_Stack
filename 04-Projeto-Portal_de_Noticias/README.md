@@ -1,7 +1,6 @@
-# Portal_de_Noticias
+# Portal de Notícias
 
-Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/).
-- É uma página web simples que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
+Homepage em desktop de um portal de notícias sobre tecnologia.
 
 ## ✨ Recursos
 
@@ -19,12 +18,12 @@ Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://w
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315130061454535).
+- [Figma](https://www.figma.com/community/file/1362166020452569562).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Portal_de_Noticias.jpeg)
+![Prévia da Homepage de um portal de notícias sobre tecnologia](assets/readme/Preview-Portal_de_Noticias.jpeg)
 
 # 👨‍💻 Autor
 

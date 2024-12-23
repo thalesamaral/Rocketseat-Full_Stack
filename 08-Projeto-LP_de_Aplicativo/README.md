@@ -1,7 +1,6 @@
-# LP_de_Aplicativo
+# Landing Page de Aplicativo (Zigen)
 
-Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/).
-- É uma página web simples que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
+Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen. Aplicativo fictício.
 
 ## ✨ Recursos
 
@@ -19,17 +18,17 @@ Este projeto faz parte da [Formação Full Stack](../) da [Rocketseat](https://w
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315130061454535).
+- [Figma](https://www.figma.com/community/file/1371886246180677672).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
 ### Desktop
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-LP_de_Aplicativo.jpeg)
+![Prévia da Landing Page de marketing do aplicativo](assets/readme/Preview-LP_de_Aplicativo.jpeg)
 <!-- ![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile.jpeg) -->
 
 ### Mobile
-![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile02.jpeg)
+![Prévia da Landing Page de marketing do aplicativo. MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile02.jpeg)
 
 # 👨‍💻 Autor
 

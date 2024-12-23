@@ -1,23 +1,22 @@
 # Local Turístico
 
-Este desafio faz parte da [Formação Full Stack](../) da [Rocketseat](https://www.rocketseat.com.br/).
-- É uma página web com informações sobre um determinado local turístico.
+Página web desktop com informações sobre um local turístico.
 
 ### Desafio prático
-- Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
+- Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
 ## ✨ Recursos:
 
 - Fundamentos do desenvolvimento web.
-- Estrutura HTML;
-- Fontes;
-- Imagens;
-- Alterações das cores dos textos;
-- Estilizações com CSS;
-- Espaçamentos;
-- Listas desordenadas;
-- Alterações dos pesos dos textos;
+- Estrutura HTML.
+- Fontes.
+- Imagens.
+- Alterações das cores dos textos.
+- Estilizações com CSS.
+- Espaçamentos.
+- Listas desordenadas.
+- Alterações dos pesos dos textos.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -31,12 +30,12 @@ Este desafio faz parte da [Formação Full Stack](../) da [Rocketseat](https://w
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315130061454535).
+- [Figma](https://www.figma.com/community/file/1384542229391733447).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia da página de receita de um cupcake de café com chantilly](assets/readme/Preview-Local_Turistico.jpeg)
+![Prévia da Página com informações sobre um local turístico](assets/readme/Preview-Local_Turistico.jpeg)
 
 # 👨‍💻 Autor
 
