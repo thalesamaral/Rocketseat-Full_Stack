@@ -5,6 +5,14 @@ Página web desktop que exibe uma receita de um cupcake de café com chantilly c
 ## ✨ Recursos
 
 - Fundamentos do desenvolvimento web.
+- CSS Selectors
+- CSS Combinators
+- CSS Specificity
+- CSS Lists
+- CSS Backgrounds
+- Pasta assets
+- style.css
+- Imagens
 
 ## 💻 Tecnologias Utilizadas
 

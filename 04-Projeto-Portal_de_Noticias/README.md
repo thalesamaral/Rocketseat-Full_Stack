@@ -4,7 +4,13 @@ Homepage em desktop de um portal de notícias sobre tecnologia.
 
 ## ✨ Recursos
 
-- Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
+- CSS Website Layout
+- CSS Position
+- CSS Grid
+    - grid-template-areas
+- figure; figcaption
+- utility.css
+- Nesting CSS
 
 ## 💻 Tecnologias Utilizadas
 

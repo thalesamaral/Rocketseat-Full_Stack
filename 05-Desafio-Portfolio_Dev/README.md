@@ -8,12 +8,12 @@ Site desktop de portfólio para desenvolvedores, com links para projetos e conta
 
 ## ✨ Recursos
 
-- Criação de layouts com CSS.
-- Posicionamento de elementos.
-- Variáveis CSS.
-- CSS Flexbox.
-- CSS Grid.
-- pseudo-class e pseudo-elements.
+- CSS Flexbox
+- CSS Grid
+- CSS pseudo-classes; pseudo-elements
+- Layouts complexos com CSS
+- Posicionamento de elementos
+- Variáveis organizadas
 
 ## 💻 Tecnologias Utilizadas
 

@@ -2,9 +2,12 @@
 
 Formulário desktop para uma escola de educação infantil. 
 
-## ✨ Recursos
+## ✨ Recursos aprendidos
 
-- Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
+- HTML Forms
+    - Fields: fieldset, input, button, select
+- Input file: Conseito de droparea
+- svg diretamente no HTML
 
 ## 💻 Tecnologias Utilizadas
 

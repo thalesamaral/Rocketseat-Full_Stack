@@ -4,8 +4,14 @@ Página web desktop que exibe uma galeria de fotos de viagens em uma mídia soci
 
 ## ✨ Recursos
 
-- Fundamentos do desenvolvimento web.
-- CSS Flexbox.
+- Fundamentos do desenvolvimento web
+- CSS Flexbox
+- CSS Links
+- CSS Navigation Bar
+- CSS Pseudo-classes and Pseudo-elements
+- Pasta styles: global.css; index.css; @import
+- Emojis
+- Fontes do google
 
 ## 💻 Tecnologias usadas
 
