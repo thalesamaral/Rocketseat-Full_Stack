@@ -7,12 +7,12 @@ Bem-vindo ao meu repositório que documenta minha jornada **Full Stack** na [Roc
 Este repositório evoluirá conforme eu progredir na formação. Cada projeto terá sua própria pasta com um arquivo `README.md` contendo detalhes sobre o projeto, como as tecnologias usadas, como executar o projeto, recursos e design. Alguns projetos estarão em outro repositório, e os vincularei aqui:
 
 ### **🗂️ Pastas 🖥️ Implementações**
-- 🗂️ [01-Projeto-Pagina_de_Receita](01-Projeto-Pagina_de_Receita)
+- 🗂️ [01-Projeto-Pagina_de_Receita](01-Projeto-Pagina_de_Receita/)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita">Página de Receita</a>
 
-- 🗂️ [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico)
+- 🗂️ [02-Desafio-Local_Turistico](02-Desafio-Local_Turistico/README.md)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html">Local Turístico</a>
-- 🗂️ [03-Projeto-Perfil_de_Viagens](03-Projeto-Perfil_de_Viagens)
+- 🗂️ [03-Projeto-Perfil_de_Viagens](03-Projeto-Perfil_de_Viagens/index.html)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/">Perfil de Viagens</a>
 - 🗂️ [04-Projeto-Portal_de_Noticias](04-Projeto-Portal_de_Noticias)
   - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias">Portal de Notícias</a>
