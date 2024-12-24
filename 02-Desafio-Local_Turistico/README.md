@@ -6,18 +6,20 @@ Página web desktop com informações sobre um local turístico.
 
 - Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
-## ✨ Recursos aprendidos:
+## ✨ Recursos aprendidos
 
-- Fundamentos do desenvolvimento web
+Fundamentos do desenvolvimento web
 - CSS Lists
 - CSS Variables
-- Estrutura HTML
 - Fontes
-- Classes
 - Imagens
-- Ccores e pesos dos textos
+    - object-fit: cover
+
+Conceito
+- Estrutura HTML
+- Classe e ID
+- Cores e pesos dos textos
 - Espaçamentos
-- object-fit: cover
 - class="divider"
 
 ## 💻 Tecnologias Utilizadas

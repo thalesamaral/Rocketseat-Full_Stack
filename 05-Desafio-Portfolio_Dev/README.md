@@ -8,9 +8,12 @@ Site desktop de portfólio para desenvolvedores, com links para projetos e conta
 
 ## ✨ Recursos
 
-- CSS Flexbox
+Fundamento
 - CSS Grid
-- CSS pseudo-classes; pseudo-elements
+- CSS Flexbox
+- CSS pseudo-classes, pseudo-elements
+
+Conceito
 - Layouts complexos com CSS
 - Posicionamento de elementos
 - Variáveis organizadas

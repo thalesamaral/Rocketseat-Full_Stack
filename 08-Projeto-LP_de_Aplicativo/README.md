@@ -4,7 +4,19 @@ Landing Page de marketing completa e responsiva de um aplicativo de Karaokê cha
 
 ## ✨ Recursos
 
-- Exibe uma página de receita de um cupcake de café com chantilly com os ingredientes e instruções.
+Fundamento e Responsividade
+- Responsive Web Design & Media Queries
+- Display: position, flex, grid
+- CSS Units: rem
+- CSS Functions
+- Criação de Tag
+
+Conceito
+- Modo de desenvolvimento: Mobile first
+- class="desktop-only"
+- scroll-behavior: smooth;
+- ul[role="list"]
+- aria-label
 
 ## 💻 Tecnologias Utilizadas
 

@@ -4,13 +4,18 @@ Homepage em desktop de um portal de notícias sobre tecnologia.
 
 ## ✨ Recursos
 
-- CSS Website Layout
+CSS Website Layout
+- Display Property
 - CSS Position
 - CSS Grid
     - grid-template-areas
-- figure; figcaption
+- CSS Flex
+
+Conceito
+- figure & figcaption
 - utility.css
 - Nesting CSS
+- Função: linear-gradient
 
 ## 💻 Tecnologias Utilizadas
 

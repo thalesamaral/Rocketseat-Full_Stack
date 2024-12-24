@@ -8,12 +8,19 @@ Site desktop de convite para evento com formulário para geração do convite pe
 
 ## ✨ Recursos
 
+Fundamento
 - HTML Forms
-- Input de texto
-- Estilização de inputs com CSS
-- Input de data
-- Radio
-- Estilização de formulários com CSS
+- Display: position, flex, grid
+- CSS Units: rem
+- CSS Functions
+- Estilização de -webkit
+
+Conceito
+- Página com dois tipos de overflow: hidden & scroll(auto)
+- Layout complexo
+- Estilização mais complexas de inputs e formulário
+- Maior organização de variáveis
+- Input Toggle
 
 ## 💻 Tecnologias Utilizadas
 

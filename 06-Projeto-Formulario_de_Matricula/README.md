@@ -4,10 +4,21 @@ Formulário desktop para uma escola de educação infantil.
 
 ## ✨ Recursos aprendidos
 
+Fundamento
 - HTML Forms
-    - Fields: fieldset, input, button, select
-- Input file: Conseito de droparea
+- Fields: fieldset, input, select, button
+- Input: text, textarea, data, number, checkbox, radio, file
+- Display: position, flex, grid
+- CSS Units: rem
+- CSS Functions
+- Estilização de -webkit
+
+Conceito
+- Input file: droparea
+- Página com dois tipos de overflow: hidden & scroll(auto)
 - svg diretamente no HTML
+- all: unset;
+- Centralizar (top: 50%; transform: translateY(-50%);)
 
 ## 💻 Tecnologias Utilizadas
 
