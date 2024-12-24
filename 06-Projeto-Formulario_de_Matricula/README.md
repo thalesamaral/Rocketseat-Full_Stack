@@ -2,7 +2,7 @@
 
 Formulário desktop para uma escola de educação infantil. 
 
-## ✨ Recursos aprendidos
+## ✨ Recursos Aprendidos
 
 Fundamento
 - HTML Forms

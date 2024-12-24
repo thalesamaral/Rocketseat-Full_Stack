@@ -2,7 +2,7 @@
 
 Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen. Aplicativo fictício.
 
-## ✨ Recursos
+## ✨ Recursos Aprendidos
 
 Fundamento e Responsividade
 - Responsive Web Design & Media Queries

@@ -2,9 +2,10 @@
 
 Homepage em desktop de um portal de notícias sobre tecnologia.
 
-## ✨ Recursos
+## ✨ Recursos aprendidos
 
-CSS Website Layout
+Fundamento
+- CSS Website Layout
 - Display Property
 - CSS Position
 - CSS Grid

@@ -2,7 +2,7 @@
 
 Página web desktop que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
 
-## ✨ Recursos aprendidos
+## ✨ Recursos Aprendidos
 
 Fundamentos do desenvolvimento web
 - CSS Selectors

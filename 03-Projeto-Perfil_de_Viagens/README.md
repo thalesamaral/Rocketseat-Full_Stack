@@ -2,18 +2,18 @@
 
 Página web desktop que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.
 
-## ✨ Recursos aprendidos
+## ✨ Recursos Aprendidos
 
 Fundamento
 - CSS Flexbox
 - CSS Links
 - CSS Navigation Bar
 - CSS pseudo-classes, pseudo-elements
+- Fontes do google
 
 Conceito
 - Pasta styles: global.css, index.css, @import Rule
 - Emojis
-- Fontes do google
 - Imagem circular
 - Imagem em SVG
 

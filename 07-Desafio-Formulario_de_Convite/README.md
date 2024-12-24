@@ -6,7 +6,7 @@ Site desktop de convite para evento com formulário para geração do convite pe
 
 - Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
-## ✨ Recursos
+## ✨ Recursos Aprendidos
 
 Fundamento
 - HTML Forms
