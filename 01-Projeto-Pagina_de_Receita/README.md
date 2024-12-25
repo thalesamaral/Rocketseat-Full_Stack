@@ -1,24 +1,21 @@
-# Formulário de Matrícula
+# Página de Receita
 
-Formulário desktop para uma escola de educação infantil. 
+Página web desktop que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
 
 ## ✨ Recursos Aprendidos
 
-Fundamento
-- HTML Forms
-- Fields: fieldset, input, select, button
-- Input: text, textarea, data, number, checkbox, radio, file
-- Display: position, flex, grid
-- CSS Units: rem
-- CSS Functions
-- Estilização de -webkit
+Fundamentos do desenvolvimento web
+- CSS Selectors
+- CSS Combinators
+- CSS Specificity
+- CSS Lists
+- CSS Backgrounds
 
 Conceito
-- Input file: droparea
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- svg diretamente no HTML
-- all: unset;
-- Centralizar (top: 50%; transform: translateY(-50%);)
+- Imagens
+- Espaçamentos
+- Pasta assets
+- style.css
 
 ## 💻 Tecnologias Utilizadas
 
@@ -32,12 +29,12 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1365016793556649696).
+- [Figma](https://www.figma.com/community/file/1360315130061454535).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+![Prévia da Página de receita de um cupcake de café com chantilly](assets/readme/Preview-Pagina_de_Receita.jpeg)
 
 # 👨‍💻 Autor
 

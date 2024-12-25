@@ -1,24 +1,22 @@
-# Formulário de Matrícula
+# Portal de Notícias
 
-Formulário desktop para uma escola de educação infantil. 
+Homepage em desktop de um portal de notícias sobre tecnologia.
 
-## ✨ Recursos Aprendidos
+## ✨ Recursos aprendidos
 
 Fundamento
-- HTML Forms
-- Fields: fieldset, input, select, button
-- Input: text, textarea, data, number, checkbox, radio, file
-- Display: position, flex, grid
-- CSS Units: rem
-- CSS Functions
-- Estilização de -webkit
+- CSS Website Layout
+- Display Property
+- CSS Position
+- CSS Grid
+    - grid-template-areas
+- CSS Flex
 
 Conceito
-- Input file: droparea
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- svg diretamente no HTML
-- all: unset;
-- Centralizar (top: 50%; transform: translateY(-50%);)
+- figure & figcaption
+- utility.css
+- Nesting CSS
+- Função: linear-gradient
 
 ## 💻 Tecnologias Utilizadas
 
@@ -32,12 +30,12 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1365016793556649696).
+- [Figma](https://www.figma.com/community/file/1362166020452569562).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+![Prévia da Homepage de um portal de notícias sobre tecnologia](assets/readme/Preview-Portal_de_Noticias.jpeg)
 
 # 👨‍💻 Autor
 

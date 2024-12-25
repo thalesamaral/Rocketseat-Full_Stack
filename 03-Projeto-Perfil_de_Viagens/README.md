@@ -1,43 +1,40 @@
-# Formulário de Matrícula
+# Perfil de Viagens (Travelgram)
 
-Formulário desktop para uma escola de educação infantil. 
+Página web desktop que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.
 
 ## ✨ Recursos Aprendidos
 
 Fundamento
-- HTML Forms
-- Fields: fieldset, input, select, button
-- Input: text, textarea, data, number, checkbox, radio, file
-- Display: position, flex, grid
-- CSS Units: rem
-- CSS Functions
-- Estilização de -webkit
+- CSS Flexbox
+- CSS Links
+- CSS Navigation Bar
+- CSS pseudo-classes, pseudo-elements
+- Fontes do google
 
 Conceito
-- Input file: droparea
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- svg diretamente no HTML
-- all: unset;
-- Centralizar (top: 50%; transform: translateY(-50%);)
+- Pasta styles: global.css, index.css, @import Rule
+- Emojis
+- Imagem circular
+- Imagem em SVG
 
-## 💻 Tecnologias Utilizadas
+## 💻 Tecnologias usadas
 
 - HTML
 - CSS
 
-## 📝 Como Executar o Projeto
+## 📝 Como executar o projeto
 
 1. Clone o repositório para sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador web.
+2. Abra o arquivo `index.html` em seu navegador da web.
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1365016793556649696).
+- [Figma](https://www.figma.com/community/file/1360315496868719817).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+![Prévia de Página com fotos de viagens em uma mídia social chamada Travelgram](assets/readme/Preview-Perfil_de_Viagens.jpeg)
 
 # 👨‍💻 Autor
 

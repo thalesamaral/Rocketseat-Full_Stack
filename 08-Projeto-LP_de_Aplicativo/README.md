@@ -1,24 +1,22 @@
-# Formulário de Matrícula
+# Landing Page de Aplicativo (Zigen)
 
-Formulário desktop para uma escola de educação infantil. 
+Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen. Aplicativo fictício.
 
 ## ✨ Recursos Aprendidos
 
-Fundamento
-- HTML Forms
-- Fields: fieldset, input, select, button
-- Input: text, textarea, data, number, checkbox, radio, file
+Fundamento e Responsividade
+- Responsive Web Design & Media Queries
 - Display: position, flex, grid
 - CSS Units: rem
 - CSS Functions
-- Estilização de -webkit
+- Criação de Tag
 
 Conceito
-- Input file: droparea
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- svg diretamente no HTML
-- all: unset;
-- Centralizar (top: 50%; transform: translateY(-50%);)
+- Modo de desenvolvimento: Mobile first
+- class="desktop-only"
+- scroll-behavior: smooth;
+- ul[role="list"]
+- aria-label
 
 ## 💻 Tecnologias Utilizadas
 
@@ -32,12 +30,17 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1365016793556649696).
+- [Figma](https://www.figma.com/community/file/1371886246180677672).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+### Desktop
+![Prévia da Landing Page de marketing do aplicativo](assets/readme/Preview-LP_de_Aplicativo.jpeg)
+
+### Mobile
+![Prévia da Landing Page de marketing do aplicativo. MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile02.jpeg)
+<!-- ![Prévia da página de receita MOBILE](assets/readme/Preview-LP_de_Aplicativo-mobile.jpeg) -->
 
 # 👨‍💻 Autor
 
