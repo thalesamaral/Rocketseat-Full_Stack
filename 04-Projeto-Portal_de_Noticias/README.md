@@ -1,6 +1,9 @@
 # Portal de Notícias
 
-Homepage em desktop de um portal de notícias sobre tecnologia.
+**Homepage em desktop de um portal de notícias sobre tecnologia.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias.
 
 ## ✨ Recursos aprendidos
 
@@ -14,9 +17,9 @@ Fundamento
 
 Conceito
 - figure & figcaption
-- utility.css
+- `utility.css`
 - Nesting CSS
-- Função: linear-gradient
+- Função: `linear-gradient()`
 
 ## 💻 Tecnologias Utilizadas
 

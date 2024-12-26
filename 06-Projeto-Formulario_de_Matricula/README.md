@@ -1,6 +1,9 @@
 # Formulário de Matrícula
 
-Formulário desktop para uma escola de educação infantil. 
+**Formulário desktop para uma escola de educação infantil.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula.
 
 ## ✨ Recursos Aprendidos
 
@@ -17,8 +20,8 @@ Conceito
 - Input file: droparea
 - Página com dois tipos de overflow: hidden & scroll(auto)
 - svg diretamente no HTML
-- all: unset;
-- Centralizar (top: 50%; transform: translateY(-50%);)
+- `all: unset;`
+- Centralizar `top: 50%; transform: translateY(-50%);`
 
 ## 💻 Tecnologias Utilizadas
 

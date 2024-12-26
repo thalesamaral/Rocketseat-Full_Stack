@@ -1,10 +1,13 @@
 # Local Turístico
 
-Página web desktop com informações sobre um local turístico.
+**Página web desktop com informações sobre um local turístico.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico.
 
 ### Desafio prático
 
-- Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
+> Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
 
 ## ✨ Recursos Aprendidos
 
@@ -13,14 +16,14 @@ Fundamentos do desenvolvimento web
 - CSS Variables
 - Fontes
 - Imagens
-    - object-fit: cover
+    - `object-fit: cover`
 
 Conceito
 - Estrutura HTML
 - Classe e ID
 - Cores e pesos dos textos
 - Espaçamentos
-- class="divider"
+- `class="divider";`
 
 ## 💻 Tecnologias Utilizadas
 
