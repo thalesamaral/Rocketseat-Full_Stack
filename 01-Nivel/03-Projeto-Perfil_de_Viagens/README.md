@@ -1,6 +1,9 @@
 # Perfil de Viagens (Travelgram)
 
-Página web desktop que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.
+**Página web desktop que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens.
 
 ## ✨ Recursos Aprendidos
 

@@ -1,6 +1,9 @@
 # Landing Page de Aplicativo (Zigen)
 
-Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen. Aplicativo fictício.
+**Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen. Aplicativo fictício.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/08-Projeto-LP_de_Aplicativo.
 
 ## ✨ Recursos Aprendidos
 
@@ -13,10 +16,10 @@ Fundamento e Responsividade
 
 Conceito
 - Modo de desenvolvimento: Mobile first
-- class="desktop-only"
-- scroll-behavior: smooth;
-- ul[role="list"]
-- aria-label
+- `class="desktop-only";`
+- `scroll-behavior: smooth;`
+- `ul[role="list"]`
+- `aria-label`
 
 ## 💻 Tecnologias Utilizadas
 
