@@ -1,6 +1,9 @@
 # Página de Receita
 
-Página web desktop que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.
+**Página web desktop que exibe uma receita de um cupcake de café com chantilly com os ingredientes e instruções.**
+
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita.
 
 ## ✨ Recursos Aprendidos
 
@@ -15,7 +18,7 @@ Conceito
 - Imagens
 - Espaçamentos
 - Pasta assets
-- style.css
+- `style.css`
 
 ## 💻 Tecnologias Utilizadas
 
