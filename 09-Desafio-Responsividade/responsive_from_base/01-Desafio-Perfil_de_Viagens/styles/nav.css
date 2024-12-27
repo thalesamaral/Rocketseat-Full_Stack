@@ -1,20 +1,20 @@
 nav	{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-between; */
     line-height: 0;
-    padding-block: 20px;
+    /* padding-block: 20px; */
 }
 
-nav a, nav ul {
+nav a {
     display: flex;
     align-items: center;
 }
 
-nav ul {
+/* nav ul {
     gap: 24px;
     padding-block: 8px;
-}
+} */
 
 nav ul li:last-child img {
     width: 40px;
