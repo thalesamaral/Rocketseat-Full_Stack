@@ -1,14 +1,14 @@
-header {
+/* header {
     padding-block: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 #profile {
-    display: flex;
+    /* display: flex;
     gap: 32px;
-    align-items: center;
+    align-items: center; */
     font: var(--text-sm);
 }
 
@@ -30,9 +30,9 @@ header {
 }
 
 #info ul {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 16px; */
     width: 280px;
 }
 
