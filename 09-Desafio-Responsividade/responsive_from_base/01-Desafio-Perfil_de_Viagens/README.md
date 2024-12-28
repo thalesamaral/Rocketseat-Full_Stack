@@ -1,24 +1,23 @@
 # Perfil de Viagens (Travelgram)
 
-**Página web desktop que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.**
+**Página web responsiva que exibe uma galeria de fotos de viagens em uma mídia social fictícia chamada Travelgram.**
 
 - Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens.
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens.
 
-## ✨ Recursos Aprendidos
+## ✨ Recursos Aprendidos e em Destaque
 
 Fundamento
-- CSS Flexbox
-- CSS Links
-- CSS Navigation Bar
-- CSS pseudo-classes, pseudo-elements
-- Fontes do google
+- Responsive Web Design & Media Queries
+- Display: flex
+- CSS Units: rem
+- CSS Functions
 
 Conceito
-- Pasta styles: global.css, index.css, @import Rule
-- Emojis
-- Imagem circular
-- Imagem em SVG
+- Criação da utility.css: Para melhor agrupamento dos estilos
+- Modo de desenvolvimento: Mobile first
+- `class="desktop-only";`
+- `ul[role="list"]`
 
 ## 💻 Tecnologias usadas
 
@@ -32,7 +31,7 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1360315496868719817).
+- [Figma](https://www.figma.com/community/file/1392188119249243534).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
