@@ -1,12 +1,16 @@
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding-block: 24px;
-    gap: 24px;
+main img {
+    width: 20.5rem;
+    height: 20.5rem;
+    object-fit: cover;
 }
 
-main img {
-    width: 286px;
-    height: 286px;
-    object-fit: cover;
+@media (width >= 80rem) {
+    main.gap-16 {
+        gap: 1.5rem;
+    }
+
+    main img {
+        width: 17.875rem;
+        height: 17.875rem;
+    }
 }

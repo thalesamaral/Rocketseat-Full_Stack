@@ -14,9 +14,29 @@
     --text-color-secondary: #6C6C6C;
 
     --font-family: "Poppins", sans-serif;
-    --text-lg: bold 32px/125% var(--font-family);
-    --text-md: 14px/170% var(--font-family);
-    --text-sm: 12px/170% var(--font-family);
+    --text-xl: bold 2rem/125% var(--font-family);
+    --text-lg: bold 1.5rem/125% var(--font-family);
+    --text-nav: 1rem/0 var(--font-family);
+    --text-md: .875rem/150% var(--font-family);
+    --text-sm: .75rem/150% var(--font-family);
+
+    /* padding */
+    --p-header: 2rem;
+
+    --px-lg: 1rem;
+    
+    --py-md: 1rem;
+    --py-lg: 1rem;
+    --py-nav-ul: .5rem;
+}
+
+@media (width >= 80rem) {
+    :root {
+        --px-lg: 2rem;
+
+        --py-md: 1.25rem;
+        --py-lg: 1.5rem;
+    }
 }
 
 body {
@@ -35,16 +55,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.container {
-    padding-inline: 32px;
-    margin-inline: auto;
-    max-width: 1280px;
-}
-
-.bg-surface-color {
-    background-color: var(--surface-color);
-}
-
-li {
+ul[role="list"] {
     list-style: none;
 }

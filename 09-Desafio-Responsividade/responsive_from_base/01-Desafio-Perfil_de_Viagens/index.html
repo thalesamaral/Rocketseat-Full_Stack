@@ -13,19 +13,19 @@
 
 <body>
     <div class="bg-surface-color">
-        <nav class="container">
+        <nav class="container flex items-center py-md justify-between">
             <a href="#" id="logo">
                 <img src="assets/Logo.svg" alt="img-logo">
             </a>
             
-            <ul id="primary-menu">
+            <ul role="list" id="primary-menu" class="flex items-center gap-16 py-nav-ul text-nav">
                 <li>
                     <a href="#">
                         <img src="assets/icons/MagnifyingGlass.svg" alt="img-lupa">
                     </a>
                 </li>
-                <li><a href="#">Explorer</a></li>
-                <li><a href="#">Minhas Viagens</a></li>
+                <li class="desktop-only"><a href="#">Explorer</a></li>
+                <li class="desktop-only"><a href="#">Minhas Viagens</a></li>
                 <li>
                     <a href="#">
                         <img src="assets/Profile_pic.png" alt="img-profile">
@@ -34,12 +34,12 @@
             </ul>
         </nav>
 
-        <header class="container">
-            <div id="profile">
+        <header class="container flex p-header gap-32 direction">
+            <div id="profile" class="flex gap-16 direction">
                 <img src="assets/Profile_pic.png" alt="img-profile">
                 
-                <div id="profile-info">
-                    <h1>Nome Pessoa</h1>
+                <div id="profile-info" class="flex col gap-8">
+                    <h1 class="text-h1">Nome Pessoa</h1>
                     <p>Amante de viagens, cultura e gastronomia. 🌍✈️<br>
                         Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
                     </p>
@@ -47,7 +47,7 @@
             </div>
 
             <div id="info">
-                <ul>
+                <ul role="list" class="flex gap-16 col">
                     <li>
                         <img src="assets/icons/MapPin.svg" alt="ico-map">
                         <span>São Paulo, Brasil</span>
@@ -66,7 +66,7 @@
         </header>
     </div>
 
-    <main class="container">
+    <main class="container flex wrap py-lg gap-16">
         <img src="assets/images/Image 01.png" alt="img">
         <img src="assets/images/Image 02.png" alt="img">
         <img src="assets/images/Image 03.png" alt="img">
@@ -81,18 +81,20 @@
         <img src="assets/images/Image 12.png" alt="img">
     </main>
 
-    <footer class="container">
+    <footer class="container flex items-center py-lg gap-16 direction">
         <span>
             Travelgram &copy; 2024
         </span>
 
-        <span>
-            Termos de uso
-        </span>
-
-        <span>
-            Política de privacidade
-        </span>
+        <div class="links flex gap-16">
+            <span>
+                Termos de uso
+            </span>
+    
+            <span>
+                Política de privacidade
+            </span>
+        </div>
     </footer>
 </body>
 </html>
