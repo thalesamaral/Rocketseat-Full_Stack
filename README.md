@@ -7,23 +7,35 @@ Bem-vindo ao meu repositório que documenta minha jornada **Full Stack** na [Roc
 Este repositório evoluirá conforme eu progredir na formação. Cada projeto terá sua própria pasta com um arquivo `README.md` contendo detalhes sobre o projeto, como as tecnologias usadas, como executar o projeto, recursos e design. Alguns projetos estarão em outro repositório, e os vincularei aqui:
 
 ### **🗂️ Pastas 🖥️ Implementações**
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Projeto-Pagina_de_Receita">01-Projeto-Pagina_de_Receita</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita">Página de Receita</a>
 
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Desafio-Local_Turistico">02-Desafio-Local_Turistico</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html">Local Turístico</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/03-Projeto-Perfil_de_Viagens">03-Projeto-Perfil_de_Viagens</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/">Perfil de Viagens</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/04-Projeto-Portal_de_Noticias">04-Projeto-Portal_de_Noticias</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias">Portal de Notícias</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/05-Desafio-Portfolio_Dev">05-Desafio-Portfolio_Dev</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/05-Desafio-Portfolio_Dev">Portfólio Dev</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/06-Projeto-Formulario_de_Matricula">06-Projeto-Formulario_de_Matricula</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula">Formulário de Matrícula</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/07-Desafio-Formulario_de_Convite">07-Desafio-Formulario_de_Convite</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/07-Desafio-Formulario_de_Convite">Formulário de Convite</a>
-- 🗂️ <a href="https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/08-Projeto-LP_de_Aplicativo">08-Projeto-LP_de_Aplicativo</a>
-  - 🖥️ <a href="https://thalesamaral.github.io/Rocketseat-Full_Stack/08-Projeto-LP_de_Aplicativo">Landing Page de Aplicativo (Zigen - Karaokê)</a>
+🗂️ [01-Projeto-Pagina_de_Receita](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Projeto-Pagina_de_Receita)  
+- 🖥️ [Implementação: Página de Receita](https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Projeto-Pagina_de_Receita)
+
+🗂️ [02-Desafio-Local_Turistico](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Desafio-Local_Turistico)  
+- 🖥️ [Implementação: Local Turístico](https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Desafio-Local_Turistico/index.html)
+
+🗂️ [03-Projeto-Perfil_de_Viagens](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/03-Projeto-Perfil_de_Viagens)  
+- 🖥️ [Implementação: Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/03-Projeto-Perfil_de_Viagens/)
+
+🗂️ [04-Projeto-Portal_de_Noticias](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/04-Projeto-Portal_de_Noticias)  
+- 🖥️ [Implementação: Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias)
+
+🗂️ [05-Desafio-Portfolio_Dev](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/05-Desafio-Portfolio_Dev)  
+- 🖥️ [Implementação: Portfólio Dev](https://thalesamaral.github.io/Rocketseat-Full_Stack/05-Desafio-Portfolio_Dev)
+
+🗂️ [06-Projeto-Formulario_de_Matricula](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/06-Projeto-Formulario_de_Matricula)  
+- 🖥️ [Implementação: Formulário de Matrícula](https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula)
+
+🗂️ [07-Desafio-Formulario_de_Convite](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/07-Desafio-Formulario_de_Convite)  
+- 🖥️ [Implementação: Formulário de Convite](https://thalesamaral.github.io/Rocketseat-Full_Stack/07-Desafio-Formulario_de_Convite)
+
+🗂️ [08-Projeto-LP_de_Aplicativo](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/08-Projeto-LP_de_Aplicativo)  
+- 🖥️ [Implementação: Landing Page de Aplicativo (Zigen - Karaokê)](https://thalesamaral.github.io/Rocketseat-Full_Stack/08-Projeto-LP_de_Aplicativo)
+
+🗂️ [09-Desafio-Responsividade](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade)
+- 🗂️ [responsive_from_base/01-Desafio-Perfil_de_Viagens](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens)
+
+  - 🖥️ [Implementação: Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens)
 
 # 📝 Sobre a formação
 A formação da Rocketseat é um programa abrangente projetado para profissionais que buscam aprofundar suas habilidades em desenvolvimento web moderno, arquitetura de sistemas e construção de produtos. Com foco em **aprendizagem prática**, o programa prepara os alunos para resolver desafios do mundo real integrando tecnologia, liderança e estratégia de negócios.
