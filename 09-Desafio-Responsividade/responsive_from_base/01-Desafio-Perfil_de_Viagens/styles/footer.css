@@ -1,5 +1,5 @@
-@media (width >= 80em) {
-    footer span:nth-child(1) {
+@media (width >= 80rem) {
+    footer span {
         margin-right: auto;
     }
 }
