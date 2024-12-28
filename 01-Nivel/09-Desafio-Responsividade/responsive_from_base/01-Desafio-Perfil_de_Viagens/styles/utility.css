@@ -1,21 +1,22 @@
 .container {
-    --max-width: 360px;
+    --max-width: 22.5rem;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
-
-    /* border: 1px solid red; */
 
     padding-inline: var(--px-lg);
 }
 
-/* .container {
-    padding-inline: 32px;
-    margin-inline: auto;
-    max-width: 1280px;
-} */
-
 .bg-surface-color {
     background-color: var(--surface-color);
+}
+
+.text-h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+.text-nav {
+    font: var(--text-nav);
 }
 
 .desktop-only {
@@ -68,10 +69,6 @@
 }
 
 /* padding-inline */
-.px-md {
-    padding-inline: var(--px-md);
-}
-
 .px-lg {
     padding-inline: var(--px-lg);
 }
@@ -89,7 +86,7 @@
     padding-block: var(--py-lg);
 }
 
-@media (width >= 80em) {
+@media (width >= 80rem) {
     .container {
         --max-width: 80rem;
     }
@@ -100,5 +97,9 @@
 
     .direction {
         flex-direction: row;
+    }
+
+    .text-h1 {
+        font: var(--text-xl);
     }
 }
