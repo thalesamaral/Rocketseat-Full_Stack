@@ -18,7 +18,7 @@
                 <img src="assets/Logo.svg" alt="img-logo">
             </a>
             
-            <ul id="primary-menu" class="flex items-center gap-24 py-nav-ul">
+            <ul id="primary-menu" class="flex items-center gap-16 py-nav-ul">
                 <li>
                     <a href="#">
                         <img src="assets/icons/MagnifyingGlass.svg" alt="img-lupa">
@@ -34,11 +34,11 @@
             </ul>
         </nav>
 
-        <header class="container flex items-center p-header justify-between">
-            <div id="profile" class="flex items-center gap-32">
+        <header class="container flex p-header gap-32 direction">
+            <div id="profile" class="flex gap-16 direction">
                 <img src="assets/Profile_pic.png" alt="img-profile">
                 
-                <div id="profile-info">
+                <div id="profile-info" class="flex col gap-8">
                     <h1>Nome Pessoa</h1>
                     <p>Amante de viagens, cultura e gastronomia. 🌍✈️<br>
                         Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
@@ -81,18 +81,20 @@
         <img src="assets/images/Image 12.png" alt="img">
     </main>
 
-    <footer class="container flex py-lg gap-24">
+    <footer class="container flex items-center py-lg gap-16 direction">
         <span>
             Travelgram &copy; 2024
         </span>
 
-        <span>
-            Termos de uso
-        </span>
-
-        <span>
-            Política de privacidade
-        </span>
+        <div class="links flex gap-16">
+            <span>
+                Termos de uso
+            </span>
+    
+            <span>
+                Política de privacidade
+            </span>
+        </div>
     </footer>
 </body>
 </html>

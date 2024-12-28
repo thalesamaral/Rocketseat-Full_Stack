@@ -3,7 +3,7 @@
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
 
-    border: solid red;
+    /* border: 1px solid red; */
 
     padding-inline: var(--px-lg);
 }
@@ -31,6 +31,10 @@
 }
 
 .col {
+    flex-direction: column;
+}
+
+.direction {
     flex-direction: column;
 }
 
@@ -92,5 +96,9 @@
 
     .desktop-only {
         display: initial;
+    }
+
+    .direction {
+        flex-direction: row;
     }
 }
