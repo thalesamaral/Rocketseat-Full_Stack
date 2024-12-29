@@ -1,12 +1,3 @@
-.container {
-    --max-width: 22.5rem;
-    width: min(var(--max-width), 100% - var(--px-principal) * 2);
-    margin-inline: auto;
-    padding-block: 2.5rem;
-
-    padding-inline: var(--px-principal);
-}
-
 .flex {
     display: flex;
 }
@@ -15,11 +6,11 @@
     flex-wrap: wrap;
 }
 
-.col {
+.flex-col {
     flex-direction: column;
 }
 
-.direction {
+.flex-direction {
     flex-direction: column;
 }
 
@@ -88,14 +79,17 @@
     padding: var(--p-noticia-02);
 }
 
+/* padding-top */
 .p-top-h {
     padding-top: var(--p-top-h);
 }
 
+/* padding-inline */
 .px-principal {
     padding-inline: var(--px-principal);
 }
 
+/* padding-block */
 .py-nav-01 {
     padding-block: var(--py-nav-01);
 }
@@ -106,6 +100,14 @@
 
 .py-conteudo {
     padding-block: var(--py-conteudo);
+}
+
+.container {
+    --max-width: 22.5rem;
+    width: min(var(--max-width), 100% - var(--px-principal) * 2);
+    margin-inline: auto;
+
+    padding-inline: var(--px-principal);
 }
 
 .desktop-only {

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 :root {
@@ -33,6 +34,25 @@
     --py-conteudo: 1rem;
 }
 
+body {
+    font: var(--text);
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+}
+
+main {
+    margin-block: 40px 0;
+    row-gap: 80px;
+    column-gap: 32px;
+
+    grid-template-columns: 2fr 1.1fr;
+
+    grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai aside";
+}
+
 @media (width >= 80rem) {
     :root {
         --p-noticia-01: 4.5rem repeat(3, 1.5rem);;
@@ -42,12 +62,10 @@
         --py-nav-01: 1.25rem;
         --py-conteudo: 2.5rem;
     }
-}
 
-body {
-    font: var(--text);
-    color: var(--text-color-primary);
-    background-color: var(--bg-color);
+    main {
+        margin-block: 40px;
+    }
 }
 
 a {
@@ -67,19 +85,6 @@ img {
     max-width: 100%;
 }
 
-main {
-    margin-block: 40px 80px;
-    row-gap: 80px;
-    column-gap: 32px;
-
-    grid-template-columns: 2fr 1.1fr;
-
-    grid-template-areas:
-    "featured featured"
-    "weekly weekly"
-    "ai aside";
-}
-
 .content-tag {
     display: inline-block;
     background-color: var(--brand-color-dark);
@@ -90,4 +95,8 @@ main {
     letter-spacing: 0.04em;
     color: var(--text-color-primary);
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+}
+
+ul[role="list"] {
+    list-style: none;
 }
