@@ -1,6 +1,6 @@
 section header {
     border-top: 1px solid var(--stroke-color);
-    padding-block: 12px 24px;
+    padding-block: .75rem 1.5rem;
     font: var(--text-span);
 
     a {
@@ -16,32 +16,6 @@ section header {
 
         &:hover span {
             background-image: url(../assets/icons/ArrowRight-hover.svg);
-        }
-    }
-}
-
-#weekly {
-    grid-area: weekly;
-    &>div {
-        grid-template-columns: repeat(4, 292px);
-    }
-    
-    img {
-        height: 160px;
-    }
-
-    figure {
-        position: relative;
-
-        .content-tag {
-            position: absolute;
-                top: 8px;
-                left: 8px;
-        }
-
-        p {
-            margin-top: 8px;
-            font-weight: 800;
         }
     }
 }
