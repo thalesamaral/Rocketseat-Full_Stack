@@ -33,6 +33,7 @@
     --py-conteudo: 1rem;
 
     --row-gap-conteudo: 2rem;
+    --gap-weakly: 2rem;
 }
 
 body {
@@ -57,6 +58,7 @@ main {
         --py-conteudo: 2.5rem;
 
         --row-gap-conteudo: 5rem;
+        --gap-weakly: 1rem;
     }
 
     main {

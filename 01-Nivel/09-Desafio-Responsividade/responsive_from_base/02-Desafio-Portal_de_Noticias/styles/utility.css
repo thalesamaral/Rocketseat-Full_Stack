@@ -66,6 +66,10 @@
 	gap: 2rem;
 }
 
+.gap-weakly {
+	gap: var(--gap-weakly);
+}
+
 .row-gap-conteudo {
 	row-gap: var(--row-gap-conteudo);
 }
