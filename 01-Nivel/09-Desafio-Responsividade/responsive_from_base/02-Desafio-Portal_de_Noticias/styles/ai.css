@@ -1,0 +1,71 @@
+#ai {
+    article {
+        img {
+            width: 80px;
+            height: 80px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+
+        h3 {
+            margin-top: 8px;
+            height: 44px;
+            /* height: 55px; */
+        }
+
+        p {
+            height: 99px;
+        }
+
+        h3, p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* overflow: inherit; */
+            /* text-overflow: inherit; */
+            /* white-space: nowrap; */
+            /* display: inline-block; */
+            /* background-color: aqua; */
+        }
+        
+        /* display: flex; */
+        /* flex-direction: row-reverse; */
+        
+        & > :nth-child(1) {
+            overflow: auto;
+            /* text-overflow: ellipsis; */
+            width: 232px;
+            /* height: 164px; */
+            /* width: auto; */
+            /* height: auto; */
+            order: 1;
+        }
+    }
+}
+
+@media (width >= 80rem) {
+    #ai {
+        grid-area: ai;
+
+        article {
+            img {
+                width: 176px;
+                height: 176px;
+            }
+
+            h3 {
+                margin-block: 8px 4px;
+            }
+            
+            & > :nth-child(1) {
+                /* background-color: aqua; */
+                /* overflow: hidden; */
+                /* text-overflow: ellipsis; */
+                width: 504px;
+                height: 164px;
+                /* width: auto; */
+                /* height: auto; */
+                order: 0;
+            }
+        }
+    }
+}
