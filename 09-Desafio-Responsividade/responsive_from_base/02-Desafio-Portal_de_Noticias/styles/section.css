@@ -20,20 +20,30 @@ section header {
     }
 }
 
-aside {
-    grid-area: aside;
-    
-    #more {
-        margin-top: 2rem;
+#ai, #more {
+    article {
+        img {
+            height: 80px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        
+        h3, p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
         
         h3 {
             margin-top: 8px;
+            -webkit-line-clamp: 2;
+            line-clamp: inherit;
         }
         
-        img {
-            width: 72px;
-            aspect-ratio: 1/1;
-            object-fit: cover;
+        p {
+            margin-top: 4px;
+            -webkit-line-clamp: 4;
+            line-clamp: inherit;
         }
     }
 }

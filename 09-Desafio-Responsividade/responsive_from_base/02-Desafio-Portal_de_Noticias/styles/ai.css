@@ -1,28 +1,5 @@
 #ai {
     article {
-        img {
-            height: 80px;
-            aspect-ratio: 1/1;
-            object-fit: cover;
-        }
-
-        h3, p {
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        h3 {
-            margin-block: 8px 4px;
-            -webkit-line-clamp: 2;
-            line-clamp: inherit;
-        }
-
-        p {
-            -webkit-line-clamp: 4;
-            line-clamp: inherit;
-        }
-        
         & > :nth-child(1) {
             order: 1;
         }
@@ -35,6 +12,10 @@
 
         article {
             img {
+                height: 176px;
+            }
+
+            & > div {
                 height: 176px;
             }
             
