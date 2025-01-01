@@ -2,7 +2,7 @@
     div {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: .5rem;
     }
 
     div:nth-child(2) {
@@ -21,16 +21,16 @@
     border-inline: none;
     
     & ul {
-        width: 860px;
+        width: 52.25rem;
     }
-    overflow-x: auto;
 
-    /* Hide scrollbar for IE and Edge | Firefox */
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    /* Hide scrollbar for Chrome, Safari and Opera */
+    overflow-x: auto;
     &::-webkit-scrollbar {
-        display: none;
+        height: 5px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--stroke-color);
     }
 }
 

@@ -43,7 +43,7 @@ body {
 }
 
 main {
-    margin-block: 0 40px;
+    margin-block: 0 2.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -62,7 +62,7 @@ main {
     }
 
     main {
-        column-gap: 32px;
+        column-gap: 2rem;
 
         display: grid;
         grid-template-columns: 2fr 1.1fr;
@@ -93,13 +93,13 @@ img {
 .content-tag {
     display: inline-block;
     background-color: var(--brand-color-dark);
-    padding: 4px 8px;
+    padding: .25rem .5rem;
     border-radius: 4px;
-    font: 500 10px/1.2 var(--font-family);
+    font: 500 .625rem/1.2 var(--font-family);
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
     color: var(--text-color-primary);
-    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+    box-shadow: 0 .25rem 1rem rgba(2, 6, 23, 0.251);
 }
 
 ul[role="list"] {

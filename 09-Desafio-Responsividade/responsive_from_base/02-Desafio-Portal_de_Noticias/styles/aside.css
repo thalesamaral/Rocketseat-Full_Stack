@@ -1,7 +1,7 @@
 aside {
     #ads {
-        width: 328px;
-        height: 188px;
+        width: 20.5rem;
+        height: 11.75rem;
     }
 
     #more {
@@ -9,11 +9,11 @@ aside {
         
         article {
             img {
-                height: 72px;
+                height: 4.5rem;
             }
 
             & > div {
-                height: 72px;
+                height: 4.5rem;
             }
         }
     }
@@ -24,8 +24,8 @@ aside {
         grid-area: aside;
 
         #ads {
-            width: 480px;
-            height: 280px;
+            width: 30rem;
+            height: 17.5rem;
         }
     }
 }
