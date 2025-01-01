@@ -1,25 +1,29 @@
 # Portal de Notícias
 
-**Homepage em desktop de um portal de notícias sobre tecnologia.**
+**Homepage responsiva de um portal de notícias sobre tecnologia.**
 
 - Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/04-Projeto-Portal_de_Noticias.
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias.
 
-## ✨ Recursos aprendidos
+## ✨ Recursos Aprendidos e em Destaque
 
 Fundamento
+- Responsive Web Design & Media Queries
 - CSS Website Layout
-- Display Property
-- CSS Position
 - CSS Grid
     - grid-template-areas
 - CSS Flex
+- CSS Units: rem
+- CSS Pseudo-classes, pseudo-elements
 
 Conceito
+- Criação da utility.css: Para melhor agrupamento dos estilos
+- Modo de desenvolvimento: Mobile first
+- `class="desktop-only";`
 - figure & figcaption
+- article
+- card & content tag
 - `utility.css`
-- Nesting CSS
-- Função: `linear-gradient()`
 
 ## 💻 Tecnologias Utilizadas
 
@@ -33,12 +37,16 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1362166020452569562).
+- [Figma](https://www.figma.com/community/file/1392188698846698895).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
+### Desktop
 ![Prévia da Homepage de um portal de notícias sobre tecnologia](assets/readme/Preview-Portal_de_Noticias.jpeg)
+
+### Mobile
+![Prévia da Homepage de um portal de notícias sobre tecnologia](assets/readme/Preview-Portal_de_Noticias-mobile.jpeg)
 
 # 👨‍💻 Autor
 

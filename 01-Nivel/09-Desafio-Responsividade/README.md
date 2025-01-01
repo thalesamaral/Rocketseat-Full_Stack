@@ -17,14 +17,17 @@ Você vai transformar layouts que ainda não estão responsivos em layouts respo
 
 ## ✏️ Design responsivo
 
-- [Figma: Perfil de Viagens](https://www.figma.com/design/9c3EuI28CoXL6tC6BkCFv8/Perfil-de-viagens-(Community)-(resposivo)?m=auto&fuid=1378496295473076471).
+- [Figma: Perfil de Viagens](https://www.figma.com/community/file/1392188119249243534).
 
-- [Figma: Portal de Notícias](https://www.figma.com/design/u6LI8VXzmmXlQtT7BQSbvi/Portal-de-not%C3%ADcias-(Community)-(responsivo)?node-id=0-1&p=f&m=dev).
+- [Figma: Portal de Notícias](https://www.figma.com/community/file/1392188698846698895).
 
-- [Figma: Formulário de Matrícula](https://www.figma.com/design/mVxumqehSfId3sOaC2gpE2/Formul%C3%A1rio-de-matr%C3%ADcula-(Community)-(responsivo)?node-id=0-1&p=f&m=dev).
+- [Figma: Formulário de Matrícula](https://www.figma.com/community/file/1392235383386426797).
 
 
 ## **🗂️ Pastas 🖥️ Implementações**
 
 🗂️ [responsive_from_base/01-Desafio-Perfil_de_Viagens](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens).
-- 🖥️ [Implementação: Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens).
+- 🖥️ [Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens).
+
+🗂️ [responsive_from_base/02-Desafio-Portal_de_Noticias](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias).
+- 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias).
