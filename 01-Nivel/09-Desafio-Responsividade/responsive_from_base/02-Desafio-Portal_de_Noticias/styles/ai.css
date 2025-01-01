@@ -12,11 +12,11 @@
 
         article {
             img {
-                height: 176px;
+                height: 11rem;
             }
 
             & > div {
-                height: 176px;
+                height: 11rem;
             }
             
             & > :nth-child(1) {
