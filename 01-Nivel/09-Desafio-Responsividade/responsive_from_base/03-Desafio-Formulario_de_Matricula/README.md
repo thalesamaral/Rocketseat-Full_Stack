@@ -8,20 +8,14 @@
 ## ✨ Recursos Aprendidos
 
 Fundamento
-- HTML Forms
-- Fields: fieldset, input, select, button
-- Input: text, textarea, data, number, checkbox, radio, file
+- Responsive Web Design & Media Queries
+- CSS Website Layout
 - Display: position, flex, grid
-- CSS Units: rem
-- CSS Functions
-- Estilização de -webkit
 
 Conceito
-- Input file: droparea
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- svg diretamente no HTML
-- `all: unset;`
-- Centralizar `top: 50%; transform: translateY(-50%);`
+- Criação da utility.css: Para melhor agrupamento dos estilos
+- Modo de desenvolvimento: Mobile first
+- `class="desktop-only";`
 
 ## 💻 Tecnologias Utilizadas
 
@@ -40,7 +34,11 @@ Conceito
 
 ## 👀 Preview
 
+### Desktop
 ![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula.jpeg)
+
+### Mobile
+![Prévia do Formulário para uma escola de educação infantil](assets/readme/Preview-Formulario_de_Matricula-mobile.jpeg)
 
 # 👨‍💻 Autor
 
