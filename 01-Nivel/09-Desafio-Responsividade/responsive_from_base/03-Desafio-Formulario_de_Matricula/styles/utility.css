@@ -62,6 +62,10 @@
     gap: 2rem;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .desktop-only {
     display: none;
 }
