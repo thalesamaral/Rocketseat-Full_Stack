@@ -29,7 +29,8 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1392235383386426797).
+- [Figma: Desktop](https://www.figma.com/community/file/1365016793556649696)
+- [Figma: Mobile](https://www.figma.com/community/file/1392235383386426797)
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
