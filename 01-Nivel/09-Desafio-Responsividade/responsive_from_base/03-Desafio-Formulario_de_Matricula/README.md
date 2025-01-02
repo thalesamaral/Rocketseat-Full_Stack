@@ -1,9 +1,9 @@
 # Formulário de Matrícula
 
-**Formulário desktop para uma escola de educação infantil.**
+**Formulário responsivo para uma escola de educação infantil.**
 
 - Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/06-Projeto-Formulario_de_Matricula.
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula.
 
 ## ✨ Recursos Aprendidos
 
@@ -35,7 +35,7 @@ Conceito
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1365016793556649696).
+- [Figma](https://www.figma.com/community/file/1392235383386426797).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
