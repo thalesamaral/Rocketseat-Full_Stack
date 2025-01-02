@@ -33,4 +33,4 @@ Você vai transformar layouts que ainda não estão responsivos em layouts respo
 - 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias).
 
 🗂️ [responsive_from_base/03-Desafio-Formulario_de_Matricula](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula).
-- 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula).
+- 🖥️ [Formulário de Matrícula](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula).

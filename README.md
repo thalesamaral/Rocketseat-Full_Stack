@@ -41,7 +41,7 @@ Este repositório evoluirá conforme eu progredir na formação. Cada projeto te
   - 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias)
 
 - 🗂️ [responsive_from_base/03-Desafio-Formulario_de_Matricula](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula).
-  - 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula)
+  - 🖥️ [Formulário de Matrícula](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula)
 
 # 📝 Sobre a formação
 A formação da Rocketseat é um programa abrangente projetado para profissionais que buscam aprofundar suas habilidades em desenvolvimento web moderno, arquitetura de sistemas e construção de produtos. Com foco em **aprendizagem prática**, o programa prepara os alunos para resolver desafios do mundo real integrando tecnologia, liderança e estratégia de negócios.
