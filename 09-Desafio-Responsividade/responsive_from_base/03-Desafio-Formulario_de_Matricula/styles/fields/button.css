@@ -6,6 +6,9 @@ button {
     border-radius: .5rem;
     cursor: pointer;
 
+    display: flex;
+    justify-content: center;
+
     &.btn-primary {
         color: white;
         background-color: #E43A12;
@@ -17,13 +20,20 @@ button {
     }
 
     &.btn-secondary {
-        margin-left: auto;
         border: 1px solid var(--text-highlight);
         
         &:hover,
         &:focus {
             color: #E43A12;
             outline: .25rem solid var(--surface-secondary);
+        }
+    }
+}
+
+@media (width >= 80rem) {
+    button {
+        &.btn-secondary {
+            margin-left: auto;
         }
     }
 }
