@@ -1,5 +1,4 @@
 .dropzone {
-    /* border: 1px dashed var(--stroke-default); */
     border: 2px dashed transparent;
     outline: 1px dashed var(--stroke-default);
     border-radius: .25rem;
@@ -19,6 +18,10 @@
         inset: 0;
         opacity: 0;
     }
+
+    input::file-selector-button {
+        cursor: pointer;
+    } 
 
     & p {
         color: #A8A29E;

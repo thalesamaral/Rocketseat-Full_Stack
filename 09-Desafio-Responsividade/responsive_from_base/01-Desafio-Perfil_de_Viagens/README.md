@@ -36,7 +36,11 @@ Conceito
 
 ## 👀 Preview
 
-![Prévia de Página com fotos de viagens em uma mídia social chamada Travelgram](assets/readme/Preview-Perfil_de_Viagens.jpeg)
+### Desktop
+![Prévia de Página com fotos de viagens em uma mídia social chamada Travelgram](../01-Desafio-Perfil_de_Viagens/assets/readme/Preview-Perfil_de_Viagens.jpeg)
+
+### Mobile
+![Prévia de Página com fotos de viagens em uma mídia social chamada Travelgram](../01-Desafio-Perfil_de_Viagens/assets/readme/Preview-Perfil_de_Viagens-mobile.jpeg)
 
 # 👨‍💻 Autor
 

@@ -1,11 +1,8 @@
 #primary {
-    padding-block: 20px;
-
-    /* nesting css */
     div {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: .5rem;
     }
 
     div:nth-child(2) {
@@ -18,8 +15,30 @@
 }
 
 #secondary {
-    padding-block: 14px;
+    font: var(--text-span);
+    color: var(--text-color-secondary);
     border: solid 1px var(--stroke-color);
     border-inline: none;
-    justify-content: space-between;
+    
+    & ul {
+        width: 52.25rem;
+    }
+
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        height: 5px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--stroke-color);
+    }
+}
+
+@media (width >= 80rem) {
+    #secondary {
+        & ul {
+            width: auto;
+            justify-content: space-between;
+        }
+    }
 }

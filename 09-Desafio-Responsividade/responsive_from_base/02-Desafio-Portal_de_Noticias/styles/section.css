@@ -1,17 +1,17 @@
 section header {
     border-top: 1px solid var(--stroke-color);
-    padding-block: 12px 24px;
+    padding-block: .75rem 1.5rem;
     font: var(--text-span);
 
     a {
         justify-self: end;
         align-items: center;
-        gap: 8px;
+        gap: .5rem;
 
         span {
             background-image: url(../assets/icons/ArrowRight.svg);
-            height: 16px;
-            width: 16px;
+            height: 1rem;
+            width: 1rem;
         }
 
         &:hover span {
@@ -20,100 +20,40 @@ section header {
     }
 }
 
-#featured {
-    grid-area: featured;
-    img {
-        height: 100%;
-        object-fit: cover;
-        border-radius: 4px;
-    }
-
-    .card {
-        position: relative;
+#featured, #weekly {
+    h2, p {
         overflow: hidden;
-        border-radius: 4px;
-
-        &::before { /* & referencia para .card */
-            content: "";
-            position: absolute;
-                inset: 0;
-                top: 50%;
-            background-color: white;
-            background: linear-gradient(
-                180deg, /* angulação */
-                transparent 0%, /* cor inicial */
-                #020617 100% /* cor final */
-            );
-        }
-
-        figcaption {
-            position: absolute;
-                bottom: 0;
-            padding: 24px;
-            
-            &:has(.text-lg){
-                padding: 12px;
-            }
-
-            h2 {
-                margin-top: 8px;
-            }
-        }
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-clamp: inherit;
     }
 }
 
-#weekly {
-    grid-area: weekly;
-    &>div {
-        grid-template-columns: repeat(4, 292px);
-    }
-    
-    img {
-        height: 160px;
-    }
-
-    figure {
-        position: relative;
-
-        .content-tag {
-            position: absolute;
-                top: 8px;
-                left: 8px;
+#ai, #more {
+    article {
+        img {
+            height: 5rem;
+            aspect-ratio: 1/1;
+            object-fit: cover;
         }
-
+        
+        h3, p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+        
+        h3 {
+            margin-top: .5rem;
+            -webkit-line-clamp: 2;
+            line-clamp: inherit;
+        }
+        
         p {
-            margin-top: 8px;
-            font-weight: 800;
+            margin-top: .25rem;
+            -webkit-line-clamp: 4;
+            line-clamp: inherit;
         }
-    }
-}
-
-#ai {
-    grid-area: ai;
-    img {
-        width: 176px;
-        aspect-ratio: 1/1;
-        object-fit: cover;
-    }
-
-    h3 {
-        margin-block: 8px 4px;
-    }
-}
-
-aside {
-    grid-area: aside;
-}
-
-#more {
-    margin-top: 32px;
-
-    h3 {
-        margin-top: 8px;
-    }
-    img {
-        width: 72px;
-        aspect-ratio: 1/1;
-        object-fit: cover;
     }
 }
