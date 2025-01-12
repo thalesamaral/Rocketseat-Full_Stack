@@ -26,6 +26,12 @@
     --text-xl: 4rem;
 }
 
+
+/* TESTE */
+/* html {
+    zoom: .5;
+} */
+
 html, button {
     font: 500 var(--text-base)/1.5 var(--ff-base);
 }

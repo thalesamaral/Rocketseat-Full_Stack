@@ -37,7 +37,7 @@
         /* outline: 2px solid red; */
         display: block;
         
-        /* animation: slideUp 5s 2s infinite ease; */
+        animation: slideUp 5s 2s infinite ease;
     }
 
     /* --- buttons --- */
@@ -163,7 +163,7 @@
         transform: translateY(calc(-5rem - 15px));
     }
     25% {
-        transform: translateY(calc(-5rem + 10px));
+        transform: translateY(calc(-5rem + 15px));
     }
     27% {
         transform: translateY(calc(-5rem - 5px));
@@ -182,7 +182,7 @@
         transform: translateY(calc(-10rem - 15px));
     }
     58% {
-        transform: translateY(calc(-10rem + 10px));
+        transform: translateY(calc(-10rem + 15px));
     }
     60% {
         transform: translateY(calc(-10rem - 5px));
@@ -201,7 +201,7 @@
         transform: translateY(calc(-15rem - 15px));
     }
     91% {
-        transform: translateY(calc(-15rem + 10px));
+        transform: translateY(calc(-15rem + 15px));
     }
     93% {
         transform: translateY(calc(-15rem - 5px));
