@@ -43,14 +43,6 @@
     padding-inline: var(--px-base);
 }
 
-.mtop-gallery {
-    margin-top: var(--mtop-gallery);
-}
-
-.gap-gallery {
-    gap: var(--gap-gallery);
-}
-
 @media (width >= 80rem) {
     .container {
         --max-width: 80rem;
