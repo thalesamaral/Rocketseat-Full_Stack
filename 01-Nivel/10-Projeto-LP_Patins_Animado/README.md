@@ -1,48 +1,43 @@
-# Formulário de Convite
+# Landing Page Animada (Snitap Patins)
 
-**Site desktop de convite para evento com formulário para geração do convite personalizado.**
+**Landing Page do produto Snitap Patins. Página desenvolvida com muitas animações e transições e possui responsividade como desafio prático.**
 
 - Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/07-Desafio-Formulario_de_Convite.
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/10-Projeto-LP_Patins_Animado.
 
-### Desafio prático
-
-> Chegou a hora de aplicar toda a teoria que você aprendeu até aqui colocando a mão na massa! Este é o momento de transformar conhecimento em ação, desenvolvendo um projeto que vai consolidar suas habilidades e te preparar um pouco mais para os desafios reais!
-
-## ✨ Recursos Aprendidos
+## ✨ Recursos Aprendidos e em Destaque
 
 Fundamento
-- HTML Forms
-- Display: position, flex, grid
-- CSS Units: rem
-- CSS Functions
-- Estilização de -webkit
+- Responsive Web Design & Media Queries
+- CSS Transitions
+- CSS Animations
 
 Conceito
-- Página com dois tipos de overflow: hidden & scroll(auto)
-- Layout complexo
-- Estilização mais complexas de inputs e formulário
-- Maior organização de variáveis
-- Input Toggle
+- Criação da utility.css: Para melhor agrupamento dos estilos
+- Modo de desenvolvimento: Mobile first
 
-## 💻 Tecnologias Utilizadas
+## 💻 Tecnologias usadas
 
 - HTML
 - CSS
 
-## 📝 Como Executar o Projeto
+## 📝 Como executar o projeto
 
 1. Clone o repositório para sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador web.
+2. Abra o arquivo `index.html` em seu navegador da web.
 
 ## ✏️ Design
 
-- [Figma](https://www.figma.com/community/file/1389649528880849780).
+- [Figma](https://www.figma.com/community/file/1379866810042169871).
 - Design feito por [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 👀 Preview
 
-![Prévia do Site com formulário para geração do convite personalizado](assets/readme/Preview-Formulario_de_Convite.jpeg)
+### Desktop
+![Prévia de Landing Page Animada (Snitap Patins)](assets/readme/preview-10-Projeto-LP_Patins_Animado.jpeg)
+
+### Mobile
+![Prévia de Landing Page Animada (Snitap Patins). MOBILE](assets/readme/preview-10-Projeto-LP_Patins_Animado-mobile.jpeg)
 
 # 👨‍💻 Autor
 
