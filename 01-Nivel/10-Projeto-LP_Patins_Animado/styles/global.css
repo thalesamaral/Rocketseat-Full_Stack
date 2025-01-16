@@ -22,8 +22,8 @@
     
     --text-sm: .875rem;
     --text-base: 1rem;
-    --text-lg: 2.5rem;
-    --text-xl: 4rem;
+    --text-lg: 1.5rem;
+    --text-xl: 2rem;
 
     /* padding */
     --px-base: 1.5rem;
@@ -36,10 +36,16 @@
     --gap-gallery: 1.5rem;
 
     --py-footer: 3rem 1.5rem;
+
+    --slide-span: -2.5rem;
 }
 
 @media (width >= 80rem) {
     :root {
+        --text-xl: 4rem;
+        --text-lg: 2.5rem;
+
+        /* --- LAYOUT --- */
         --px-base: 2rem;
 
         --py-hero: 2.5rem;
@@ -50,6 +56,9 @@
         --gap-gallery: 2rem;
 
         --py-footer: 4rem 2rem;
+
+        --slide-span: -5rem;
+        --span: 5rem;
     }
 }
 
