@@ -11,6 +11,10 @@
 }
 
 .flex-direction {
+    flex-direction: column;
+}
+
+.flex-direction-2 {
     flex-direction: column-reverse;
 }
 
@@ -33,13 +37,13 @@
     padding-block: var(--py-banner);
 }
 
-.p-footer {
-    padding-block: var(--py-footer);
+.p-gallery {
+    padding-block: var(--py-gallery);
     padding-inline: var(--px-base);
 }
 
-.p-gallery {
-    padding-block: var(--py-gallery);
+.p-footer {
+    padding-block: var(--py-footer);
     padding-inline: var(--px-base);
 }
 
@@ -52,7 +56,7 @@
         display: initial;
     }
 
-    .flex-direction {
+    .flex-direction, .flex-direction-2 {
         flex-direction: row;
     }
 }
