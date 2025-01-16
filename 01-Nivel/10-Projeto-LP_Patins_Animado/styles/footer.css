@@ -1,12 +1,11 @@
 footer {
-    max-width: 80rem;
-    width: 100%;
-    padding: 4rem 2rem 2rem;
-    margin-inline: auto;
+    /* max-width: 80rem; */
+    /* width: 100%; */
+    /* padding: 4rem 2rem 2rem; */
+    /* margin-inline: auto; */
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 3rem;
 
     & #logo {
         display: flex;
@@ -30,7 +29,7 @@ footer {
 
     & nav {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
         
         & a {
             position: relative;
@@ -99,6 +98,17 @@ footer {
                 scale: 0;
                 transition: scale 200ms;
             }
+        }
+    }
+}
+
+@media (width >= 80rem) {
+    footer {
+        align-items: center;
+        justify-content: space-between;
+
+        & nav {
+            gap: 2rem;
         }
     }
 }
