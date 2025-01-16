@@ -1,9 +1,4 @@
 #gallery {
-    /* width: 100%; */
-    /* max-width: 80rem; */
-    /* padding: 2.5rem 2rem; */
-    /* margin-inline: auto; */
-
     & header {
         text-align: center;
     }
@@ -88,13 +83,6 @@
     }
 }
 
-@keyframes img-appear {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-}
-
 @media (width >= 80rem) {
     #gallery {
         & .content {
@@ -126,5 +114,12 @@
                 grid-area: D;
             }
         }
+    }
+}
+
+@keyframes img-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
     }
 }

@@ -2,8 +2,6 @@
     --max-width: 22.5rem;
     width: min(var(--max-width), 100% - var(--px-base) * 2);
     margin-inline: auto;
-
-    /* padding-inline: var(--px-base); */
 }
 
 .desktop-only {
@@ -19,10 +17,6 @@
 }
 
 /* --- padding --- */
-.px-base {
-    padding-inline: var(--px-base);
-}
-
 .p-header {
     padding-block: 1rem;
     padding-inline: var(--px-base);

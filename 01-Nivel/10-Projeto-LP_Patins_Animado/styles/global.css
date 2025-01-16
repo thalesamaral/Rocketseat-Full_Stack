@@ -54,11 +54,6 @@
     }
 }
 
-/* TESTE */
-/* html {
-    zoom: .6;
-} */
-
 html, button {
     font: 500 var(--text-base)/1.5 var(--ff-base);
 }
