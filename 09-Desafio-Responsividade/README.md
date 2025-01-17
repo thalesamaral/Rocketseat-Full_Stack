@@ -22,13 +22,13 @@ Você vai transformar layouts que ainda não estão responsivos em layouts respo
 - [Figma: Formulário de Matrícula - Desktop](https://www.figma.com/community/file/1365016793556649696)
 - [Figma: Formulário de Matrícula - Mobile](https://www.figma.com/community/file/1392235383386426797)
 
-## **🗂️ Pastas 🖥️ Implementações**
+## **🗂️ Pastas 🚀 Implementações**
 
 🗂️ [responsive_from_base/01-Desafio-Perfil_de_Viagens](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens)
-- 🖥️ [Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens)
+- 🚀 [Perfil de Viagens](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/01-Desafio-Perfil_de_Viagens)
 
 🗂️ [responsive_from_base/02-Desafio-Portal_de_Noticias](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias)
-- 🖥️ [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias)
+- 🚀 [Portal de Notícias](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/02-Desafio-Portal_de_Noticias)
 
 🗂️ [responsive_from_base/03-Desafio-Formulario_de_Matricula](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula)
-- 🖥️ [Formulário de Matrícula](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula)
+- 🚀 [Formulário de Matrícula](https://thalesamaral.github.io/Rocketseat-Full_Stack/09-Desafio-Responsividade/responsive_from_base/03-Desafio-Formulario_de_Matricula)
