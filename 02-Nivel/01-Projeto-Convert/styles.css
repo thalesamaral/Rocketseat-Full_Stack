@@ -53,14 +53,16 @@ form {
     flex-direction: column;
 
     padding: 3.5rem 4rem;
+
+    div + div {
+        margin-top: 1.25rem;
+    }
 }
 
 label {
     font-size: 0.75rem;
     color: #b2b8de;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    margin-top: 1.25rem;
 }
 
 input,
@@ -100,6 +102,18 @@ option {
 input:focus,
 select:focus {
     border: 1px solid #4a5dcd;
+}
+
+.amount-div, .currency-div {
+    &:focus-within {
+        label {
+            color: #4a5dcd;
+        }
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 button {

@@ -19,16 +19,20 @@
 
     <main>
         <form>
-            <label for="amount">valor</label>
-            <input type="text" name="amount" id="amount" placeholder="0" required/>
+            <div class="amount-div">
+                <label for="amount">valor</label>
+                <input type="text" name="amount" id="amount" placeholder="0" required/>
+            </div>
 
-            <label for="currency">moeda</label>
-            <select name="currency" id="currency" required>
-                <option value="" disabled selected hidden>Selecione a moeda</option>
-                <option value="USD">Dólar Americano</option>
-                <option value="EUR">Euro</option>
-                <option value="GBP">Libra Esterlina</option>
-            </select>
+            <div class="currency-div">
+                <label for="currency">moeda</label>
+                <select name="currency" id="currency" required>
+                    <option value="" disabled selected hidden>Selecione a moeda</option>
+                    <option value="USD">Dólar Americano</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Libra Esterlina</option>
+                </select>
+            </div>
             <button type="submit">Converter em reais</button>
         </form>
 
