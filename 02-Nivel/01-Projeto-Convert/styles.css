@@ -85,9 +85,9 @@ select {
 }
 
 select {
+    appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    appearance: none;
 
     background: url("./img/chevron-down.svg") #0e0f25 no-repeat;
     background-position: calc(100% - 0.75rem) center !important;
@@ -96,11 +96,7 @@ select {
     font-size: 1rem;
 
     &:focus {
-        background: url("./img/chevron-up.svg") #0e0f25 no-repeat;
-    }
-
-    &::-ms-expand {
-        display: none;
+        background-image: url("./img/chevron-up.svg");
     }
 }
 
