@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* CORES */
+    --background-primary: #F4F5FB;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+
+    --border-primary: #374151;
+    --border-hover: #374151;
+    
+    --border-primary: #D1D5DB;
+    --border-secondary: #B9C2D0;
+
+    /* TIPOGRAFIA */
+    font-family: "Inter";
+    --title: 700 1.5rem/2rem;
+    --label: 600 1rem/1.25rem;
+    --paragraph: 400 1rem/1.25rem;
+    --link: 400 0.875rem/1rem;
+}
+
+h1 {
+    font: var(--title);
+    color: var(--content-primary);
+}
