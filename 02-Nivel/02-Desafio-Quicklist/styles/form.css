@@ -1,0 +1,35 @@
+form {
+    #search, ul {
+        margin-bottom: 2.5rem;
+    }
+
+    input {
+        /* width: 40rem; */
+    }
+
+    ul {
+        li + li {
+            margin-top: .75rem;
+        }
+
+        /* li {
+            display: flex;
+            gap: .75rem;
+
+            a {
+                margin-left: auto;
+            }
+        } */
+    }
+}
+
+#alert, li {
+    display: flex;
+    gap: .75rem;
+
+    /* width: 100%; */
+
+    a {
+        margin-left: auto;
+    }
+}

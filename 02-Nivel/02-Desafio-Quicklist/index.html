@@ -12,24 +12,25 @@
 </head>
 
 <body>
-    <div id="app">
-        <img src="assets/logo.svg" alt="logo">
+    <div id="app" class="flex flex-col items-center">
+        <img src="assets/logo.svg" alt="logo" class="desktop-only">
         
-        <header>
-            <a href="#">
-                <span><- Voltar</span>
-            </a>
-            <h1>Compras da semana</h1>
-        </header>
+        <div class="main-content">
+            <header>
+                <a href="#">
+                    <span><- Voltar</span>
+                </a>
+                <h1>Compras da semana</h1>
+            </header>
 
-        <main>
-            <form action="">
-                <div id="search">
-                    <input type="text" placeholder="Adicione um novo item">
-                    <button>Adicionar item</button>
-                </div>
-                <div id="list">
-                    <ul>
+            <main>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div id="search" class="flex flex-direction gap-16">
+                        <input type="text" placeholder="Adicione um novo item">
+                        <button>Adicionar item</button>
+                    </div>
+
+                    <ul role="list">
                         <li>
                             <input type="checkbox" name="" id="">
                             <label for="">Pão de forma</label>
@@ -37,18 +38,42 @@
                                 <img src="assets/icons/garbage.svg" alt="garbage">
                             </a>
                         </li>
-                    </ul>
-                </div>
-            </form>
 
-            <div id="alert">
-                <img src="assets/icons/info.svg" alt="info">
-                <p>O item foi removido da lista</p>
-                <a href="#">
-                    <img src="assets/icons/close.svg" alt="close">
-                </a>
-            </div>
-        </main>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">forma</label>
+                            <a href="#">
+                                <img src="assets/icons/garbage.svg" alt="garbage">
+                            </a>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Pão de forma</label>
+                            <a href="#">
+                                <img src="assets/icons/garbage.svg" alt="garbage">
+                            </a>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <label for="">forma</label>
+                            <a href="#">
+                                <img src="assets/icons/garbage.svg" alt="garbage">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+
+                <div id="alert" class="flex">
+                    <img src="assets/icons/alert.svg" alt="alert">
+                    <p>O item foi removido da lista</p>
+                    <a href="#">
+                        <img src="assets/icons/close.svg" alt="close">
+                    </a>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>

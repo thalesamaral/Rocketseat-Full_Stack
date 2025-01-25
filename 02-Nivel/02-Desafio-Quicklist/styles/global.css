@@ -23,18 +23,50 @@
     --border-secondary: #B9C2D0;
 
     /* TIPOGRAFIA */
-    font-family: "Inter";
-    --title: 700 1.5rem/2rem;
-    --label: 600 1rem/1.25rem;
-    --paragraph: 400 1rem/1.25rem;
-    --link: 400 0.875rem/1rem;
+    --title: 700 1.5rem/2rem "Inter";
+    --label: 600 1rem/1.25rem "Inter";
+    --paragraph: 400 1rem/1.25rem "Inter";
+    --link: 400 0.875rem/1rem "Inter";
 }
 
 body {
-    background-color: var(--color-brand);
+    background-color: var(--background-primary);
+    font: var(--paragraph);
+    color: var(--content-secondary);
 }
 
 h1 {
     font: var(--title);
     color: var(--content-primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    /* border: solid #A52C6B; */
+}
+
+ul[role="list"] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    &[alt="logo"] {
+        margin-bottom: 4rem;
+    }
+}
+
+header {
+    margin-bottom: 3rem;
+    span {
+        color: var(--color-brand);
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
 }
