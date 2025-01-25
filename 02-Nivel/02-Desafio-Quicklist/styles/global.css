@@ -15,12 +15,9 @@
     --content-primary: #080B12;
     --content-secondary: #374151;
     --content-tertiary: #9CA3AF;
-
-    --border-primary: #374151;
-    --border-hover: #374151;
     
     --border-primary: #D1D5DB;
-    --border-secondary: #B9C2D0;
+    --border-hover: #B9C2D0;
 
     /* TIPOGRAFIA */
     --title: 700 1.5rem/2rem "Inter";
@@ -44,7 +41,6 @@ a {
     text-decoration: none;
     color: inherit;
     display: inline-flex;
-    /* border: solid #A52C6B; */
 }
 
 ul[role="list"] {
@@ -63,10 +59,25 @@ img {
 header {
     margin-bottom: 3rem;
     span {
+        font: var(--link);
         color: var(--color-brand);
+
+        &:hover {
+            color: var(--color-brand-hover);
+        }
     }
 
     h1 {
         margin-top: 1rem;
+    }
+}
+
+#main-content {
+    width: 100%;
+}
+
+@media (width >= 80rem) {
+    #main-content {
+        width: 40rem;
     }
 }

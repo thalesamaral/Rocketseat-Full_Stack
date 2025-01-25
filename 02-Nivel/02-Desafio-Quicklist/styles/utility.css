@@ -3,6 +3,8 @@
     width: min(var(--max-width), 100% - 2rem * 2);
     margin-inline: auto;
     padding: 2rem;
+    
+    height: 100%;
     border: solid red;
 }
 

@@ -3,8 +3,47 @@ form {
         margin-bottom: 2.5rem;
     }
 
-    input {
-        /* width: 40rem; */
+    #search {
+        input {
+            height: 2.75rem;
+            width: 100%;
+            padding: .75rem 1rem;
+            
+            outline: 0;
+            border: 2px solid var(--border-primary);
+            border-radius: .75rem;
+
+            &::placeholder {
+                color: var(--content-tertiary);
+            }
+            
+            &:hover {
+                border-color: var(--border-hover);
+            }
+
+            &:focus {
+                border-color: var(--color-brand);
+            }
+        }
+        
+        button {
+            height: 2.75rem;
+            padding: .625rem 1.5rem;
+            min-width: max-content;
+            
+            background-color: var(--color-brand);
+            color: white;
+            font: var(--label);
+
+            border-radius: .75rem;
+            border: none;
+            
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--color-brand-hover);
+            }
+        }
     }
 
     ul {
@@ -12,24 +51,27 @@ form {
             margin-top: .75rem;
         }
 
-        /* li {
-            display: flex;
-            gap: .75rem;
-
-            a {
-                margin-left: auto;
-            }
-        } */
+        li {
+            background-color: white;
+            padding: .5rem .75rem;
+        }
     }
 }
 
 #alert, li {
     display: flex;
     gap: .75rem;
-
-    /* width: 100%; */
+    border-radius: .75rem;
+    align-items: center;
 
     a {
         margin-left: auto;
     }
+}
+
+#alert {
+    padding: .75rem;
+    background-color: var(--color-danger);
+    color: white;
+    font: var(--label);
 }
