@@ -26,15 +26,13 @@
             </header>
 
             <main>
-                <form action="" method="post" enctype="multipart/form-data">
-                    <div id="search" class="flex flex-direction gap-16">
-                        <input type="text" placeholder="Adicione um novo item" autocomplete="off">
-                        <button type="button">Adicionar item</button>
-                    </div>
+                <form action="" method="post" enctype="multipart/form-data" class="flex flex-direction gap-16">
+                    <input type="text" id="list-input" placeholder="Adicione um novo item" autocomplete="off">
+                    <button>Adicionar item</button>
                 </form>
 
-                <ul role="list">
-                    <li>
+                <ul role="list" id="list">
+                    <!-- <li>
                         <div class="check-box">
                             <input type="checkbox" id="chk-1">
                         </div>
@@ -73,7 +71,7 @@
                             <img src="assets/icons/garbage.svg" alt="garbage">
                         </a>
                     </li>
-                </ul>
+                </ul> -->
 
                 <div id="alert" class="flex">
                     <img src="assets/icons/alert.svg" alt="alert">
