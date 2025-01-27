@@ -35,10 +35,10 @@ function updateList() {
 
 function createListItem(item, itemIndex) {
     const chkID = "chk-" + itemIndex
-    const itemLi = document.createElement("li")
-    // itemLi.innerText = item
+    const itemLI = document.createElement("li")
+    // itemLI.innerText = item
     
-    itemLi.innerHTML = `
+    itemLI.innerHTML = `
         <div class="check-box">
             <input type="checkbox" id="${chkID}">
         </div>
@@ -50,8 +50,19 @@ function createListItem(item, itemIndex) {
         </a>
     `
     
-    // listUL.append(itemLi)
-    return itemLi
+    const deleteButton = itemLI.querySelector("a")
+    deleteButton.addEventListener("click", () => {
+        deleteItem(itemIndex)
+    })
+
+    return itemLI
+}
+
+function deleteItem(itemIndex) {
+    // --- array.prototype.filter()
+    allListItems = allListItems.filter((_, i) => i !== itemIndex)
+    saveList()
+    updateList()
 }
 
 function saveList(){
