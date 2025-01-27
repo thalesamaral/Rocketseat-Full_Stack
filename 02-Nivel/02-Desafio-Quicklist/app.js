@@ -14,14 +14,18 @@ function addItem() {
     const inputValue = listFormInput.value.trim()
     
     if(inputValue.length > 0) {
-        allListItems.push(inputValue)
-        // createListItem(inputValue)
+        const itemObject = {
+            text: inputValue,
+            completed: false
+        }
+        
+        allListItems.push(itemObject)
         updateList()
         saveList()
         listFormInput.value = ""
     }
     
-    console.log(allListItems)
+    // console.log(allListItems)
 }
 
 function updateList() {
@@ -36,14 +40,14 @@ function updateList() {
 function createListItem(item, itemIndex) {
     const chkID = "chk-" + itemIndex
     const itemLI = document.createElement("li")
-    // itemLI.innerText = item
+    const itemText = item.text
     
     itemLI.innerHTML = `
         <div class="check-box">
             <input type="checkbox" id="${chkID}">
         </div>
         <label for="${chkID}">
-            ${item}
+            ${itemText}
         </label>
         <a href="#">
             <img src="assets/icons/garbage.svg" alt="garbage">
@@ -54,6 +58,13 @@ function createListItem(item, itemIndex) {
     deleteButton.addEventListener("click", () => {
         deleteItem(itemIndex)
     })
+    
+    const checkbox = itemLI.querySelector("input")
+    checkbox.addEventListener("change", () => {
+        allListItems[itemIndex].completed = checkbox.checked
+        saveList()
+    })
+    checkbox.checked = item.completed
 
     return itemLI
 }
