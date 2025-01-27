@@ -67,6 +67,7 @@ ul {
     }
 
     li {
+        display: flex;
         background-color: white;
         padding: .5rem .75rem;
     
@@ -107,7 +108,7 @@ ul {
 }
 
 li, #alert {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: .75rem;
     border-radius: .75rem;
@@ -121,9 +122,16 @@ li, #alert {
     } */
 }
 
-#alert {
+/* #alert { */
+main > div {
+    display: none;
     padding: .75rem;
     background-color: var(--color-danger);
     color: white;
     font: var(--label);
+}
+
+.show-result {
+    display: flex;
+    /* background-color: blue; */
 }

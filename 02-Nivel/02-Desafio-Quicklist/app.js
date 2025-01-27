@@ -1,6 +1,12 @@
 const listForm = document.querySelector("form")
 const listFormInput = document.getElementById("list-input")
 const listUL = document.querySelector("ul")
+const alert = document.getElementById("alert")
+
+const close = alert.querySelector("a")
+close.addEventListener("click", () => {
+    alert.classList.remove("show-result")
+})
 
 let allListItems = getList()
 updateList()
@@ -56,6 +62,8 @@ function createListItem(item, itemIndex) {
     
     const deleteButton = itemLI.querySelector("a")
     deleteButton.addEventListener("click", () => {
+        alert.classList.add("show-result")
+
         deleteItem(itemIndex)
     })
     
