@@ -2,7 +2,8 @@ const listForm = document.querySelector("form")
 const listFormInput = document.getElementById("list-input")
 const listUL = document.querySelector("ul")
 
-let allListItems = []
+let allListItems = getList()
+updateList()
 
 listForm.addEventListener("submit", (e) => {
     e.preventDefault()
@@ -16,6 +17,7 @@ function addItem() {
         allListItems.push(inputValue)
         // createListItem(inputValue)
         updateList()
+        saveList()
         listFormInput.value = ""
     }
     
@@ -50,4 +52,14 @@ function createListItem(item, itemIndex) {
     
     // listUL.append(itemLi)
     return itemLi
+}
+
+function saveList(){
+    const allListItemsJSON = JSON.stringify(allListItems)
+    localStorage.setItem("lists", allListItemsJSON)
+}
+
+function getList(){
+    const lists = localStorage.getItem("lists") || "[]"
+    return JSON.parse(lists)
 }
