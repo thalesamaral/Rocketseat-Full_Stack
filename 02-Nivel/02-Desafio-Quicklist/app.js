@@ -30,8 +30,6 @@ function addItem() {
         saveList()
         listFormInput.value = ""
     }
-    
-    // console.log(allListItems)
 }
 
 function updateList() {
@@ -87,6 +85,8 @@ function deleteItem(itemIndex) {
 function saveList(){
     const allListItemsJSON = JSON.stringify(allListItems)
     localStorage.setItem("lists", allListItemsJSON)
+
+    console.log(allListItems)
 }
 
 function getList(){

@@ -29,7 +29,7 @@ form {
     input {
         height: 2.75rem;
         width: 100%;
-        padding: .75rem 1rem;
+        padding-inline: 1rem;
         
         outline: 0;
         border: 2px solid var(--border-primary);
@@ -49,7 +49,6 @@ form {
     }
     
     button {
-        height: 2.75rem;
         padding: .625rem 1.5rem;
         min-width: max-content;
         
@@ -75,10 +74,11 @@ ul {
 
     li {
         display: flex;
-        background-color: white;
         padding: .5rem .75rem;
+        background-color: white;
     
         .check-box {
+            display: flex;
             width: 1rem;
             height: 1rem;
             border: 1px solid var(--border-primary);
@@ -105,17 +105,21 @@ ul {
                 }
             }
         }
+
+        label {
+            flex: 1 0 0;
+        }
     
         a {
             width: 2rem;
             height: 2rem;
             padding: .5rem;
+            align-items: center;
         }
     }
 }
 
 li, #alert {
-    /* display: flex; */
     align-items: center;
     gap: .75rem;
     border-radius: .75rem;
@@ -140,5 +144,4 @@ main > div {
 
 .show-result {
     display: flex;
-    /* background-color: blue; */
 }
