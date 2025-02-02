@@ -50,10 +50,28 @@ ul[role="list"] {
 img {
     max-width: 100%;
     height: auto;
+}
 
-    &[alt="logo"] {
-        margin-bottom: 4rem;
-    }
+#app {
+    --max-width: 24.375rem;
+    width: min(var(--max-width), 100% - 2rem * 2);
+    margin-inline: auto;
+    padding: 2rem;
+    
+    min-height: 100vh;
+    /* border: solid red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.desktop-only {
+    display: none;
 }
 
 #main-content {
@@ -61,6 +79,18 @@ img {
 }
 
 @media (width >= 80rem) {
+    #app {
+        --max-width: 80rem;
+    }
+
+    .flex-direction {
+        flex-direction: row;
+    }
+
+    .desktop-only {
+        display: initial;
+    }
+
     #main-content {
         width: 40rem;
     }

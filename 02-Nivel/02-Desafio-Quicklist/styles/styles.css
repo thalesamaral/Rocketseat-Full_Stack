@@ -1,6 +1,10 @@
+img[alt="logo"] {
+    margin-bottom: 4rem;
+}
+
 header {
     margin-bottom: 3rem;
-    span {
+    a {
         font: var(--link);
         color: var(--color-brand);
 
@@ -19,6 +23,9 @@ form, ul {
 }
 
 form {
+    display: flex;
+    gap: 1rem;
+
     input {
         height: 2.75rem;
         width: 100%;
