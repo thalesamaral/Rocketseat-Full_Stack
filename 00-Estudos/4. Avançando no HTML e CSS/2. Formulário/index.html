@@ -1,0 +1,255 @@
+<h1>Button</h1>
+
+<form>
+    <input type="text" name="nome">
+    <button type="reset">Reset</button>
+    <button type="button">Ação</button>
+    <button type="submit">Submit1</button>
+    
+    <!-- DEFAULT: SUBMIT -->
+    <button>Submit2</button>
+    
+    <button
+        name="botao1"
+        value="valor_do_botao"
+        autofocus
+    >Submit3</button>
+    
+    <button
+        disabled
+    >Submit4</button>
+</form>
+
+<h1>Text</h1>
+
+<form>
+    <input
+        type = "text"
+        name="nome"
+        value="teste 123"
+        placeholder="Digite"
+        autocomplete="email"
+        size="40"
+        autofocus
+        required
+        readonly
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Number</h1>
+
+<form>
+    <input type="number"
+        min="2"
+        max="18"
+        step="2"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Email</h1>
+
+<form>
+    <input type="email"
+        name="mail"
+        multiple
+        minlength="5"
+        maxlength="10"
+        required
+        pattern=.+@gmail.com
+        title="Apenas gmail.com"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Password</h1>
+
+<form>
+    <input type="password"
+        name="senha"
+        minlength="5"
+        maxlength="10"
+        value="Default"
+        inputmode="numeric"
+        pattern="[0-9a-fA-F]{4,8}"
+        title="Apenas Hexadecimal"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>File</h1>
+
+<form enctype="multipart/form-data">
+    <input type="file"
+        name="foto"
+        multiple
+        accept=".png"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Range</h1>
+
+<form>
+    <input type="range"
+        name="total"
+        min="25"
+        max="75"
+        step="15"
+        value="0"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Color</h1>
+
+<form>
+    <datalist id="colorpicker">
+        <option value="#0FACAA"></option>
+        <option value="#fcfab1"></option>
+    </datalist>
+    
+    <input type="color"
+        name="color"
+        value="#0FACAA"
+        list="colorpicker"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Checkbox, Radio e Hidden</h1>
+
+<form>
+    <input type="checkbox"
+        name="carro"
+        value="fiat"
+        checked
+    >
+
+    <input type="checkbox"
+        name="carro"
+        value="audi"
+    >
+
+    <input type="radio"
+        name="carro"
+        value="fiat"
+        checked
+    >
+
+    <input type="radio"
+        name="carro"
+        value="audi"
+    >
+
+    <input type="hidden"
+        name="id"
+        value="asdaf-asdkb-asuia"
+    >
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Label</h1>
+
+<form>
+    <!-- #1 -->
+    <label for="txt_nome">Nome 1</label>
+
+    <input id="txt_nome"
+        type="text"
+        name="nome"
+    >
+
+    <!-- #2 -->
+    <label>
+        Nome 2
+        <input type="text" name="nome">
+    </label>
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Textarea</h1>
+
+<form>
+    <textarea
+        name="texto"
+        cols="30"
+        rows="10"
+        wrap="off"
+    ></textarea>
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Select</h1>
+
+<form>
+    <select name="carro">
+        <!-- #1 -->
+        <option value="">Selecione</option>
+        <!-- #2 -->
+        <option label="Fiat" value="fiat">
+        <option label="Audi" value="audi">
+        <option label="BMW" value="bmw">
+    </select>
+
+    <select name="carro" multiple size="4">
+    <optgroup label="Carros">
+        <option label="Fiat" value="fiat">
+        <option label="Audi" value="audi">
+        <option label="BMW" value="bmw">
+    </optgroup>
+    <optgroup label="Nomes">
+        <option label="Ana" value="Ana">
+        <option label="Maria" value="Maria">
+        <option label="José" value="José">
+    </optgroup>
+    </select>
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+<h1>Fieldset</h1>
+
+<form>
+    <fieldset>
+        <legend>Contato</legend>
+        <input type="text" name="telefone" autocomplete="tel">
+    </fieldset>
+
+    <fieldset>
+        <legend>E-mail</legend>
+        <input type="email" name="mail" autocomplete="email">
+    </fieldset>
+
+    <fieldset disabled>
+        <legend>Banco</legend>
+
+        <input type="text" name="banco"
+        value="Banco tal">
+    </fieldset>
+
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
