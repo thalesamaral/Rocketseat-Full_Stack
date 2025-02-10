@@ -1,0 +1,23 @@
+/* --- CSS Transition 02 --- */
+/* CSS: transition-timing-function & cubic-bezier() & steps() */
+
+div {
+    opacity: .3;
+    
+    transition-property: opacity, transform;
+    transition-duration: 2s;
+    
+    transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-timing-function: steps(5);
+    transition-timing-function: step-start;
+}
+
+div:hover {
+    opacity: 1;
+    transform: translateX(30rem);
+}

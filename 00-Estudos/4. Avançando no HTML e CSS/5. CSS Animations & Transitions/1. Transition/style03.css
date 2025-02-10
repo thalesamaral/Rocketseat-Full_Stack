@@ -1,0 +1,35 @@
+/* --- CSS Transition 03 --- */
+/* CSS: transition & @media (prefers-reduced-motion) */
+
+div {
+    opacity: .3;
+
+    /* transition: all 400ms 2s ease; */
+    transition: opacity 1s 100ms ease, transform 100ms 2s linear;
+}
+
+div:hover {
+    opacity: 1;
+    transform: translateX(5rem);
+}
+
+@media (prefers-reduced-motion) {
+    div {
+        transition: none;
+    }
+}
+
+
+
+/* CSS: Local do transition */
+/* div {
+    opacity: .3;
+
+    transition: all 3s;
+}
+
+div:hover {
+    opacity: 1;
+    transform: translateX(5rem);
+    transition: all 1s;
+} */

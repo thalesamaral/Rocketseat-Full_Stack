@@ -1,0 +1,69 @@
+/* --- CSS Animation 02 --- */
+/* CSS: animation-direction {reverse} | animation-fill-mode */
+
+button {
+    animation-name: mover;
+    animation-duration: 4s;
+    
+    animation-delay: 2s;
+    
+    animation-direction: reverse;
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes mover {
+    100% {
+        transform: translateY(30rem);
+    }
+}
+
+/* CSS: animation-direction {alternate} | animation-iteration-count | animation-play-state {paused} */
+
+/* button {
+    animation-name: mover;
+    animation-duration: 1s;
+    
+    animation-delay: 1s;
+    
+    animation-fill-mode: both;
+    animation-direction: alternate;
+        animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+        transition-timing-function: linear;
+}
+
+button:focus {
+    animation-play-state: paused;
+}
+
+@keyframes mover {
+    100% {
+        transform: translateY(30rem);
+    }
+} */
+
+/* CSS: Shorthand animation | Múltiplos animation-name */
+
+/* button {
+    animation:
+    mover 1s 1s both infinite alternate linear
+    ,
+    sumir 500ms both infinite alternate;
+}
+
+button:focus {
+    animation-play-state: paused;
+}
+
+@keyframes mover {
+    100% {
+        transform: translateY(30rem);
+    }
+}
+
+@keyframes sumir {
+    50% {
+        opacity: 0;
+    }
+} */

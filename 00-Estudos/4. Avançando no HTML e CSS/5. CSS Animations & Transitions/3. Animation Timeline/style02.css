@@ -1,0 +1,44 @@
+/* --- Futuro das animações 02 --- */
+/* CSS: animation-timeline: view(FIM INICIO) da animação || view(TOP BOTTOM)  || view(200px 300px)  || view(75% 100px) || view(100px) */
+
+/* BEFORE & AFTER para ajudar a visualização */
+body::before {
+    content: "top";
+    background-color: rgb(255 0 0 / 0.2);
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px dashed red;
+    box-sizing: border-box;
+}
+
+body::after {
+    content: "bottom";
+    background-color: rgb(0 255 0 / 0.2);
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 1px dashed red;
+    box-sizing: border-box;
+}
+
+article > img {
+    animation: fade linear;
+    /* animation: fade linear both; */
+    animation-timeline: view(200px 300px);
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        scale: .5;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}

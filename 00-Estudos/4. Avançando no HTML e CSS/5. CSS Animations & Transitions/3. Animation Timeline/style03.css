@@ -1,0 +1,40 @@
+/* --- Futuro das animações 03 --- */
+/* CSS: animation-range: {start end} || animation-range: {tipo} || animation-range: {tipo end} */
+
+article > img, h1, h2, h3 {
+    animation: fade linear both;
+    animation-timeline: view();
+    
+    /* animation-range-start: 300px; */
+    /* animation-range-end: 500px; */
+    /* animation-range: 300px 500px; */
+    /* animation-range: entry 500px; */
+    
+    /* --- DEFAULT: animation-range: cover --- */
+    /* --- COVER: inicia quando o elemento começa a aparecer --- */
+    /* --- COVER: finaliza quando o elemento some completo --- */
+    /* animation-range: cover; */
+    
+    /* --- CONTAIN: inicia quando o elemento aparece completo --- */
+    /* --- CONTAIN: finaliza quando o elemento começa a sumir --- */
+    /* animation-range: contain; */
+    
+    /* --- ENTRY: inicia quando o elemento começa a aparecer --- */
+    /* --- ENTRY: finaliza quando o elemento aparece completo --- */
+    animation-range: entry;
+
+    /* --- EXIT: inicia quando o elemento começa a sumir --- */
+    /* --- EXIT: finaliza quando o elemento some completo --- */
+    /* animation-range: exit; */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        scale: .5;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}

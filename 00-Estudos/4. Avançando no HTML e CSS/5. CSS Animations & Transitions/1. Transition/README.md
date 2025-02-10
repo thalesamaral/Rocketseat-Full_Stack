@@ -1,57 +1,139 @@
-# Landing Page Animada (Snitap Patins)
+# 4.5.1 Transition
 
-**Landing Page do produto Snitap Patins. Página desenvolvida com muitas animações e transições e possui responsividade como desafio prático.**
+### Links
 
-- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/10-Projeto-LP_Patins_Animado.
+- https://animista.net/
+- https://cubic-bezier.com/#.17,.67,.83,.67
+- [CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 
-## ✨ Recursos Aprendidos e em Destaque
-
-Fundamento
-- Responsive Web Design & Media Queries
-- CSS Transitions
-- CSS Animations
-
-Conceito
-- Criação da utility.css: Para melhor agrupamento dos estilos
-- Modo de desenvolvimento: Mobile first
-
-## 💻 Tecnologias usadas
+---
 
 - HTML
-- CSS
+    
+    ```html
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            background-color: mediumpurple;
+        }
+    
+        div {
+            background-color: white;
+            width: 10rem;
+            height: 10rem;
+        }
+    </style>
+    
+    <div></div>
+    ```
+    
 
-## 📝 Como executar o projeto
+---
 
-1. Clone o repositório para sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador da web.
+### **CSS Transition 01**
 
-## ✏️ Design
+Neste trecho da aula, expliquei sobre a utilização de transitions em CSS para suavizar mudanças de propriedades. Demonstrei como aplicar transições em propriedades como opacidade e transform, utilizando o `transition property` e `transition duration`. Também abordei o uso do `transition delay` para adicionar um atraso na transição e a importância de ser específico nas propriedades a serem modificadas. Mostrei como configurar transições separadamente e o uso da propriedade `all` para aplicar a transição em todas as propriedades.
 
-- [Figma](https://www.figma.com/community/file/1379866810042169871).
-- Design feito por [Rocketseat](https://www.rocketseat.com.br/).
+- CSS: transition-property {duration; delay}
+    
+    ```css
+    div {
+        opacity: .3;
+    
+        transition-property: opacity, transform;
+        /* transition-property: all; */
+        transition-duration: 1s, 100ms;
+        transition-delay: 1s, 3s;
+    }
+    
+    div:hover {
+        opacity: 1;
+        transform: translateX(5rem);
+    }
+    ```
+    
 
-## 👀 Preview
+### **CSS Transition 02**
 
-### Desktop
-![Prévia de Landing Page Animada (Snitap Patins)](assets/readme/preview-10-Projeto-LP_Patins_Animado.jpeg)
+Neste vídeo, exploro o `cubic-bezier` e o `transition-timing-function` para criar transições suaves em CSS.
 
-### Mobile
-![Prévia de Landing Page Animada (Snitap Patins). MOBILE](assets/readme/preview-10-Projeto-LP_Patins_Animado-mobile.jpeg)
+Demonstrando como diferentes funções, como Linear, Easy In, Easy Out e Easy In Out, afetam a aceleração da transição.
 
-# 👨‍💻 Autor
+Também abordo o uso de `steps` para criar animações em etapas.
 
-### Thales Amaral Lima
-Graduando em Ciência da Computação com foco em full stack, apaixonado por entregar soluções tecnológicas com a melhor experiência do usuário.
-Sinta-se à vontade para me seguir no GitHub e entrar em contato comigo no LinkedIn.
+A ferramenta Cubic Bezier é essencial para ajustar as curvas de aceleração. Recomendo explorar essas técnicas para criar transições mais dinâmicas em seus projetos.
 
-## Contato
+- CSS: transition-timing-function & cubic-bezier() & steps()
+    
+    ```css
+    div {
+        opacity: .3;
+        
+        transition-property: opacity, transform;
+        transition-duration: 2s;
+        
+        /* transition-timing-function: linear; */
+        /* transition-timing-function: ease; */
+        /* transition-timing-function: ease-in; */
+        /* transition-timing-function: ease-out; */
+        /* transition-timing-function: ease-in-out; */
+        /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+        /* transition-timing-function: steps(5); */
+        /* transition-timing-function: step-start; */
+    }
+    
+    div:hover {
+        opacity: 1;
+        transform: translateX(30rem);
+    }
+    ```
+    
 
-<img align="left" src="https://www.github.com/thalesamaral.png?size=150">
+### **CSS Transition 03**
 
-### [**Thales Amaral Lima**](https://github.com/thalesamaral)
+Neste vídeo, abordo detalhes sobre a propriedade transition em CSS. Explico como usar o `shorthand transition`, definir duração, delay e timing function.
 
-🛠 `Frontend` Developer. <br>
-📍 Brasília - Brasil
+Também destaco a importância de considerar o `Prefers Reduced Motion` para usuários com preferência por menos animações.
 
-<a href="https://www.linkedin.com/in/thales-amaral-lima"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;<a href="mailto:thaleslima225@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail Badge" height="25"></a>&nbsp;<a href="#"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" title="Thales Amaral#0416" alt="Discord Badge" height="25"></a>&nbsp;<a href="https://www.github.com/thalesamaral"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="25"></a>&nbsp;<br clear="left"/>
+Além disso, alerto sobre a necessidade de aplicar a transição no elemento correto e não apenas no disparo.
+
+A transição é uma propriedade do CSS que requer atenção às propriedades suportadas. É uma ferramenta poderosa para melhorar a experiência do usuário.
+
+- CSS: transition & @media (prefers-reduced-motion)
+    
+    ```css
+    div {
+        opacity: .3;
+    
+        /* transition: all 400ms 2s ease; */
+        transition: opacity 1s 100ms ease, transform 100ms 2s linear;
+    }
+    
+    div:hover {
+        opacity: 1;
+        transform: translateX(5rem);
+    }
+    
+    @media (prefers-reduced-motion) {
+        div {
+            transition: none;
+        }
+    }
+    ```
+    
+- CSS: Local do transition
+    
+    ```css
+    div {
+        opacity: .3;
+    
+        transition: all 3s;
+    }
+    
+    div:hover {
+        opacity: 1;
+        transform: translateX(5rem);
+        transition: all 1s;
+    }
+    ```

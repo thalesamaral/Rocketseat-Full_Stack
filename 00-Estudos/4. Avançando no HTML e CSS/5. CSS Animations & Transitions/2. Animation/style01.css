@@ -1,0 +1,73 @@
+/* --- CSS Animation 01 --- */
+/* CSS: @keyframes {from & to) | animation-name | animation-duration */
+
+button {
+    animation-name: mover;
+    animation-duration: 4s;
+}
+
+/* 1# */
+@keyframes mover {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30rem);
+    }
+    
+    /* OR */
+
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30rem);
+    }
+}
+
+/* 2# */
+@keyframes mover {
+    to {
+        transform: translateY(30rem);
+    }
+
+    /* OR */
+
+    100% {
+        transform: translateY(30rem);
+    }
+}
+
+/* 3# */
+@keyframes mover {
+    10%, 70% {
+        transform: translateY(30rem);
+    }
+
+    20%, 80% {
+        transform: translateY(0);
+    }
+}
+
+/* CSS: animation-fill-mode | animation-delay */
+button {
+    animation-name: mover;
+    animation-duration: 4s;
+    /* animation-fill-mode: forwards; */
+    
+    animation-delay: 2s;
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: both;
+}
+
+@keyframes mover {
+    0% {
+        background-color: blue;
+    }
+
+    100% {
+        transform: translateY(30rem);
+    }
+}

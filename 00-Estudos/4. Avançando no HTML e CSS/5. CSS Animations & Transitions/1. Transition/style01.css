@@ -1,0 +1,16 @@
+/* --- CSS Transition 01 --- */
+/* CSS: transition-property {duration; delay} */
+
+div {
+    opacity: .3;
+    
+    transition-property: opacity, transform;
+    /* transition-property: all; */
+    transition-duration: 1s, 100ms;
+    transition-delay: 1s, 3s;
+}
+
+div:hover {
+    opacity: 1;
+    transform: translateX(5rem);
+}
