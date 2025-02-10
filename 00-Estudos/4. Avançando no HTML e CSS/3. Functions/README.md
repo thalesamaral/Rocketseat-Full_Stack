@@ -1,4 +1,4 @@
-# 3. Functions
+# 4.3 Functions
 
 ### Links
 
