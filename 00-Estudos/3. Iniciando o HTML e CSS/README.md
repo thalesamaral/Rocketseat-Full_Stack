@@ -3,10 +3,10 @@
 # Projetos
 
 ### Projeto - Página de Receita
-- 🗂️ [01-Projeto-Pagina_de_Receita](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Nivel/01-Projeto-Pagina_de_Receita) - 🚀 [Página de Receita](https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Nivel/01-Projeto-Pagina_de_Receita)
+- 🗂️ [01-Projeto-Pagina_de_Receita](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Nivel/01-Projeto-Pagina_de_Receita)
 
 ### Desafio Prático - Local Turístico
-- 🗂️ [02-Desafio-Local_Turistico](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Nivel/02-Desafio-Local_Turistico) - 🚀 [Local Turístico](https://thalesamaral.github.io/Rocketseat-Full_Stack/01-Nivel/02-Desafio-Local_Turistico/index.html)
+- 🗂️ [02-Desafio-Local_Turistico](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/01-Nivel/02-Desafio-Local_Turistico)
 
 ---
 
