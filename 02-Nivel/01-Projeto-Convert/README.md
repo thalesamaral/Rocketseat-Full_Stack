@@ -2,24 +2,24 @@
 
 **Convert é uma aplicação web de conversão de moedas para real. Atualmente com valores monetários fixos.**
 
-- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/).
-- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/01-Projeto-Convert.
+- Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/)
+- Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/01-Projeto-Convert
 
-### Desafio
+#### Desafio
 - ✅ Realizei algumas mudanças ao projeto da aula, tentando aproximar ao design do Figma (**logo abaixo**).
 - ❌ Ficou pendente a estilização do campo de seleção, que seria interessante realizá-la com ajuda do Javascript.
 - ❌ Nível mais avançado: Tornar os valores monetários dinâmicos e sempre atualizados.
 
 ## ✨ Recursos Aprendidos e em Destaque
 
-Fundamentos e conceitos de Javascript
+**Fundamentos e conceitos de Javascript**
 - Document Object Model (DOM)
 - Query Selector
 - Arrow Function
 - preventDefault()
 - isNaN()
 
-Conceitos
+**Conceitos**
 - Manipulando conteúdo e atributos
 - Acessando e criando elementos
 - Adição e remoção de classe
