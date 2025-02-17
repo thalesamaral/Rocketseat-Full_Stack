@@ -13,3 +13,4 @@
 
 # 5. Javascript
 ### 5.1 Javascript Básico
+### 5.2 Javascript Intermediário
