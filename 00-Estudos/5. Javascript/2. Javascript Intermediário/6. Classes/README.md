@@ -4,9 +4,9 @@
 
 Nesta aula, vamos aprender o conceito de classes em JavaScript, introduzido no ECMAScript 2015.
 
-Classes são uma forma de criar objetos e definir comportamentos usando construtores e métodos. Elas oferecem uma sintaxe mais amigável para criar objetos e herdar protótipos, conhecida como **"syntax sugar"**.
-
 As classes têm construtores e métodos, permitindo a criação de modelos para objetos. Além disso, as classes possibilitam a herança de propriedades e métodos de outras classes, promovendo a reutilização de código.
+
+- Elas oferecem uma sintaxe mais amigável para criar objetos e herdar protótipos, conhecida como **"syntax sugar"**.
 
 ## **Criando uma classe com um método construtor**
 
@@ -66,12 +66,17 @@ Vamos ver como criar e utilizar um método estático em uma classe, destacando a
 
 ```jsx
 class User {
-    static show() {
-        console.log("Menssagem")
+    static msg01() {
+        console.log("Menssagem 1")
+    }
+    
+    msg02() {
+        console.log("Menssagem 2")
     }
 }
 
-User.show()
+User.msg01() // = Menssagem 1
+User.msg02() // Uncaught TypeError: User.msg02 is not a function
 ```
 
 ## **Como aplicar herança com classes?**
@@ -93,7 +98,8 @@ class Animal01 extends Animal {
     // EMPTY
 }
 const animal = new Animal01()
-animal.sound() // Método Herdado
+// Método Herdado
+animal.sound() // = Som genérico
 
 // Sobrescrevendo métodos
 
@@ -104,13 +110,13 @@ class Dog extends Animal {
 }
 
 const dog = new Dog("Spike")
-console.log(dog.name)
-dog.sound()
+console.log(dog.name) // = Spike 
+dog.sound() // = Aw... Aw... 
 ```
 
 ## **Aprendendo sobre herança e cadeia de protótipos**
 
-Nesta aula, vamos aprender o conceito de prototype chain no JavaScript, que se baseia em herança e cadeia de protótipos. Vamos entender como objetos herdam propriedades e métodos de seus protótipos ascendentes, até chegar a um protótipo com valor nulo, finalizando a cadeia.
+Nesta aula, vamos aprender o conceito de prototype chain no JavaScript, que se baseia em herança e cadeia de protótipos. Vamos entender como objetos **herdam propriedades e métodos de seus protótipos ascendentes**, até chegar a um protótipo com valor nulo, finalizando a cadeia.
 
 ![image.png](assets/img.png)
 

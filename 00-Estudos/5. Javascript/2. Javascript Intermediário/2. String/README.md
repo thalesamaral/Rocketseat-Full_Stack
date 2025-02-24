@@ -1,4 +1,4 @@
-# **String**
+# String
 
 ## **Texto maiúsculo e minúsculo**
 
@@ -31,14 +31,16 @@ console.log(value.toString().length)
 
 ## **Substituindo e fatiando um texto**
 
-Neste vídeo, vamos aprender a "fatiar" e substituir partes de uma string em JavaScript usando o método `replace`. Também exploraremos o método `slice` para extrair partes específicas da string, tanto do início para o fim quanto de trás para frente. Além disso, vamos ver um pouquinho sobre o método `trim` para remover espaços em branco no início e no final de uma string, sem afetar os espaços no meio.
+Neste vídeo, vamos aprender a "fatiar" e substituir partes de uma string em JavaScript usando o método `replace`.
+
+Também exploraremos o método `slice` para extrair partes específicas da string, tanto do início para o fim quanto de trás para frente. Além disso, vamos ver um pouquinho sobre o método `trim` para remover espaços em branco no início e no final de uma string, sem afetar os espaços no meio.
 
 ```jsx
 let message = "Texto de Teste"
 
 // Substituir parte de texto
 console.log(message)
-console.log(message.replace("Texto", "String"))
+console.log(message.replace("Texto", "String")) // = String de Teste
 
 // Buscando uma parte (start, end)
 console.log(message.slice(3,13)) // = to de Test
@@ -52,12 +54,12 @@ console.log(textWithSpace.trim())
 
 ## **Completando uma string**
 
-Nesta aula, vamos aprender a manipular strings em JavaScript. Veremos um exemplo prático de ocultar os primeiros dígitos de um número de cartão de crédito e exibir apenas os últimos quatro dígitos. Utilizaremos métodos como `slice` para pegar os últimos dígitos e `padStart()` para preencher a string com caracteres específicos. Também veremos o método `padEnd()` para preencher strings no final. Esses métodos são úteis para manipular e formatar strings de forma dinâmica.
+Nesta aula, vamos aprender a manipular strings em JavaScript. Veremos um exemplo prático de ocultar os primeiros dígitos de um número de cartão de crédito e exibir apenas os últimos quatro dígitos.
+
+Utilizaremos métodos como `slice` para pegar os últimos dígitos e `padStart()` para preencher a string com caracteres específicos. Também veremos o método `padEnd()` para preencher strings no final. Esses métodos são úteis para manipular e formatar strings de forma dinâmica.
 
 ```jsx
 let creditCard = "123456781234"
-
-// Substituir parte de texto
 console.log(creditCard.length)
 
 const lastDigits = creditCard.slice(-4)
@@ -81,12 +83,11 @@ let text = "Estudar, aprender, praticar"
 
 // Separar a String utlizando um parâmetro
 let textSplited = text.split(",")
-console.log(textSplited)
+console.log(textSplited) // = ["Estudar", " aprender", " praticar"]
 
 // Unir a String de forma padrão ou com parâmetro
-let textJoined = textSplited.join("")
-textJoined = textSplited.join("---")
-console.log(textJoined)
+let textJoined = textSplited.join(" -")
+console.log(textJoined) // = "Estudar - aprender - praticar"
 ```
 
 ## **Encontrando um conteúdo no texto**
@@ -100,10 +101,10 @@ Utilizaremos o método `indexOf()` para encontrar a posição de uma palavra e
 let text = "Encontrando um conteúdo no texto"
 
 // Obtém a posição do texto
-// Não encontrado = -1
+// Quando não encontrado = -1
 console.log(text.indexOf("conteúdo"))
 
 // Verificar se existe ou não o texto
-// Não encontrado = false
+// Quando não encontrado = false
 console.log(text.includes("conteúdo"))
 ```

@@ -1,4 +1,4 @@
-# **Array [ ]**
+# Array [ ]
 
 ## **Aprendendo sobre arrays**
 
@@ -10,11 +10,11 @@ Veremos a diferença entre colchetes para arrays e chaves para objetos. Vamos cr
 
 ```jsx
 // Criando Array com construtor
-const newArray = new Array(10)
+const newArray = new Array(3)
 
-console.log(newArray)
+console.log(newArray) // = [undefined, undefined, undefined]
 console.log(typeof newArray) // = object
-console.log(newArray.length) // = 10 empty spaces
+console.log(newArray.length) // = 3 empty spaces
 ```
 
 ## **Criando e acessando um array**
@@ -32,17 +32,17 @@ console.log(fruits[fruits.length - 1])
 
 ## **Convertendo uma string para array**
 
-Nesta aula, vamos aprender como converter uma string em um array utilizando o método `split`. Essa técnica pode ser útil para separar letras ou palavras em um array
+Nesta aula, vamos aprender como converter uma string em um array utilizando o método `split`. Essa técnica pode ser útil para separar letras ou palavras em um array.
 
 ```jsx
 let fullName = "Thales Amaral Lima"
 console.log(fullName)
 
 // cria Array dos nomes, separados pelo espaço
-console.log(fullName.split(" "))
+console.log(fullName.split(" ")) // ["Thales", "Amaral", "Lima"]
 
 // cria Array de letras
-console.log(Array.from(fullName))
+console.log(Array.from(fullName)) // ["T", "h", "a", "l", "e", "s", " ", "A", "m", "a", …]
 ```
 
 ## **Adicionando e removendo um item do array**
@@ -56,6 +56,7 @@ let colors = []
 colors.push("red")
 colors.push("blue")
 colors.push("green")
+
 // Adciona um item no início do Array
 colors.unshift("pink")
 
@@ -77,17 +78,17 @@ let colors = ["red", "blue", "green"]
 
 // Retorna o índice do elemento
 let position = colors.indexOf("blue")
-console.log(position)
+console.log(position) // = 1
 
 // Removendo o item pela posição
-// colors.splice(1, 2) // ["red", X, X]
 colors.splice(position, 1) // ["red", X, "green"]
+// colors.splice(1, 2) // ["red", X, X]
 console.log(colors)
 
 const array = [1, 2, 3, 4, 5];
-array.splice(2, 1, 'x', 'y', 'z');
+array.splice(1, 1, 'x', 'y', 'z');
 
-console.log(array) // = [1, 2, 'x', 'y', 'z', 4, 5];
+console.log(array) // = [1, 'x', 'y', 'z', 3, 4, 5];
 ```
 
 ## **Quais elementos o array aceita?**

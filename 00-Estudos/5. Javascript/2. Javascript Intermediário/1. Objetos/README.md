@@ -16,10 +16,10 @@ console.log(typeof obj)
 
 // Criar objeto com propriedades e métodos
 const user = {
-    email: "thales@email.com",
-    age: 22,
+    email: "jose@email.com",
+    age: 20,
     name: {
-        firstName: "Thales",
+        firstName: "Jose",
         lastName: "Lima"
     },
 
@@ -124,13 +124,13 @@ const user = {
 }
 
 // Teste de erro
-console.log(user?.name)
-console.log(user.address?.street)
-// console.log(user.address.city)
+console.log(user?.name) // Normal
+console.log(user.address?.street) // Normal
+// console.log(user.address.city) // Erro
 
 // Teste de erro
-user.msg01?.()
-// user.msg02()
+user.msg01?.() // Normal
+// user.msg02() // Erro
 ```
 
 ## **Operador de coalescência nula**
@@ -138,11 +138,11 @@ user.msg01?.()
 Vamos entender como retorna o operando do lado direito quando o do lado esquerdo é nulo ou `undefined`. Veremos na prática como usar para verificar se uma variável tem conteúdo ou não. Esse operador é útil para fazer verificações em diferentes cenários de programação.
 
 ```jsx
-let content01 = "message"
+let content01 = "MESSAGE"
 let content02 = undefined
 let content03 = null
 
-console.log(content01 ?? "DEFAULT") // message
+console.log(content01 ?? "DEFAULT") // MESSAGE
 console.log(content02 ?? "DEFAULT") // DEFAULT
 console.log(content03 ?? "DEFAULT") // DEFAULT
 ```
@@ -174,14 +174,14 @@ const product02 = new createProduct("Mouse")
 console.log(product02.name)
 product02.details()
 
-console.log(product01 === product02) // test: false
+console.log(product01 === product02) // = false
 
 // Exemplos de funções construtoras disponíveis no próprio Javascript.
 let myName = new String("Rodrigo")
-console.log(myName)
+console.log(myName) // String {0: "R", 1: "o", 2: "d", 3: "r", 4: "i"…}
 
 let price = "1.5".replace(".", "")
-console.log(price)
+console.log(price) // = 15
 
 let date = new Date("2025-1-1")
 console.log(date)
