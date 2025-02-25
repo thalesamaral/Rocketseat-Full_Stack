@@ -26,6 +26,7 @@ Este repositório evoluirá conforme eu progredir na formação. Cada projeto te
 - 🗂️ [01-Projeto-Convert](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Nivel/01-Projeto-Convert) - 🚀 [Convert - Conversor de Moedas](https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/01-Projeto-Convert)
 - 🗂️ [02-Desafio-Quicklist](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Nivel/02-Desafio-Quicklist) - 🚀 [Quicklist - Lista de Compras](https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/02-Desafio-Quicklist)
 - 🗂️ [03-Projeto-Refund](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Nivel/03-Projeto-Refund) - 🚀 [Refund - Sistema de Reembolso](https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/03-Projeto-Refund)
+- 🗂️ [04-Desafio-Sortshow](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main/02-Nivel/04-Desafio-Sortshow) - 🚀 [Sortshow - Sorteador de Números](https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/04-Desafio-Sortshow)
 
 # 📝 Sobre a formação
 A formação da Rocketseat é um programa abrangente projetado para profissionais que buscam aprofundar suas habilidades em desenvolvimento web moderno, arquitetura de sistemas e construção de produtos. Com foco em **aprendizagem prática**, o programa prepara os alunos para resolver desafios do mundo real integrando tecnologia, liderança e estratégia de negócios.
