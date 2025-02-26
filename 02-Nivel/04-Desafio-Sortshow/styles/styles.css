@@ -1,0 +1,31 @@
+#app {
+  border: solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2.75rem 2rem;
+}
+
+#content {
+  margin-top: 2.75rem;
+}
+
+header {
+  & p {
+    margin-bottom: 0.5rem;
+    color: var(--gradient-content);
+  }
+
+  h1 {
+    font: var(--display-md);
+    color: var(--content-primary);
+    text-transform: uppercase;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
