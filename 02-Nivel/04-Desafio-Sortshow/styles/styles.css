@@ -1,5 +1,7 @@
 #app {
-  border: solid red;
+  width: 100%;
+  height: 100%;
+  /* border: solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,20 +14,117 @@
 }
 
 header {
+  /* outline: solid blue; */
+  margin-bottom: 2.75rem;
+
   & p {
     margin-bottom: 0.5rem;
+    font: var(--overline);
     color: var(--gradient-content);
+    text-transform: uppercase;
   }
 
   h1 {
     font: var(--display-md);
-    color: var(--content-primary);
     text-transform: uppercase;
   }
 }
 
 main {
+  /* outline: solid green; */
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
+
+  & #info {
+    & h2 {
+      font: var(--label-md);
+      text-transform: uppercase;
+    }
+
+    & p {
+      font: var(--paragraph-md);
+      color: var(--content-tertiary);
+    }
+  }
+
+  & form {
+    & .cards {
+      display: flex;
+      /* align-items: center; */
+      gap: 12px;
+      /* align-self: stretch; */
+      
+      & .card-number{
+        /* outline: solid blue; */
+        margin-bottom: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        /* align-items: center; */
+        gap: 0.5rem;
+
+        width: 86px;
+        height: 88px;
+        
+        & label {
+          font: var(--label-sm);
+          color: var(--content-secondary);
+          text-transform: uppercase;
+          align-self: center;
+        }
+
+        & input {
+          margin: 4px 8px;
+          height: 100%;
+          background: var(--background-secondary);
+          color: var(--content-primary);
+          font: var(--display-sm);
+          text-align: center;
+        }
+      }
+    }
+
+    & .toggle {
+      font: var(--paragraph-sm);
+    }
+  }
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    height: 56px;
+    border-radius: .5rem;
+    cursor: pointer;
+
+    font: var(--paragraph-lg);
+    color: var(--content-primary);
+    text-transform: uppercase;
+    background-color: var(--background-tertiary);
+  }
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+  margin-top: 80px;
+
+  & .question-item {
+    display: flex;
+    align-items: start;
+    gap: .5rem;
+
+    & h3 {
+      font: var(--paragraph-md);
+      color: var(--content-brand);
+    }
+    
+    & p {
+      font: var(--paragraph-sm);
+      color: var(--content-secondary);
+    }
+  }
 }
