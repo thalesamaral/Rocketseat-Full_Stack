@@ -24,45 +24,54 @@
       </header>
 
       <main>
-        <div id="info">
-          <h2>Quero sortear:</h2>
-  
-          <p>
-            Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!
-          </p>
-        </div>
-        
-        <div id="form-content"></div>
         <form action="" method="post" enctype="multipart/form-data">
-          <div class="cards">
-            <div class="card-number">
-              <label for="numeros">Números</label>
-              <input type="number" id="numeros">
-            </div>
-            
-            <div class="card-number">
-              <label for="start">De</label>
-              <input type="number" id="start">
-            </div>
-            
-            <div class="card-number">
-              <label for="end">Até</label>
-              <input type="number" id="end">
-            </div>
+          <div id="info">
+            <h2>Quero sortear:</h2>
+  
+            <p>
+              Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!
+            </p>
           </div>
 
-          <div class="toggle">
-            <input type="checkbox" id="no-repeat" name="no-repeat">
-            <label for="no-repeat">Não repetir número</label>
-          </div>
-        </form>
+          <div class="form-content">
+            <div class="number-wrapper">
+              <div class="number-inner">
+                <label for="numeros">Números</label>
+                
+                <div class="input-box">
+                  <input type="number" id="numeros">
+                </div>
+              </div>
+              
+              <div class="number-inner">
+                <label for="start">De</label>
+                <div class="input-box">
+                  <input type="number" id="start">
+                </div>
+              </div>
+              
+              <div class="number-inner">
+                <label for="end">Até</label>
+                <div class="input-box">
+                  <input type="number" id="end">
+                </div>
+              </div>
+            </div>
 
-        <button type="submit">
-          <p>Sortear</p>
+            <div class="toggle">
+              <input type="checkbox" id="no-repeat" name="no-repeat">
+              <label for="no-repeat">Não repetir número</label>
+            </div>
+          </div>
           
-          <img src="assets/next.svg" alt="next">
-        </button>
+          <button type="submit">
+            <p>Sortear</p>
+            
+            <img src="assets/next.svg" alt="next">
+          </button>
+        </form>
       </main>
+
       <div id="questions">
         <div class="question-item">
           <img src="assets/question02.svg" alt="question">

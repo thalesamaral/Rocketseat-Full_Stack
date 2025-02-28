@@ -14,14 +14,14 @@
 }
 
 header {
-  outline: solid blue;
+  /* outline: solid blue; */
   margin-bottom: 2.75rem;
 
   & p {
     margin-bottom: 0.5rem;
     font: var(--overline);
-    background: var(--gradient-content);
     text-transform: uppercase;
+    background: var(--gradient-content);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -33,8 +33,9 @@ header {
   }
 }
 
-main {
-  outline: solid green;
+/* main { */
+form {
+  /* outline: solid green; */
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -51,43 +52,62 @@ main {
     }
   }
 
-  & form {
-    & .cards {
+  & .number-wrapper {
+    display: flex;
+    gap: .75rem;
+    margin-bottom: 1.25rem;
+    
+    & .number-inner{
+      /* outline: solid blue; */
       display: flex;
-      gap: 12px;
+      flex-direction: column;
+      align-content: center;
+      gap: 0.5rem;
+      width: 86px;
+      height: 88px;
+
+      font: var(--label-sm);
+      color: var(--content-secondary);
       
-      & .card-number{
-        outline: solid blue;
-        margin-bottom: 1.25rem;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        gap: 0.5rem;
-
-        width: 86px;
-        height: 88px;
+      & label {
+        align-self: center;
+        text-transform: uppercase;
+      }
+      
+      &:hover,
+      &:focus-within {
+        color: var(--content-brand);
+      }
+      
+      & .input-box {
+        height: 100%;
+        border-radius: .5rem;
         
-        & label {
-          font: var(--label-sm);
-          color: var(--content-secondary);
-          text-transform: uppercase;
-          align-self: center;
-        }
-
         & input {
-          margin: 4px 8px;
           height: 100%;
+          width: 100%;
+          border-radius: inherit;
+          text-align: center;
           background: var(--background-secondary);
           color: var(--content-primary);
           font: var(--display-sm);
-          text-align: center;
+        }
+
+        &:hover {
+          padding: 1px;
+          background: var(--gradient-border);
+        }
+
+        &:focus-within {
+          padding: 2px;
+          background: var(--gradient-border);
         }
       }
     }
+  }
 
-    & .toggle {
-      font: var(--paragraph-sm);
-    }
+  & .toggle {
+    font: var(--paragraph-sm);
   }
 
   & button {
@@ -98,12 +118,21 @@ main {
     height: 56px;
     border-radius: .5rem;
     cursor: pointer;
+    border: transparent;
 
     font: var(--paragraph-lg);
     color: var(--content-primary);
     text-transform: uppercase;
     background-color: var(--background-tertiary);
   }
+}
+
+& input,
+& input:focus,
+& input:hover {
+    all: unset;
+    inset: 0;
+    /* position: absolute; */
 }
 
 #questions {
