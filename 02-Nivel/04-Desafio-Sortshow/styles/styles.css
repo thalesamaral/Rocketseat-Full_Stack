@@ -108,6 +108,24 @@ form {
 
   & .toggle {
     font: var(--paragraph-sm);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 2.5rem;
+
+    background: url(../assets/toggle-off.svg) no-repeat 0;
+    & input {
+      cursor: pointer;
+      width: 2rem;
+      height: 1.25rem;
+      border-radius: 999px;
+      opacity: 0;
+    }
+    
+    &:has(:checked) {
+      outline: none!important;
+      background: url(../assets/toggle-on.svg) no-repeat 0;
+    }
   }
 
   & button {
@@ -132,8 +150,8 @@ form {
 & input:hover {
     all: unset;
     inset: 0;
-    /* position: absolute; */
 }
+/* position: absolute; */
 
 #questions {
   display: flex;
