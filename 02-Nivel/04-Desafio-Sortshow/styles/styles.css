@@ -110,7 +110,7 @@ form {
     font: var(--paragraph-sm);
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: .5rem;
     height: 2.5rem;
 
     background: url(../assets/toggle-off.svg) no-repeat 0;
@@ -128,20 +128,31 @@ form {
     }
   }
 
-  & button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
+  & .btn-box {
     height: 56px;
     border-radius: .5rem;
-    cursor: pointer;
-    border: transparent;
-
-    font: var(--paragraph-lg);
-    color: var(--content-primary);
-    text-transform: uppercase;
-    background-color: var(--background-tertiary);
+    
+    &:hover {
+      padding: 2px;
+      background: var(--gradient-border);
+    }
+    
+    & button {
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      border: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      
+      background-color: var(--background-tertiary);
+      font: var(--paragraph-lg);
+      color: var(--content-primary);
+      text-transform: uppercase;
+      cursor: pointer;
+    }
   }
 }
 
