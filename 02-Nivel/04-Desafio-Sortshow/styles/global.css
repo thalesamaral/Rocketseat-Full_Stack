@@ -106,8 +106,9 @@ body {
   #app {
     --max-width: 85rem;
 
-    & > img {
+    & #logo {
       align-self: start;
+      /* display: none; */
     }
   }
 

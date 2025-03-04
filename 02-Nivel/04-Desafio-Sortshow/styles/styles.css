@@ -1,5 +1,5 @@
-#content {
-  margin-top: 2.75rem;
+#logo {
+  margin-bottom: 2.75rem;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     color: transparent;
   }
 
-  h1 {
+  & h1 {
     font: var(--display-md);
     text-transform: uppercase;
   }
@@ -24,7 +24,7 @@ header {
 
 /* main { */
 form {
-  /* outline: solid green; */
+  outline: solid green;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -147,19 +147,12 @@ form {
   }
 }
 
-& input,
-& input:focus,
-& input:hover {
-    all: unset;
-    inset: 0;
-}
-/* position: absolute; */
-
 #questions {
   display: flex;
   flex-direction: column;
   gap: 2.75rem;
   margin-top: 80px;
+  max-width: 319px;
 
   & .question-item {
     display: flex;
@@ -175,5 +168,71 @@ form {
       font: var(--paragraph-sm);
       color: var(--content-secondary);
     }
+  }
+}
+
+& input,
+& input:focus,
+& input:hover {
+    all: unset;
+    inset: 0;
+}
+
+@media (width >= 85rem) {
+  #content {
+    /* flex-direction: row; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: 508px 482px; */
+    grid-template-areas:
+      "A B"
+    ;
+    column-gap: 108px;
+    /* row-gap: 38px; */
+    /* align-content: center; */
+  }
+
+  .test {
+    display: grid;
+    grid-area: "A";
+    /* order: 0; */
+    /* height: fit-content; */
+    /* float: left; */
+  }
+
+  header {
+    margin-bottom: 2.5rem;
+    /* width: 508px; */
+    /* width: 100%; */
+    /* height: 50px; */
+
+    & h1 {
+      font: var(--display-lg);
+    }
+  }
+
+  form {
+    /* width: 482px; */
+    gap: 40px;
+    /* align-items: flex-start; */
+    /* display: grid; */
+    /* grid-area: "B"; */
+    /* order: 1; */
+    /* float: right; */
+
+    & #info {
+      & p {
+        font: var(--paragraph-lg);
+        color: var(--content-secondary);
+      }
+    }
+  }
+
+  #questions {
+    max-width: 386px;
+    margin: 0;
+    /* float: left; */
+    /* display: grid; */
+    /* grid-area: "C"; */
   }
 }
