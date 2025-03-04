@@ -1,14 +1,3 @@
-#app {
-  width: 100%;
-  height: 100%;
-  border: solid red;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  padding: 2.75rem 2rem;
-}
-
 #content {
   margin-top: 2.75rem;
 }
@@ -77,11 +66,15 @@ form {
       &:hover,
       &:focus-within {
         color: var(--content-brand);
+        & .input-box {
+          padding: 1px;
+        }
       }
       
       & .input-box {
         height: 100%;
         border-radius: .5rem;
+        background: var(--gradient-border);
         
         & input {
           height: 100%;
@@ -95,12 +88,10 @@ form {
 
         &:hover {
           padding: 1px;
-          background: var(--gradient-border);
         }
 
         &:focus-within {
           padding: 2px;
-          background: var(--gradient-border);
         }
       }
     }
@@ -119,7 +110,6 @@ form {
       width: 2rem;
       height: 1.25rem;
       border-radius: 999px;
-      opacity: 0;
     }
     
     &:has(:checked) {
@@ -129,12 +119,12 @@ form {
   }
 
   & .btn-box {
-    height: 56px;
+    height: 3.5rem;
     border-radius: .5rem;
+    background: var(--gradient-border);
     
     &:hover {
       padding: 2px;
-      background: var(--gradient-border);
     }
     
     & button {
@@ -146,6 +136,7 @@ form {
       align-items: center;
       justify-content: center;
       gap: .5rem;
+      padding: 1rem;
       
       background-color: var(--background-tertiary);
       font: var(--paragraph-lg);
