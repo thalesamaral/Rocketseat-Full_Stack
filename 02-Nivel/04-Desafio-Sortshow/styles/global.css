@@ -87,7 +87,6 @@ body {
   flex-direction: column;
 
   padding: 2.75rem 2rem;
-  /* padding: 76px 134px 153px; */
 }
 
 .flex-direction {
@@ -98,17 +97,14 @@ body {
   display: none;
 }
 
-#main-content {
-  width: 100%;
-}
-
 @media (width >= 85rem) {
   #app {
     --max-width: 85rem;
+    max-width: fit-content;
+    padding: 76px 120px 153px;
 
     & #logo {
       align-self: start;
-      /* display: none; */
     }
   }
 
@@ -118,10 +114,6 @@ body {
 
   .desktop-only {
     display: initial;
-  }
-
-  #main-content {
-    width: 40rem;
   }
 }
 

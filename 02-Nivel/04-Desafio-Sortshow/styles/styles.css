@@ -4,10 +4,9 @@
 
 header {
   /* outline: solid blue; */
-  margin-bottom: 2.75rem;
+  margin-bottom: 2.5rem;
 
   & p {
-    margin-bottom: 0.5rem;
     font: var(--overline);
     text-transform: uppercase;
     background: var(--gradient-content);
@@ -19,12 +18,12 @@ header {
   & h1 {
     font: var(--display-md);
     text-transform: uppercase;
+    margin-top: 0.5rem;
   }
 }
 
-/* main { */
 form {
-  outline: solid green;
+  /* outline: solid green; */
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -52,7 +51,7 @@ form {
       flex-direction: column;
       align-content: center;
       gap: 0.5rem;
-      width: 86px;
+      max-width: 10rem;
       height: 88px;
 
       font: var(--label-sm);
@@ -151,8 +150,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 2.75rem;
-  margin-top: 80px;
-  max-width: 319px;
+  margin-top: 5rem;
 
   & .question-item {
     display: flex;
@@ -180,45 +178,30 @@ form {
 
 @media (width >= 85rem) {
   #content {
-    /* flex-direction: row; */
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-columns: 508px 482px; */
-    grid-template-areas:
-      "A B"
-    ;
-    column-gap: 108px;
-    /* row-gap: 38px; */
-    /* align-content: center; */
-  }
-
-  .test {
-    display: grid;
-    grid-area: "A";
-    /* order: 0; */
-    /* height: fit-content; */
-    /* float: left; */
+    grid-template-columns: 510px 482px;
+    /* grid-template-rows: 1fr 1fr; */
+    column-gap: 6.75rem;
+    row-gap: 2.375rem;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   header {
-    margin-bottom: 2.5rem;
-    /* width: 508px; */
-    /* width: 100%; */
-    /* height: 50px; */
+    margin: 0;
 
     & h1 {
       font: var(--display-lg);
+      margin-top: 0.75rem;
     }
   }
 
   form {
     /* width: 482px; */
-    gap: 40px;
-    /* align-items: flex-start; */
-    /* display: grid; */
-    /* grid-area: "B"; */
-    /* order: 1; */
-    /* float: right; */
+    height: fit-content;
+    gap: 2.5rem;
+    grid-row: span 2;
 
     & #info {
       & p {
@@ -229,10 +212,8 @@ form {
   }
 
   #questions {
-    max-width: 386px;
+    max-width: 24.125rem;
     margin: 0;
-    /* float: left; */
-    /* display: grid; */
-    /* grid-area: "C"; */
+    align-self: start;
   }
 }
