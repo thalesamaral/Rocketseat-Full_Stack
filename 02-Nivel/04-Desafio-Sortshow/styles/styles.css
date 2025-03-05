@@ -176,6 +176,59 @@ form {
     inset: 0;
 }
 
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  & #info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h2 {
+      content: "asd";
+    }
+
+    & p {
+      font: var(--overline);
+      color: var(--content-secondary);
+      text-transform: uppercase;
+    }
+  }
+
+  /* & .form-content {
+    display: none;
+  } */
+
+  & .btn-box {
+    & button {
+      font: var(--paragraph-lg);
+      color: var(--content-primary);
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+
+  &:has(:checked) {
+    & .btn-box {
+      & button {
+        p {
+          display: none;
+        }
+
+        img {
+          content: url(../assets/again.svg);
+        }
+
+        &::before {
+          content: "Sortear Novamente";
+        }
+      }
+    }
+  }
+}
+
 @media (width >= 85rem) {
   #content {
     display: grid;
