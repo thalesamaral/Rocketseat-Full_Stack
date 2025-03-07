@@ -205,24 +205,21 @@ form {
     justify-content: center;
 
     gap: 4px;
-    /* width: 482px; */
     border: solid red;
 
     & .result-inner {
       width: 84px;
       height: 84px;
       border-radius: 28px;
-      /* border: solid blue; */
 
       display: flex;
-      /* flex-direction: column; */
       justify-content: center;
       align-items: center;
       background-color: var(--content-brand);
 
-      transform: translateX(1000%);
-      opacity: 1;
-      animation: slideAndRotate 2s 1s linear forwards;
+      transform: translateX(600%);
+      opacity: 0;
+      animation: slideAndRotate 2s 1s linear forwards, appear 2s 1.5s forwards;
 
       & span {
         animation: rotateSpan 2s 1s linear forwards;
@@ -297,34 +294,11 @@ form {
   }
 }
 
-@keyframes slideAndRotate {
-  0% { transform: translateX(1000%) rotate(0); }
-  10% { transform: translateX(900%) rotate(18deg); }
-  20% { transform: translateX(750%) rotate(36deg); }
-  30% { transform: translateX(500%) rotate(54deg); }
-  40% { transform: translateX(350%) rotate(72deg); }
-  50% { transform: translateX(200%) rotate(90deg); }
-  60% { transform: translateX(50%) rotate(108deg); }
-  70% { transform: translateX(-100%) rotate(126deg); }
-  80% { transform: translateX(-50%) rotate(144deg); }
-  90% { transform: translateX(15%) rotate(162deg); }
-  100% { transform: translateX(0) rotate(180deg); }
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
 }
-
-
-/* @keyframes slideAndRotate {
-  0% { transform: translateX(600%) rotate(0); }
-  10% { transform: translateX(500%) rotate(18deg); }
-  20% { transform: translateX(400%) rotate(36deg); }
-  30% { transform: translateX(300%) rotate(54deg); }
-  40% { transform: translateX(200%) rotate(72deg); }
-  50% { transform: translateX(100%) rotate(90deg); }
-  60% { transform: translateX(0) rotate(108deg); }
-  70% { transform: translateX(-50%) rotate(126deg); }
-  80% { transform: translateX(-25%) rotate(144deg); }
-  90% { transform: translateX(10%) rotate(162deg); }
-  100% { transform: translateX(0) rotate(180deg); }
-} */
 
 /* Mantendo o span na posição correta (girando ao contrário) */
 @keyframes rotateSpan {
@@ -339,4 +313,18 @@ form {
   80% { transform: rotate(-144deg); }
   90% { transform: rotate(-162deg); }
   100% { transform: rotate(-180deg); }
+}
+
+@keyframes slideAndRotate {
+  0% { transform: translateX(600%) rotate(0); }
+  10% { transform: translateX(500%) rotate(-18deg); }
+  20% { transform: translateX(400%) rotate(-36deg); }
+  30% { transform: translateX(300%) rotate(-54deg); }
+  40% { transform: translateX(200%) rotate(-72deg); }
+  50% { transform: translateX(100%) rotate(-90deg); }
+  60% { transform: translateX(0) rotate(-108deg); }
+  70% { transform: translateX(-100%) rotate(-126deg); }
+  80% { transform: translateX(-50%) rotate(-144deg); }
+  90% { transform: translateX(15%) rotate(-162deg); }
+  100% { transform: translateX(0) rotate(-180deg); }
 }
