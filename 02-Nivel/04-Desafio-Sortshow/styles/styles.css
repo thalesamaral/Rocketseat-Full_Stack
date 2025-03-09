@@ -40,9 +40,9 @@ form {
     }
   }
 
-  /* & .result-wrapper {
+  & .result-wrapper {
     display: none;
-  } */
+  }
 
   & .number-wrapper {
     display: flex;

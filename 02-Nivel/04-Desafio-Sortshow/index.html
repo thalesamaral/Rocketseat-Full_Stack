@@ -23,7 +23,7 @@
         <h1>Sorteador<br>de números</h1>
       </header>
 
-      <form class="result" action="" method="post" enctype="multipart/form-data">
+      <form action="" method="post" enctype="multipart/form-data">
         <div id="info">
           <h2>Quero sortear:</h2>
 
@@ -35,24 +35,24 @@
         <div class="form-content">
           <div class="number-wrapper">
             <div class="number-inner">
-              <label for="numeros">Números</label>
+              <label for="quantity">Números</label>
               
               <div class="input-box">
-                <input type="number" id="numeros">
+                <input type="number" id="quantity" required>
               </div>
             </div>
             
             <div class="number-inner">
               <label for="start">De</label>
               <div class="input-box">
-                <input type="number" id="start">
+                <input type="number" id="start" required>
               </div>
             </div>
             
             <div class="number-inner">
               <label for="end">Até</label>
               <div class="input-box">
-                <input type="number" id="end">
+                <input type="number" id="end" required>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
         </div>
         
         <div class="btn-box">
-          <button type="button">
+          <button type="submit">
             <p>Sortear</p>
             <img src="assets/next.svg" alt="next">
           </button>
@@ -106,5 +106,7 @@
       </div>
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
