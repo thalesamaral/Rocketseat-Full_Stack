@@ -40,6 +40,10 @@ form {
     }
   }
 
+  /* & .result-wrapper {
+    display: none;
+  } */
+
   & .number-wrapper {
     display: flex;
     gap: .75rem;
@@ -172,8 +176,8 @@ form {
 & input,
 & input:focus,
 & input:hover {
-    all: unset;
-    inset: 0;
+  all: unset;
+  inset: 0;
 }
 
 .result {
@@ -182,9 +186,7 @@ form {
   gap: 2.5rem;
 
   & #info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 
     & p {
       font: var(--overline);
@@ -193,7 +195,7 @@ form {
   }
 
   /* & .form-content { */
-  & .number-wrapper {
+  & .number-wrapper, & .toggle {
     display: none;
   }
 
@@ -203,6 +205,7 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
     gap: 4px;
     border: solid red;
@@ -219,10 +222,17 @@ form {
 
       transform: translateX(600%);
       opacity: 0;
-      animation: slideAndRotate 2s 1s linear forwards, appear 2s 1.5s forwards;
-
+      
       & span {
         animation: rotateSpan 2s 1s linear forwards;
+      }
+
+      &:nth-child(odd) {
+        animation: slideAndRotate 2s 1s linear forwards, appear 2s 1.5s forwards;
+      }
+
+      &:nth-child(even) {
+        animation: slideAndRotate 2s 2s linear forwards, appear 2s 2.5s forwards;
       }
     }
   }
@@ -300,7 +310,6 @@ form {
   }
 }
 
-/* Mantendo o span na posição correta (girando ao contrário) */
 @keyframes rotateSpan {
   0% { transform: rotate(0); }
   10% { transform: rotate(-18deg); }
