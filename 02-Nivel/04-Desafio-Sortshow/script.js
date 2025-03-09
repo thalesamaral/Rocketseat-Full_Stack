@@ -1,4 +1,5 @@
 const form = document.querySelector("form");
+let qtdSorteio = 0;
 
 form.onsubmit = (event) => {
   event.preventDefault();
@@ -15,8 +16,10 @@ form.onsubmit = (event) => {
   }
 
   let result = generateNumbers(quantity, start, end, toggle);
+  result.sort((a, b) => a - b); // Ordena os números em ordem crescente
 
   console.log(result);
+  displayResults(result);
 };
 
 function generateNumbers(quantity, start, end, repeatOff) {
@@ -32,7 +35,7 @@ function generateNumbers(quantity, start, end, repeatOff) {
 
   while (numbers.length < quantity) {
     let randomNumber = Math.floor(Math.random() * (end - start + 1)) + start;
-    
+
     if (repeatOff) {
       if (!numbers.includes(randomNumber)) {
         numbers.push(randomNumber);
@@ -43,4 +46,30 @@ function generateNumbers(quantity, start, end, repeatOff) {
   }
 
   return numbers;
+}
+
+function displayResults(numbers) {
+  const wrapper = document.querySelector(".result-wrapper"); // Pegamos a div existente
+  wrapper.innerHTML = ""; // Limpamos os resultados anteriores
+
+  numbers.forEach((num) => {
+    const resultDiv = document.createElement("div");
+    resultDiv.classList.add("result-inner");
+
+    const span = document.createElement("span");
+    span.textContent = num;
+
+    resultDiv.appendChild(span);
+    wrapper.appendChild(resultDiv);
+  });
+
+  // Update info
+  qtdSorteio++;
+
+  const titulo = document.querySelector("#info > h2");
+  const paragrafo = document.querySelector("#info > p");
+  titulo.textContent = "Resultado do sorteio";
+  paragrafo.textContent = `${qtdSorteio}º Resultado`;
+
+  form.classList.add("result");
 }
