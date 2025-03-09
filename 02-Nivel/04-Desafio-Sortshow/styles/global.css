@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 :root {
+  overflow-y: auto;
+
   /* CORES */
   --content-primary: #ffffff;
   --content-secondary: #c7c9cc;
@@ -48,7 +51,7 @@
   /* TIPOGRAFIA */
   --ff-sora: "Sora", serif;
   --display-lg: 900 4.5rem/1.3 var(--ff-sora);
-  --display-md: 900 2.5rem/1.3 var(--ff-sora);
+  --display-md: 800 2.5rem/1.3 var(--ff-sora);
   --display-sm: 700 2rem/1.3 var(--ff-sora);
 
   --ff-roboto-mono: "Roboto Mono", serif;
@@ -72,17 +75,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
 }
 
 #app {
   --max-width: 24.375rem;
-  width: min(var(--max-width), 100% - 2rem * 2);
+  width: min(var(--max-width), 100% + 2rem * 2);
   /* width: 100%; */
   height: 100%;
   margin-inline: auto;
 
-  border: solid red;
+  outline: solid red;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -129,9 +131,9 @@ input::-webkit-inner-spin-button {
   text-decoration: none;
   color: inherit;
   display: inline-flex;
-}
+} */
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
 } */
