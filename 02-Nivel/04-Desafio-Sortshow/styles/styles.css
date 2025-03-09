@@ -192,9 +192,11 @@ form {
       font: var(--overline);
       text-transform: uppercase;
     }
+
+    opacity: 0;
+    animation: appear 1s 1s linear forwards;
   }
 
-  /* & .form-content { */
   & .number-wrapper, & .toggle {
     display: none;
   }
@@ -208,7 +210,7 @@ form {
     flex-wrap: wrap;
 
     gap: 4px;
-    border: solid red;
+    /* border: solid red; */
 
     & .result-inner {
       width: 84px;
@@ -224,15 +226,15 @@ form {
       opacity: 0;
       
       & span {
-        animation: rotateSpan 2s 1s linear forwards;
+        animation: rotateSpan 2s 2s linear forwards;
       }
 
       &:nth-child(odd) {
-        animation: slideAndRotate 2s 1s linear forwards, appear 2s 1.5s forwards;
+        animation: slideAndRotate 2s 2s linear forwards, appear 2s 2.5s forwards;
       }
 
       &:nth-child(even) {
-        animation: slideAndRotate 2s 2s linear forwards, appear 2s 2.5s forwards;
+        animation: slideAndRotate 2s 3s linear forwards, appear 2s 3.5s forwards;
       }
     }
   }
@@ -240,25 +242,22 @@ form {
   & .btn-box {
     & button {
       text-transform: uppercase;
-    }
-  }
 
-  &:has(:checked) {
-    & .btn-box {
-      & button {
-        p {
-          display: none;
-        }
+      p {
+        display: none;
+      }
 
-        img {
-          content: url(../assets/again.svg);
-        }
+      img {
+        content: url(../assets/again.svg);
+      }
 
-        &::before {
-          content: "Sortear Novamente";
-        }
+      &::before {
+        content: "Sortear Novamente";
       }
     }
+
+    opacity: 0;
+    animation: appear 1s 5s linear forwards;
   }
 }
 
