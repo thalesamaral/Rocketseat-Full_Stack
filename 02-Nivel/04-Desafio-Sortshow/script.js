@@ -7,7 +7,7 @@ form.onsubmit = (event) => {
   let quantity = parseInt(document.getElementById("quantity").value);
   let start = parseInt(document.getElementById("start").value);
   let end = parseInt(document.getElementById("end").value);
-  let toggle = document.getElementById("repeat-off").checked;
+  let repeatOff = document.getElementById("repeat-off").checked;
   let range = end - start + 1;
 
   if (start >= end) {
@@ -15,25 +15,25 @@ form.onsubmit = (event) => {
     return;
   }
 
-  if (toggle && quantity > range) {
+  if (repeatOff && quantity > range) {
     alert("A quantidade de números não pode ser maior que o intervalo quando não há repetição!");
     return;
   }
 
-  let result = generateNumbers(quantity, start, toggle, range);
+  let result = generateNumbers(quantity, start, repeatOff, range);
   result.sort((a, b) => a - b); // Ordena os números em ordem crescente
 
   console.log(result);
   displayResults(result);
 };
 
-function generateNumbers(quantity, start, toggle, range) {
+function generateNumbers(quantity, start, repeatOff, range) {
   let numbers = [];
 
   while (numbers.length < quantity) {
     let randomNumber = Math.floor(Math.random() * (range)) + start;
 
-    if (toggle) {
+    if (repeatOff) {
       if (!numbers.includes(randomNumber)) {
         numbers.push(randomNumber);
       }
@@ -46,27 +46,35 @@ function generateNumbers(quantity, start, toggle, range) {
 }
 
 function displayResults(numbers) {
-  const wrapper = document.querySelector(".result-wrapper");
-  wrapper.innerHTML = ""; // Limpa os resultados anteriores
+  const resultWrapper = document.querySelector(".result-wrapper");
+  resultWrapper.innerHTML = ""; // Limpa os resultados anteriores
 
   numbers.forEach((num) => {
-    const resultDiv = document.createElement("div");
-    resultDiv.classList.add("result-inner");
+    const resultInner = document.createElement("div");
+    resultInner.classList.add("result-inner");
 
     const span = document.createElement("span");
     span.textContent = num;
 
-    resultDiv.appendChild(span);
-    wrapper.appendChild(resultDiv);
+    resultInner.appendChild(span);
+    resultWrapper.appendChild(resultInner);
   });
 
-  // Update info
   qtdSorteio++;
 
+  // Update info
   const titulo = document.querySelector("#info > h2");
   const paragrafo = document.querySelector("#info > p");
   titulo.textContent = "Resultado do sorteio";
   paragrafo.textContent = `${qtdSorteio}º Resultado`;
 
   form.classList.add("result");
+}
+
+const logo = document.getElementById("logo"); // Seleciona a logo
+
+if (logo) {
+  logo.addEventListener("click", () => {
+    location.reload(); // Recarrega a página completamente
+  });
 }

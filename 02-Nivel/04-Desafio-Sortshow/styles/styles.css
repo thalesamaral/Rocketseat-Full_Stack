@@ -1,5 +1,6 @@
 #logo {
   margin-bottom: 2.75rem;
+  cursor: pointer;
 }
 
 header {
@@ -51,7 +52,6 @@ form {
     height: 5.5rem;
     
     & .number-inner{
-      /* outline: solid blue; */
       display: flex;
       flex-direction: column;
       align-content: center;
@@ -62,7 +62,7 @@ form {
       color: var(--content-secondary);
       
       & label {
-        align-self: center;
+        text-align: center;
         text-transform: uppercase;
       }
       
@@ -217,7 +217,7 @@ form {
     gap: 4px;
     /* border: solid red; */
     padding: .5rem;
-    overflow-y: hidden;
+    overflow: hidden;
 
     & .result-inner {
       width: 5.25rem;
