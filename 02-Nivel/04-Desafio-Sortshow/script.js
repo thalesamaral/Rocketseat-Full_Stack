@@ -7,36 +7,33 @@ form.onsubmit = (event) => {
   let quantity = parseInt(document.getElementById("quantity").value);
   let start = parseInt(document.getElementById("start").value);
   let end = parseInt(document.getElementById("end").value);
-
   let toggle = document.getElementById("repeat-off").checked;
+  let range = end - start + 1;
 
   if (start >= end) {
     alert("Por favor, insira um intervalo válido!");
     return;
   }
 
-  let result = generateNumbers(quantity, start, end, toggle);
+  if (toggle && quantity > range) {
+    alert("A quantidade de números não pode ser maior que o intervalo quando não há repetição!");
+    return;
+  }
+
+  let result = generateNumbers(quantity, start, toggle, range);
   result.sort((a, b) => a - b); // Ordena os números em ordem crescente
 
   console.log(result);
   displayResults(result);
 };
 
-function generateNumbers(quantity, start, end, repeatOff) {
+function generateNumbers(quantity, start, toggle, range) {
   let numbers = [];
-  let range = end - start + 1;
-
-  if (repeatOff && quantity > range) {
-    alert(
-      "A quantidade de números não pode ser maior que o intervalo quando não há repetição!"
-    );
-    return [];
-  }
 
   while (numbers.length < quantity) {
-    let randomNumber = Math.floor(Math.random() * (end - start + 1)) + start;
+    let randomNumber = Math.floor(Math.random() * (range)) + start;
 
-    if (repeatOff) {
+    if (toggle) {
       if (!numbers.includes(randomNumber)) {
         numbers.push(randomNumber);
       }
@@ -49,8 +46,8 @@ function generateNumbers(quantity, start, end, repeatOff) {
 }
 
 function displayResults(numbers) {
-  const wrapper = document.querySelector(".result-wrapper"); // Pegamos a div existente
-  wrapper.innerHTML = ""; // Limpamos os resultados anteriores
+  const wrapper = document.querySelector(".result-wrapper");
+  wrapper.innerHTML = ""; // Limpa os resultados anteriores
 
   numbers.forEach((num) => {
     const resultDiv = document.createElement("div");
