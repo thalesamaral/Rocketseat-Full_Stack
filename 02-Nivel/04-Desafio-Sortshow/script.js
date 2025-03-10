@@ -10,6 +10,16 @@ form.onsubmit = (event) => {
   let repeatOff = document.getElementById("repeat-off").checked;
   let range = end - start + 1;
 
+  if (quantity < 1 || quantity > 100) {
+    alert("A quantidade de números deve ser entre 1 e 100!");
+    return;
+  }
+
+  if (start < 1 || start > 1000 || end < 1 || end > 1000) {
+    alert("O intervalo deve ser entre 1 e 1000!");
+    return;
+  }
+
   if (start >= end) {
     alert("Por favor, insira um intervalo válido!");
     return;
