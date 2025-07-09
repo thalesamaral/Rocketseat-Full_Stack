@@ -1,0 +1,43 @@
+p {
+    background-color: blanchedalmond;
+    height: 500px;
+}
+
+div {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    width: 60px;
+    height: 60px;
+    margin-block: 5px;
+}
+
+/*** Modifique os valores abaixo ***/
+
+section {
+    border: dashed;
+    
+    /*** Absolute ***/
+    position: relative;
+
+    /*** Sticky ***/
+    /* overflow: auto; */
+    /* height: 150px; */
+}
+
+.position {
+    background-color: red;
+
+    position: static;
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: sticky; */
+
+    /* inset: 10px 100px; */
+    top: 30px;
+    left: 30px;
+    /* z-index: -1; */
+}
