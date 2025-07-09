@@ -1,41 +1,55 @@
 .container {
     border: dashed;
     display: flex;
-    height: 400px;
+    height: 300px;
     /* width: 100px; */
+
     /* flex-flow: column wrap; */
-	    /* flex-direction:column; */
-	    /* flex-wrap: wrap; */
-        /* align-content: space-around; */
-    /* justify-content:flex-end; */
-    /* align-items:baseline; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: center;
+
+    /*** EIXO PRINCIPAL ***/
+    /* justify-content: flex-end; */
+    
+    /*** EIXO CRUZADO ***/
+    /* align-items: end; */
+
     /* gap: 2rem; */
-      /* row-gap: 2rem; */
-      /* column-gap: 2rem; */
+    /* row-gap: 2rem; */
+    /* column-gap: 2rem; */
 }
 
 .item {
     --hue: 0;
     background-color: hsl(var(--hue), 100%, 70%);
-    text-align: center;
     font-size: 50px;
-    /* width: 100px; */
-    height: 200px;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+
     /* flex: 0 1 200px; */
-      /* flex-grow: 0; */
-      /* flex-shrink: 1; */
-      /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 200px; */
 }
 
 .item:nth-child(2) {
-    /* font-size: 100px; */
+    color: red;
+    
     /* flex: 10%; */
-    flex: 0 0 400px;
-      /* flex-grow: 8; */
-      /* flex-shrink: 1; */
-      /* flex-basis: 300px; */
+    /* flex: 0 0 400px; */
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+    /* flex-basis: 200px; */
+
     /* order: 1; */
-    /* The align-self property overrides the align-items property of the container. */
-    align-self: flex-end;
+
+    /*** 
+        The align-self property overrides the
+        align-items property of the container.
+    ***/
+    /* align-self: flex-end; */
     /* margin-top: auto; */
 }
