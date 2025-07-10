@@ -1,18 +1,23 @@
-div:hover {
-    filter: unset;
+/* Funções que referenciam outros valores */
+/* div::before {
+    content: attr(data-content);
+} */
+div {
+    border: red solid;
+    background-color: aqua;
+    --size: 300px;
+    width: var(--size);
+    height: var(--size);
+    /* background: url(https://picsum.photos/seed/picsum/300/300) no-repeat center/contain; */
 }
 
 /* TRANSFORM */
-div {
-    width: 50px;
-    height: 50px;
-    border: red solid;
-    transform: translate(100px, 200px) rotate(40deg) scale(2);
-}
+/* div {
+    transform: translate(10px, 300px) rotate(40deg) scale(3);
+} */
 
 /* MATH */
 /* div {
-    border: red solid;
     width: calc(50% + 10rem);
     height: min(100%, 90vh, calc(50% + 10rem), 50px, 1rem);
     height: max(10px, min(100px, 200px));
@@ -20,29 +25,25 @@ div {
 } */
 
 /* FILTER */
-/* div {
-    width: 50px;
-    height: 50px;
-    border: red solid;
-    background-color: aqua;
-    
-    filter: brightness(1);
+/* div:hover {
+    filter: unset;
+}
+div {
+    filter: brightness(0);
     filter: contrast(0.5);
     filter: saturate(0.5);
     filter: grayscale();
     filter: sepia();
+    filter: invert();
 
     filter: drop-shadow(1rem 1rem 1rem green);
     filter: opacity(0.5);
-    filter: blur(2px);
-    filter: invert();
     filter: hue-rotate(200deg);
+    filter: blur(2px);
 } */
 
 /* COLOR */
 /* div {
-    width: 50px;
-    height: 50px;
     border: rgb(255, 0, 0) solid;
     background-color: hsla(134, 92%, 47%, 0.656);
     background-color: color-mix(
@@ -54,9 +55,6 @@ div {
 
 /* GRADIENT */
 /* div {
-    width: 50px;
-    height: 50px;
-    border: red solid;
     background: linear-gradient(90deg, red, blue);
     background: linear-gradient(to right, red 70%, blue);
     background-image: radial-gradient(red, blue 70%);
@@ -64,23 +62,13 @@ div {
 
 /* SHAPE */
 /* div {
-    width: 50px;
-    height: 50px;
-    border: red solid;
-    background-color:aqua;
     clip-path: circle();
-    clip-path: polygon(50% 0%, 35%);
-} */
-
-/* Funções que referenciam outros valores */
-/* div {
-    --size: 100px;
-    width: var(--size);
-    height: var(--size);
-    border: red solid;
-    background: url(https://source.unsplash.com/random) no-repeat center/contain;
-}
-
-div::before {
-    content: attr(data-content);
+    clip-path: circle(50px at 0 100px);
+    clip-path: inset(10px 1px);
+    clip-path: ellipse(50px 60px at 10% 20%);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: path("M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z");
+    clip-path: rect(5px 145px 160px 5px round 20%);
+    clip-path: xywh(0 5px 100% 75% round 15% 0);
+    clip-path: padding-box circle(50px at 0 100px);
 } */
