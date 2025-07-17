@@ -51,6 +51,14 @@ console.log(`
 `)
 ```
 
+### **Template Literals**
+
+```jsx
+let username = "Thales"
+
+console.log("Olá, ${username}. Tudo bem?")
+```
+
 ### **Conversão e Coerção de Tipos**
 
 Nesta aula, abordamos a conversão de tipos e a coerção de tipos em JavaScript. A conversão de tipos envolve transformar um valor de um tipo para outro de forma consciente, utilizando o typecasting. Já a coerção de tipos ocorre de forma automática, quando o JavaScript tenta converter valores para um tipo compatível antes de realizar uma operação. Exemplos práticos foram mostrados, como a conversão de números para strings e vice-versa, e a coerção de tipos em operações matemáticas. É importante entender a diferença entre esses dois conceitos ao programar em JavaScript.
@@ -67,7 +75,60 @@ Nesta aula, expliquei sobre os operadores de comparação estritamente igual a (
 
 Nesta aula, expliquei a diferença entre valores falsos e verdadeiros em JavaScript. Valores como zero, texto vazio, nulo e undefined são considerados falsos, enquanto valores como objetos vazios, arrays vazios, números inteiros diferentes de zero e textos não vazios são considerados verdadeiros. Compreender essas distinções é fundamental para trabalhar com condicionais e loops de forma eficaz.
 
+[JavaScript Booleans](https://www.w3schools.com/js/js_booleans.asp)
+
+### **Try / Catch / Finally**
+
+Nesta aula, foi demonstrado o uso do tratamento de exceções na prática. Foi mostrado como utilizar os blocos try, catch e finally para lidar com erros de forma mais amigável. Foi exemplificado como capturar e exibir mensagens de erro personalizadas, além de lançar exceções personalizadas. O bloco finally foi apresentado como uma forma de executar instruções independentemente do resultado. O uso do try-catch é essencial no desenvolvimento de aplicações para lidar com erros de forma eficiente e amigável.
+
+```jsx
+let age = 0
+
+try {
+  if(age < 1) {
+    throw new Error("Valor inválido!")
+  }
+} catch (erro) {
+  console.log("Erro: " + erro)
+} finally {
+  console.log("FIM")  
+}
+
+/*
+Erro: Error: Valor inválido! 
+FIM 
+*/
+```
+
 ## **Funções**
+
+### **Argumentos e Parâmetros**
+
+Os parâmetros são variáveis que a função recebe, enquanto os argumentos são os valores passados para a função.
+
+```jsx
+// Parâmetros
+function soma(a, b) {
+  console.log("Resultado:", a + b)
+}
+
+// Argumentos
+soma(10, 5)
+soma(1, 2)
+```
+
+### **Retornando valores**
+
+```jsx
+function soma(a, b) {
+  let result = a + b
+
+  return result
+}
+
+let response = soma(10, 5)
+console.log("Resultado:", response)
+```
 
 ### **Comentário de Documentação**
 
@@ -78,7 +139,7 @@ Nesta aula, foi abordado o uso de comentários de documentação, seguindo o pad
  * User Authentication
  * 
  * @param {String} email user email.
- * @param {String} password more than 6 characters.
+ * @param {String} password more than 5 characters.
  * @returns {Number} user id.
  */
 function signIn(email, password) {
@@ -95,14 +156,14 @@ Nesta aula, expliquei como criar funções anônimas em JavaScript, que são fun
 
 ```jsx
 const showMessage1 = function() {
-  return "Olá"
+    return "Olá"
 }
 console.log(showMessage1())
 
-const showMessage2 = function(name) {
-  return "Olá " + name
+const showMessage2 = function(username) {
+    console.log("Olá", username)
 }
-console.log(showMessage2("Thales"))
+showMessage2("Thales")
 ```
 
 ### **Arrow Function**
@@ -111,16 +172,14 @@ Nesta aula, foi abordada a Arrow Function em JavaScript, uma forma mais concisa 
 
 ```jsx
 const showMessage1 = () => {
-    console.log("Olá")
+    return "Olá"
 }
+console.log(showMessage1())
 
-showMessage1()
-
-const showMessage2 = (name) => {
-    console.log("Olá", name)
+const showMessage2 = (username) => {
+    console.log("Olá", username)
 }
-
-showMessage2("Maria")
+showMessage2("Thales")
 ```
 
 ### **Callback Function**
@@ -160,10 +219,10 @@ execute("Deleting...", () => console.log("Tarefa concluída!"))
 
 O DOM é uma estrutura essencial manipulada com JavaScript para representar objetos em uma página web. É organizado em uma estrutura de árvore, onde elementos HTML são representados como nós e objetos. A aula destaca a relação entre os elementos HTML e a estrutura do DOM, mostrando como acessar e modificar esses elementos.
 
-### Acessando elementos + **Query Selector + Manipulando Conteúdo**
+### Acessando elementos + **Query Selector**
 
 ```jsx
-// console.log(document)
+console.log(document)
 console.log(document.title)
 
 // --- By ID
@@ -187,29 +246,37 @@ console.log(guestByTag[0])
 const guestOne = document.querySelector("#guest-1")
 const guestsOne = document.querySelector(".guest")
 const guestsAll = document.querySelectorAll(".guest")
+```
 
+### Manipulando Conteúdo
+
+```jsx
 // --- Texto
-// const guestOne = document.querySelector("#guest-1 span")
-// console.log(guestOne.textContent)
-// guestOne.textContent = "Maria"
+const guestOne = document.querySelector("#guest-1 span")
+console.log(guestOne.textContent)
+guestOne.textContent = "Maria"
+console.log(guestOne.textContent)
 
-console.log(guestOne.textContent) //Retorna o conteúdo visível e oculto
-console.log(guestOne.innerText) //Retorna somente o conteúdo visível
-console.log(guestOne.innerHTML) //Retorna o HTML como texto
+const guestTwo = document.querySelector("#guest-2")
+console.log(guestTwo.textContent) //Retorna o conteúdo visível e oculto
+console.log(guestTwo.innerText) //Retorna somente o conteúdo visível
+console.log(guestTwo.innerHTML) //Retorna o HTML como texto
 ```
 
 ### **Alterando Estilos**
 
 ```jsx
+// --- adição e remoção de classe
 const input = document.querySelector("#name")
 
-// --- adição e remoção de classe
 input.classList.add("input-error")
 input.classList.remove("input-error")
 input.classList.toggle("input-error")
+console.log(input);
 
 // --- Modificar css do elemento
 const button = document.querySelector("button")
+
 button.style.backgroundColor = "red"
 ```
 
@@ -217,8 +284,10 @@ button.style.backgroundColor = "red"
 
 ```jsx
 const guests = document.querySelector("ul")
-
 const newGuest = document.createElement("li")
+
+// console.log(guests.innerHTML)
+
 const guestName = document.createElement("span")
 guestName.textContent = "Didi"
 
@@ -229,16 +298,17 @@ guestLastName.textContent = "Mocó"
 newGuest.prepend(guestName)
 // --- adiciona após
 newGuest.append(guestLastName)
-
-console.log(newGuest)
-
-// --- outros
+// --- outros formas
 // newGuest.append(guestName, guestLastName)
 // newGuest.appendChild(guestName)
 
+console.log(newGuest.innerHTML)
+
 // --- inserir na lista de fato
-newGuest.classList.add("guest") // lembrar de adicionar os estilos se tiver
+newGuest.classList.add("guest") // adiciona o estilo do .css
 guests.prepend(newGuest)
+
+console.log(guests.innerHTML)
 ```
 
 ### **Manipulando Atributos**
@@ -246,9 +316,9 @@ guests.prepend(newGuest)
 ```jsx
 const input = document.querySelector("input")
 
-// input.setAttribute("disabled", true)
-input.setAttribute("type", "file")
-// input.removeAttribute("id")
+input.setAttribute("type", "checkbox")
+input.setAttribute("disabled", true)
+input.removeAttribute("id")
 ```
 
 ### **Eventos**
@@ -261,10 +331,10 @@ window.addEventListener("load", () => {
 
 // #2
 addEventListener("click", (evento) => {
-    // --- submit deixa de atualizar a página, etc...
+    // --- submit não irá recarregar a página
     evento.preventDefault()
 
-    // --- Retorna todos os elementos
+    // --- Retorna todas as informações do evento
     console.log(evento)
 
     // --- Retorna o elemento clicado
@@ -283,9 +353,10 @@ Nesta aula, aprendemos a identificar eventos em elementos específicos em JavaSc
 const ul = document.querySelector("ul")
 
 ul.addEventListener("scroll", () => {
+    // distância que a barra tá do topo da lista
     console.log(ul.scrollTop)
 
-    if(ul.scrollTop >= 310) {
+    if(ul.scrollTop >= 300) {
         console.log("Fim da lista!")
         
         ul.scrollTo({
@@ -359,11 +430,10 @@ Nesta aula, expliquei o conceito de expressões regulares, que são usadas para 
 const input = document.querySelector("input")
 const form = document.querySelector("form")
 
-/*
-input.addEventListener("input", (evento) => {
+input.addEventListener("input", () => {
     // console.log(input.value)
     
-    // --- Padrão rege: letras
+    // --- Padrão regex: Apenas letras
     const regex = /\D+/g
     const valor = input.value
     
@@ -374,19 +444,18 @@ input.addEventListener("input", (evento) => {
     const isValid = regex.test(valor)
     console.log(isValid)
 })
-*/
 
-form.addEventListener("submit", (evento) => {
+/* form.addEventListener("submit", (evento) => {
     evento.preventDefault()
 
-    // --- Padrão regex: letras
+    // --- Padrão regex: Apenas letras
     const regex = /\D+/g
 
     // --- Substitui o padrão, por vazio
     const valor = input.value.replace(regex, "")
 
     console.log(valor)
-})
+}) */
 ```
 
 ## **Depuração de código (debug)**
@@ -402,15 +471,16 @@ const form = document.querySelector("form")
 
 form.onsubmit = (evento) => {
     evento.preventDefault()
-		
-		const valor = input.value
-		// --- Padrão regex: dígitos
+	
+    const valor = input.value
+    
+    // --- Padrão regex: Apenas dígitos
     const regexNumber = /\d+/g
     
     if(regexNumber.test(valor)) {
-		    alert("Inválido. o texto contém números!")
+		alert("Inválido. o texto contém números!")
     } else {
-		    alert("Enviado!")
+		alert("Enviado!")
     }
 }
 ```
