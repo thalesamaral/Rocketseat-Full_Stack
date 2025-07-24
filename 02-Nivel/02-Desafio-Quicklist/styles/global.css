@@ -32,26 +32,6 @@ body {
     color: var(--content-secondary);
 }
 
-h1 {
-    font: var(--title);
-    color: var(--content-primary);
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    display: inline-flex;
-}
-
-ul[role="list"] {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 #app {
     --max-width: 24.375rem;
     width: min(var(--max-width), 100% - 2rem * 2);
@@ -76,6 +56,26 @@ img {
 
 #main-content {
     width: 100%;
+}
+
+h1 {
+    font: var(--title);
+    color: var(--content-primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+}
+
+ul[role="list"] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (width >= 80rem) {

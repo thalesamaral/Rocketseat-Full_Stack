@@ -1,6 +1,6 @@
-# Quicklist - App de Lista
+# Quicklist - Lista TO-DO
 
-**Site responsivo de lista de compras onde o usuário pode gerenciar os itens adicionando e removendo eles.**
+**Site responsivo de lista TO-DO onde o usuário pode gerenciar os itens adicionando, marcando e removendo eles.**
 
 - Este projeto faz parte da [Formação Full Stack](https://github.com/thalesamaral/Rocketseat-Full_Stack/tree/main) da [Rocketseat](https://www.rocketseat.com.br/)
 - Implementação: https://thalesamaral.github.io/Rocketseat-Full_Stack/02-Nivel/02-Desafio-Quicklist

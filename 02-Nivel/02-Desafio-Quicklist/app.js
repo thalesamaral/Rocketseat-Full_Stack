@@ -1,95 +1,94 @@
-const listForm = document.querySelector("form")
-const listFormInput = document.getElementById("list-input")
-const listUL = document.querySelector("ul")
-const alert = document.getElementById("alert")
+const todoForm = document.querySelector("form");
+const todoInput = document.getElementById("todo-input");
+const todoListUL = document.querySelector("ul");
+const alerta = document.getElementById("alerta");
 
-const close = alert.querySelector("a")
+const close = alerta.querySelector("a");
 close.addEventListener("click", () => {
-    alert.classList.remove("show-result")
-})
+    alerta.classList.remove("show-alerta");
+});
 
-let allListItems = getList()
-updateList()
+let allTodos = getTodos();
+updateTodoList();
 
-listForm.addEventListener("submit", (e) => {
-    e.preventDefault()
-    addItem()
-})
+todoForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    addTodo();
+});
 
-function addItem() {
-    const inputValue = listFormInput.value.trim()
-    
-    if(inputValue.length > 0) {
-        const itemObject = {
+function addTodo() {
+    const inputValue = todoInput.value.trim();
+
+    if (inputValue.length > 0) {
+        const todoObject = {
             text: inputValue,
-            completed: false
-        }
-        
-        allListItems.push(itemObject)
-        updateList()
-        saveList()
-        listFormInput.value = ""
+            completed: false,
+        };
+
+        allTodos.push(todoObject);
+        updateTodoList();
+        saveTodos();
+        todoInput.value = "";
     }
 }
 
-function updateList() {
-    listUL.innerText = ""
+function updateTodoList() {
+    todoListUL.innerText = "";
 
-    allListItems.forEach((item, itemIndex) => {
-        newItem = createListItem(item, itemIndex)
-        listUL.append(newItem)
-    })
+    allTodos.forEach((todo, todoIndex) => {
+        newItem = createTodoItem(todo, todoIndex);
+        todoListUL.append(newItem);
+    });
 }
 
-function createListItem(item, itemIndex) {
-    const chkID = "chk-" + itemIndex
-    const itemLI = document.createElement("li")
-    const itemText = item.text
-    
-    itemLI.innerHTML = `
+function createTodoItem(todo, todoIndex) {
+    const chkID = "chk-" + todoIndex;
+    const todoLI = document.createElement("li");
+    const todoText = todo.text;
+
+    todoLI.innerHTML = `
         <div class="check-box">
             <input type="checkbox" id="${chkID}">
         </div>
         <label for="${chkID}">
-            ${itemText}
+            ${todoText}
         </label>
-        <a href="#">
+        <a href="#" class="delete-button">
             <img src="assets/icons/garbage.svg" alt="garbage">
         </a>
-    `
-    
-    const deleteButton = itemLI.querySelector("a")
+    `;
+
+    const deleteButton = todoLI.querySelector(".delete-button");
     deleteButton.addEventListener("click", () => {
-        alert.classList.add("show-result")
+        alerta.classList.add("show-alerta");
 
-        deleteItem(itemIndex)
-    })
-    
-    const checkbox = itemLI.querySelector("input")
+        deleteItem(todoIndex);
+    });
+
+    const checkbox = todoLI.querySelector("input");
     checkbox.addEventListener("change", () => {
-        allListItems[itemIndex].completed = checkbox.checked
-        saveList()
-    })
-    checkbox.checked = item.completed
+        allTodos[todoIndex].completed = checkbox.checked;
+        saveTodos();
+    });
+    checkbox.checked = todo.completed;
 
-    return itemLI
+    return todoLI;
 }
 
-function deleteItem(itemIndex) {
-    // --- array.prototype.filter()
-    allListItems = allListItems.filter((_, i) => i !== itemIndex)
-    saveList()
-    updateList()
+function deleteItem(todoIndex) {
+    allTodos = allTodos.filter((_, i) => i !== todoIndex);
+    saveTodos();
+    updateTodoList();
 }
 
-function saveList(){
-    const allListItemsJSON = JSON.stringify(allListItems)
-    localStorage.setItem("lists", allListItemsJSON)
+function saveTodos() {
+    const allTodosJSON = JSON.stringify(allTodos);
+    localStorage.setItem("todosLocal", allTodosJSON);
 
-    console.log(allListItems)
+    console.log(allTodos);
 }
 
-function getList(){
-    const lists = localStorage.getItem("lists") || "[]"
-    return JSON.parse(lists)
+function getTodos() {
+    const todos = localStorage.getItem("todosLocal") || "[]";
+    return JSON.parse(todos);
 }
