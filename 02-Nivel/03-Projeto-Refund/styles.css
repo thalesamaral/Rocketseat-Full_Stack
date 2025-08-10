@@ -35,7 +35,8 @@ body {
 }
 
 .logo {
-  margin: 3rem 0 2rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
 }
 
 main section {
@@ -269,6 +270,11 @@ aside ul {
 @media (min-width: 1100px) {
   form {
     max-height: 428px;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+    margin-left: 0;
   }
 }
 
