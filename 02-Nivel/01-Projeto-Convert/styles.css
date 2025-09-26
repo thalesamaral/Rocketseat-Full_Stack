@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 :root {
@@ -22,32 +23,60 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-
     background-image: url("./img/bg.png");
     background-size: contain;
+    color: #f1f2f6;
 
+    overflow: auto;
+    height: 100vh;
+}
+
+#app {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
-
-    gap: 3.12rem;
-
-    color: #f1f2f6;
+    padding-inline: 1rem;
 
     & > img {
-        margin-top: 4rem;
+        margin: 4rem;
     }
 }
 
-main {
-    width: 30rem;
+#content {
+    width: min(30rem, 100%);
+    /* height: 100%; */
     border-radius: 1.5rem;
-
     border: 1px solid #2f3279;
+    margin-bottom: 4rem;
     overflow-y: hidden;
+}
+
+footer {
+    background-color: #1f2151;
+    padding: 2.5rem;
+    max-height: 196px;
+
+    text-align: center;
+    display: none;
+
+    & span {
+        color: #7d8dec;
+        font-size: 1rem;
+        font-family: "IBM Plex Mono", monospace;
+        line-height: 1.25rem;
+    }
+
+    & h1 {
+        color: #f1f2f6;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        word-break: break-all;
+
+        margin-top: 0.5rem;
+    }
 }
 
 form {
@@ -111,7 +140,8 @@ select:focus {
     border: 1px solid #4a5dcd;
 }
 
-.amount-div, .currency-div {
+.amount-div,
+.currency-div {
     &:focus-within {
         label {
             color: #4a5dcd;
@@ -151,34 +181,6 @@ button:focus {
     outline: 1.5px solid #4a5dcd;
 }
 
-footer {
-    background-color: #1f2151;
-    padding: 2.5rem;
-    max-height: 196px;
-
-    text-align: center;
-    display: none;
-
-    overflow-y: scroll;
-}
-
 .show-result {
     display: block;
-}
-
-footer span {
-    color: #7d8dec;
-    font-size: 1rem;
-    font-family: "IBM Plex Mono", monospace;
-    line-height: 1.25rem;
-}
-
-footer h1 {
-    color: #f1f2f6;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3rem;
-    word-break: break-all;
-    
-    margin-top: .5rem;
 }

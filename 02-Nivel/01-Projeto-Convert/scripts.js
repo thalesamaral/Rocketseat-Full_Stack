@@ -7,7 +7,7 @@ const GBP = 7.30
 const form = document.querySelector("form")
 const amount = document.getElementById("amount")
 const currency = document.getElementById("currency")
-const footer = document.querySelector("main footer")
+const footer = document.querySelector("footer")
 const description = document.getElementById("description")
 const result = document.getElementById("result")
 
